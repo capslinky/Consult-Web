@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Link from "next/link";
 import { Header } from "@/components/navigation/Header";
 
 export const metadata: Metadata = {
@@ -35,6 +36,15 @@ export default function RootLayout({
           <div className="container mx-auto text-center">
             <p>&copy; 2025 Paradise Law AZ. All rights reserved.</p>
             <p className="mt-2 text-sm text-gray-400">Attorney Advertising | Licensed in Arizona</p>
+            <div className="mt-4 pt-4 border-t border-gray-700">
+              <Link 
+                href="/dev-sitemap" 
+                className="text-xs text-gray-500 hover:text-gray-300 transition-colors"
+                title="Developer Progress Tracking"
+              >
+                Developer Sitemap
+              </Link>
+            </div>
           </div>
         </footer>
       </body>

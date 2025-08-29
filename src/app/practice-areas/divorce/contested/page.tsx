@@ -472,7 +472,7 @@ export default function ContestedDivorcePage() {
 
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold text-navy mb-3">
-                What if my spouse won't cooperate?
+                What if my spouse won&apos;t cooperate?
               </h3>
               <p className="text-gray-600">
                 The court has tools to compel cooperation, including court orders for document production and sanctions for non-compliance. Your attorney can use discovery procedures to obtain necessary information.
@@ -498,7 +498,7 @@ export default function ContestedDivorcePage() {
             Protect Your Rights in a Contested Divorce
           </h2>
           <p className="text-xl text-white/90 mb-8">
-            Don't face a contested divorce alone. Get experienced legal representation to secure the best outcome for your future.
+            Don&apos;t face a contested divorce alone. Get experienced legal representation to secure the best outcome for your future.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/book">

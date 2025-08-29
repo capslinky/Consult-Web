@@ -8,19 +8,83 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  
+  /* Custom colors for Paradise Law AZ */
+  --color-navy: #1e3a8a;
+  --color-navy-dark: #172e5c;
+  --color-light-blue: #3b82f6;
+  --color-light-blue-dark: #2563eb;
+  --color-gold: #f59e0b;
+  --color-gold-dark: #d97706;
+  --color-success: #10b981;
+  --color-error: #ef4444;
+  
+  /* Gray scale */
+  --color-gray-50: #f9fafb;
+  --color-gray-100: #f3f4f6;
+  --color-gray-200: #e5e7eb;
+  --color-gray-300: #d1d5db;
+  --color-gray-400: #9ca3af;
+  --color-gray-500: #6b7280;
+  --color-gray-600: #4b5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1f2937;
+  --color-gray-900: #111827;
+  
+  /* Typography */
+  --font-serif: Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+  
+  /* Spacing (following Tailwind's default scale) */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+  --spacing-3xl: 6rem;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* Utility classes for text colors */
+.text-navy { color: var(--color-navy); }
+.text-light-blue { color: var(--color-light-blue); }
+.text-gold { color: var(--color-gold); }
+.text-success { color: var(--color-success); }
+.text-error { color: var(--color-error); }
+
+/* Utility classes for background colors */
+.bg-navy { background-color: var(--color-navy); }
+.bg-light-blue { background-color: var(--color-light-blue); }
+.bg-gold { background-color: var(--color-gold); }
+.bg-success { background-color: var(--color-success); }
+.bg-error { background-color: var(--color-error); }
+
+/* Focus styles for accessibility */
+*:focus {
+  outline: 2px solid var(--color-light-blue);
+  outline-offset: 2px;
+}
+
+/* Button hover states */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Ensure touch targets are at least 44x44px on mobile */
+@media (max-width: 768px) {
+  button, a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

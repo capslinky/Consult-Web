@@ -3,6 +3,8 @@
 ## Project Overview
 A high-performance, conversion-optimized static website for family law virtual consultations. Target: 20 consultations/month at $500 each with 2% conversion rate.
 
+**📋 For detailed task breakdown, see [TASKS.md](./TASKS.md) - Contains 464 granular subtasks**
+
 ## Technology Stack
 - **Framework**: Next.js 14+ with App Router
 - **Language**: TypeScript
@@ -499,6 +501,7 @@ Types: feat, fix, docs, style, refactor, test, chore
 - PRD.MD - Product Requirements
 - CLAUDE.md - AI Assistant Guide
 - SITEMAP.md - Complete site structure
+- TASKS.md - Detailed task breakdown (464 tasks)
 - README.md - Project overview
 
 ### External Resources

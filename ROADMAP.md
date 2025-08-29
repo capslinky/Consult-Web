@@ -126,8 +126,8 @@ A high-performance, conversion-optimized static website for family law virtual c
 #### Special Circumstances (5 pages)
 - [ ] Domestic Violence
 - [ ] Paternity Cases
-- [ ] Adoption
-- [ ] Juvenile Law
+- [ ] Mediation & ADR
+- [ ] Appeals & Post-Decree
 - [ ] Enforcement Actions
 
 ### Deliverables

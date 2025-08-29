@@ -109,15 +109,15 @@
     - Genetic testing
     - Rights and responsibilities
     
-18. **/practice-areas/special/adoption** - Adoption
-    - Step-parent adoption
-    - Family adoptions
-    - Consent and termination
+18. **/practice-areas/special/mediation** - Mediation & ADR
+    - Divorce mediation
+    - Collaborative law
+    - Settlement conferences
     
-19. **/practice-areas/special/juvenile** - Juvenile Law
-    - Dependency cases
-    - Delinquency matters
-    - Parent representation
+19. **/practice-areas/special/appeals** - Appeals & Post-Decree
+    - Appellate process
+    - Post-decree modifications
+    - Rule 85 motions
     
 20. **/practice-areas/special/enforcement** - Enforcement Actions
     - Contempt proceedings

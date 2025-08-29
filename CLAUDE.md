@@ -62,26 +62,40 @@ npm run format
 
 ```
 /
-├── components/          # React components
-│   ├── navigation/     # Header, footer, nav
-│   ├── sections/       # Hero, testimonials, FAQ
-│   ├── forms/          # Contact, lead capture
-│   └── ui/            # Buttons, cards, modals
-├── pages/              # Next.js pages
-│   ├── index.tsx       # Homepage
-│   ├── about.tsx       # Attorney bio
-│   ├── services/       # Service pages
-│   ├── book.tsx        # Booking page
-│   └── resources/      # Blog, guides, FAQs
-├── styles/             # Global styles
-├── public/             # Static assets
-│   ├── images/
-│   └── documents/      # PDF guides
-├── lib/                # Utilities
-│   ├── analytics.ts    # GA/Hotjar setup
-│   └── email.ts        # ConvertKit integration
-└── content/            # Markdown content
-    └── blog/          # Blog posts
+├── app/                    # Next.js 14+ app directory
+│   ├── (marketing)/       # Marketing pages layout group
+│   │   ├── page.tsx       # Homepage
+│   │   ├── about/
+│   │   ├── services/
+│   │   ├── pricing/
+│   │   ├── how-it-works/
+│   │   └── contact/
+│   ├── practice-areas/    # 20 practice area pages
+│   │   ├── divorce/       # 5 divorce-related pages
+│   │   ├── custody/       # 5 custody-related pages
+│   │   ├── financial/     # 5 financial matter pages
+│   │   └── special/       # 5 special circumstance pages
+│   ├── resources/
+│   │   ├── blog/
+│   │   ├── guides/
+│   │   ├── testimonials/
+│   │   └── faq/
+│   ├── book/              # Booking flow
+│   └── legal/             # Legal compliance pages
+├── components/
+│   ├── ui/                # Atomic design components
+│   ├── sections/          # Page sections
+│   ├── forms/             # Form components
+│   ├── navigation/        # Nav components
+│   └── practice-areas/    # Practice area specific
+├── lib/                   # Utilities and helpers
+├── styles/               # Global styles
+├── content/              # Markdown content
+│   ├── blog/            # Blog posts
+│   └── practice-areas/  # Practice area content
+└── public/               # Static assets
+    ├── images/
+    └── documents/        # PDF guides
 ```
 
 ## Key Implementation Requirements
@@ -196,3 +210,6 @@ All legal pages must be reviewed by attorney before deployment.
 - No database required - fully static site
 - Prioritize conversion over features
 - Mobile-first development approach
+- 20 practice area pages are critical for SEO and lead generation
+- Follow the ROADMAP.md for phased development
+- Refer to SITEMAP.md for complete page structure

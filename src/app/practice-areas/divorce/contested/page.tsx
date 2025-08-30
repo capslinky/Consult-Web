@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
+import { Breadcrumb } from '@/components/ui/Breadcrumb';
 
 export const metadata = {
   title: 'Contested Divorce in Arizona | Paradise Law AZ Virtual Consultations',
@@ -9,6 +10,20 @@ export const metadata = {
 export default function ContestedDivorcePage() {
   return (
     <main className="min-h-screen bg-white">
+      {/* Breadcrumb Navigation */}
+      <section className="py-4 bg-gray-50 border-b">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <Breadcrumb
+            items={[
+              { label: 'Home', href: '/' },
+              { label: 'Practice Areas', href: '/practice-areas' },
+              { label: 'Divorce', href: '/practice-areas/divorce' },
+              { label: 'Contested Divorce' }
+            ]}
+          />
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-navy to-navy-light py-20">
         <div className="container mx-auto px-4 max-w-6xl">

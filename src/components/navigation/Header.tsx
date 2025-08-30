@@ -36,9 +36,9 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
-            <Button variant="primary" size="md" className="ml-4">
+            <Link href="/book" className="ml-4 bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-6 py-2 text-base font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
               Book Now
-            </Button>
+            </Link>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -88,9 +88,9 @@ export function Header() {
                   {item.label}
                 </Link>
               ))}
-              <Button variant="primary" size="md" fullWidth className="mt-4">
+              <Link href="/book" className="mt-4 w-full bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-6 py-2 text-base font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
                 Book Now
-              </Button>
+              </Link>
             </div>
           </nav>
         )}

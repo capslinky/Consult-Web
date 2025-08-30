@@ -1,21 +1,61 @@
 import { Button } from '@/components/ui/Button';
+import Link from 'next/link';
 
 export default function Home() {
   return (
     <>
       {/* Hero Section */}
-      <section className="py-20 px-4 bg-white">
+      <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto text-center">
-          <h2 className="text-4xl md:text-5xl font-bold text-[#1e3a8a] mb-6">
-            Expert Family Law Consultations
-          </h2>
-          <p className="text-xl text-gray-700 mb-8 max-w-2xl mx-auto">
-            Get personalized legal guidance from experienced Arizona family law attorneys. 
-            Virtual consultations available for $500.
+          <h1 className="text-4xl md:text-5xl font-bold text-[#1e3a8a] mb-6 leading-tight">
+            Get the Legal Guidance You Need<br />
+            <span className="text-[#3b82f6]">During Life&rsquo;s Most Difficult Times</span>
+          </h1>
+          <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed">
+            When your family&rsquo;s future is at stake, you deserve an experienced Arizona attorney who understands what you&rsquo;re going through. Get personalized guidance with our comprehensive $500 virtual consultation.
           </p>
-          <Button variant="primary" size="lg">
-            Schedule Your Consultation
-          </Button>
+          
+          {/* Trust Indicators */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8 text-sm text-gray-600">
+            <div className="flex items-center gap-2">
+              <div className="w-4 h-4 bg-[#10b981] rounded-full flex items-center justify-center">
+                <svg className="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <span>15+ Years Experience</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-4 h-4 bg-[#10b981] rounded-full flex items-center justify-center">
+                <svg className="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <span>Arizona State Bar Member</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-4 h-4 bg-[#10b981] rounded-full flex items-center justify-center">
+                <svg className="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+              </div>
+              <span>100% Confidential</span>
+            </div>
+          </div>
+
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Link href="/book" className="bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-8 py-4 text-lg font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
+              Book Your Consultation Today
+            </Link>
+            <Link href="/how-it-works" className="bg-[#3b82f6] text-white hover:bg-[#2563eb] focus:ring-2 focus:ring-[#3b82f6] focus:ring-offset-2 px-8 py-4 text-lg font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
+              Learn How It Works
+            </Link>
+          </div>
+          
+          {/* Urgency Element */}
+          <p className="mt-6 text-sm text-gray-600">
+            <strong className="text-[#f59e0b]">Limited consultation slots available this week</strong> - Most clients see clarity within 24 hours
+          </p>
         </div>
       </section>
 
@@ -51,14 +91,125 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Social Proof / Testimonials Section */}
+      <section className="py-16 px-4 bg-white">
+        <div className="container mx-auto">
+          <div className="text-center mb-12">
+            <h3 className="text-3xl font-bold text-[#1e3a8a] mb-4">
+              What Our Clients Say
+            </h3>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+              See how we&rsquo;ve helped Arizona families navigate their most challenging times
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            {/* Testimonial 1 */}
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#f59e0b]">
+              <div className="mb-4">
+                <div className="flex text-[#f59e0b] mb-2">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+                <p className="text-gray-700 italic mb-4">
+                  &ldquo;Paradise Law made an incredibly stressful divorce process manageable. The virtual consultation saved me time and the guidance was exactly what I needed.&rdquo;
+                </p>
+              </div>
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-[#1e3a8a] rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                  S
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-800">Sarah M.</p>
+                  <p className="text-sm text-gray-600">Divorce Case</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Testimonial 2 */}
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#f59e0b]">
+              <div className="mb-4">
+                <div className="flex text-[#f59e0b] mb-2">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+                <p className="text-gray-700 italic mb-4">
+                  &ldquo;Professional, knowledgeable, and compassionate. The attorney understood my custody concerns and provided clear direction for next steps.&rdquo;
+                </p>
+              </div>
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-[#1e3a8a] rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                  M
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-800">Michael R.</p>
+                  <p className="text-sm text-gray-600">Child Custody</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Testimonial 3 */}
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#f59e0b]">
+              <div className="mb-4">
+                <div className="flex text-[#f59e0b] mb-2">
+                  {[...Array(5)].map((_, i) => (
+                    <svg key={i} className="w-5 h-5 fill-current" viewBox="0 0 20 20">
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+                <p className="text-gray-700 italic mb-4">
+                  &ldquo;Worth every penny. The consultation gave me confidence and a solid plan. I knew exactly what to expect and how to proceed with my case.&rdquo;
+                </p>
+              </div>
+              <div className="flex items-center">
+                <div className="w-10 h-10 bg-[#1e3a8a] rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                  J
+                </div>
+                <div>
+                  <p className="font-semibold text-gray-800">Jennifer L.</p>
+                  <p className="text-sm text-gray-600">Property Division</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Statistics */}
+          <div className="grid md:grid-cols-4 gap-8 text-center">
+            <div className="p-4">
+              <div className="text-3xl font-bold text-[#1e3a8a] mb-2">500+</div>
+              <p className="text-gray-600">Families Helped</p>
+            </div>
+            <div className="p-4">
+              <div className="text-3xl font-bold text-[#1e3a8a] mb-2">15+</div>
+              <p className="text-gray-600">Years Experience</p>
+            </div>
+            <div className="p-4">
+              <div className="text-3xl font-bold text-[#1e3a8a] mb-2">95%</div>
+              <p className="text-gray-600">Client Satisfaction</p>
+            </div>
+            <div className="p-4">
+              <div className="text-3xl font-bold text-[#1e3a8a] mb-2">24hr</div>
+              <p className="text-gray-600">Average Response</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="py-16 px-4 bg-[#1e3a8a] text-white">
         <div className="container mx-auto text-center">
           <h3 className="text-3xl font-bold mb-4">Ready to Get Started?</h3>
           <p className="text-xl mb-8">Schedule your consultation today and get the legal guidance you need.</p>
-          <Button variant="primary" size="lg">
+          <Link href="/book" className="bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-8 py-4 text-lg font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
             Book Your Consultation Now
-          </Button>
+          </Link>
         </div>
       </section>
     </>

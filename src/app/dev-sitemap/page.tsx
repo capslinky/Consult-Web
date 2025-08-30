@@ -109,7 +109,7 @@ export default function DevSitemapPage() {
   const PageSection = ({ title, pages }: { title: string; pages: PageStatus[] }) => (
     <div className="mb-8">
       <div className="flex items-center justify-between mb-4">
-        <h3 className="text-xl font-semibold text-navy">{title}</h3>
+        <h3 className="text-xl font-semibold text-[#1e3a8a]">{title}</h3>
         <div className="flex gap-2 text-sm">
           <span className="bg-green-100 text-green-800 px-2 py-1 rounded">
             {getStatusCount(pages, 'completed')}/{pages.length} Complete
@@ -123,7 +123,7 @@ export default function DevSitemapPage() {
               <div className="flex items-center gap-3">
                 <Link 
                   href={page.url} 
-                  className="text-navy hover:text-light-blue font-medium"
+                  className="text-[#1e3a8a] hover:text-[#3b82f6] font-medium"
                   target={page.status === 'completed' ? '_blank' : '_self'}
                   rel={page.status === 'completed' ? 'noopener noreferrer' : ''}
                 >
@@ -147,7 +147,7 @@ export default function DevSitemapPage() {
   return (
     <main className="min-h-screen bg-gray-50">
       {/* Header */}
-      <div className="bg-navy text-white py-12">
+      <div className="bg-[#1e3a8a] text-white py-12">
         <div className="container mx-auto px-4 max-w-6xl">
           <div className="flex items-center justify-between">
             <div>
@@ -155,7 +155,7 @@ export default function DevSitemapPage() {
               <p className="text-white/90">Real-time progress tracking for Paradise Law AZ website</p>
             </div>
             <div className="text-right">
-              <div className="text-2xl font-bold text-gold">
+              <div className="text-2xl font-bold text-[#f59e0b]">
                 {Math.round((stats.completed / stats.total) * 100)}% Complete
               </div>
               <div className="text-sm text-white/80">
@@ -170,7 +170,7 @@ export default function DevSitemapPage() {
         {/* Stats Overview */}
         <div className="grid md:grid-cols-5 gap-4 mb-12">
           <div className="bg-white p-4 rounded-lg shadow text-center">
-            <div className="text-2xl font-bold text-navy">{stats.total}</div>
+            <div className="text-2xl font-bold text-[#1e3a8a]">{stats.total}</div>
             <div className="text-gray-600">Total Pages</div>
           </div>
           <div className="bg-white p-4 rounded-lg shadow text-center">
@@ -215,11 +215,11 @@ export default function DevSitemapPage() {
         <PageSection title="Utility Pages (4 pages)" pages={utilityPages} />
 
         {/* Quick Actions */}
-        <div className="mt-12 bg-light-blue/10 rounded-lg p-6">
-          <h2 className="text-xl font-semibold text-navy mb-4">🚀 Recommended Next Steps</h2>
+        <div className="mt-12 bg-[#3b82f6]/10 rounded-lg p-6">
+          <h2 className="text-xl font-semibold text-[#1e3a8a] mb-4">🚀 Recommended Next Steps</h2>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <h3 className="font-semibold text-navy mb-2">High Priority:</h3>
+              <h3 className="font-semibold text-[#1e3a8a] mb-2">High Priority:</h3>
               <ul className="space-y-1 text-sm">
                 <li>1. Fix internal link URLs throughout site</li>
                 <li>2. Create /book page with Calendly integration</li>
@@ -228,7 +228,7 @@ export default function DevSitemapPage() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold text-navy mb-2">Medium Priority:</h3>
+              <h3 className="font-semibold text-[#1e3a8a] mb-2">Medium Priority:</h3>
               <ul className="space-y-1 text-sm">
                 <li>1. Create resource pages (blog, guides, etc.)</li>
                 <li>2. Add legal compliance pages</li>

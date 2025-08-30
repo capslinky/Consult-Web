@@ -6,17 +6,17 @@ export default function Home() {
     <>
       {/* Hero Section */}
       <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50">
-        <div className="container mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-[#1e3a8a] mb-6 leading-tight">
+        <div className="container mx-auto">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1e3a8a] mb-6 leading-tight text-center">
             Get the Legal Guidance You Need<br />
             <span className="text-[#3b82f6]">During Life&rsquo;s Most Difficult Times</span>
           </h1>
-          <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl lg:text-2xl text-gray-700 mb-8 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto leading-relaxed text-center md:text-left">
             When your family&rsquo;s future is at stake, you deserve an experienced Arizona attorney who understands what you&rsquo;re going through. Get personalized guidance with our comprehensive $500 virtual consultation.
           </p>
           
           {/* Trust Indicators */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8 text-sm text-gray-600">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8 text-sm text-gray-600 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
             <div className="flex items-center gap-2">
               <div className="w-4 h-4 bg-[#10b981] rounded-full flex items-center justify-center">
                 <svg className="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
             <Link href="/book" className="bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-8 py-4 text-lg font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
               Book Your Consultation Today
             </Link>
@@ -53,7 +53,7 @@ export default function Home() {
           </div>
           
           {/* Urgency Element */}
-          <p className="mt-6 text-sm text-gray-600">
+          <p className="mt-6 text-sm text-gray-600 text-center max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
             <strong className="text-[#f59e0b]">Limited consultation slots available this week</strong> - Most clients see clarity within 24 hours
           </p>
         </div>

@@ -34,7 +34,7 @@ export default function ContestedDivorcePage() {
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
               Contested Divorce in Arizona
             </h1>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8">
+            <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto mb-8 text-center md:text-left">
               When spouses cannot agree on divorce terms, you need strong legal representation to protect your rights and secure a fair outcome.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

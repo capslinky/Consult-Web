@@ -16,10 +16,10 @@ export default function UncontestedDivorcePage() {
             <div className="inline-block bg-[#f59e0b]/10 text-[#f59e0b] px-4 py-2 rounded-full text-sm font-semibold mb-4">
               Divorce & Separation
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
               Uncontested Divorce in Arizona
             </h1>
-            <p className="text-xl text-white/90 max-w-3xl mx-auto mb-8">
+            <p className="text-lg md:text-xl lg:text-2xl text-white/90 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto mb-8 leading-relaxed">
               When you and your spouse agree on the terms, an uncontested divorce can be completed quickly and affordably. Get expert guidance to ensure everything is done correctly.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -149,7 +149,7 @@ export default function UncontestedDivorcePage() {
             <h2 className="text-3xl font-bold text-[#1e3a8a] mb-4">
               Requirements for Uncontested Divorce
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
               Both spouses must agree on all major issues for an uncontested divorce
             </p>
           </div>
@@ -249,7 +249,7 @@ export default function UncontestedDivorcePage() {
             <h2 className="text-3xl font-bold text-[#1e3a8a] mb-4">
               The Uncontested Divorce Process
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
               Step-by-step guide to completing your uncontested divorce in Arizona
             </p>
           </div>
@@ -325,7 +325,7 @@ export default function UncontestedDivorcePage() {
             <h2 className="text-3xl font-bold text-[#1e3a8a] mb-4">
               Frequently Asked Questions
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
               Common questions about uncontested divorce in Arizona
             </p>
           </div>
@@ -474,7 +474,7 @@ export default function UncontestedDivorcePage() {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
             Ready to Start Your Uncontested Divorce?
           </h2>
-          <p className="text-xl text-white/90 mb-8">
+          <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-8 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
             Get expert guidance to ensure your uncontested divorce is completed correctly and efficiently.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -505,7 +505,7 @@ export default function UncontestedDivorcePage() {
             <h2 className="text-3xl font-bold text-[#1e3a8a] mb-4">
               Related Practice Areas
             </h2>
-            <p className="text-xl text-gray-600">
+            <p className="text-lg md:text-xl text-gray-600 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
               Explore other family law services we offer
             </p>
           </div>

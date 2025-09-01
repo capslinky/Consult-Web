@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Button } from '@/components/ui/Button';
 
 export default function BookPage() {
   const [isReady, setIsReady] = useState(false);

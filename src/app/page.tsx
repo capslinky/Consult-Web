@@ -63,11 +63,11 @@ export default function Home() {
       {/* Features Section */}
       <section className="bg-gray-50 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
+          <div className="mb-16">
             <h3 className="text-3xl md:text-4xl font-bold text-[#1e3a8a] mb-6">
               Why Choose Paradise Law AZ
             </h3>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto text-left">
               Experience the difference with personalized service designed specifically for Arizona families
             </p>
           </div>

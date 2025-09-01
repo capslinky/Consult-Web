@@ -57,26 +57,26 @@ export default function RootLayout({
               </div>
 
               {/* Quick Links */}
-              <div>
+              <div className="text-left">
                 <h4 className="text-lg font-semibold text-white mb-4">Services</h4>
                 <ul className="space-y-3">
-                  <li><Link href="/practice-areas/divorce" className="text-gray-400 hover:text-white transition-colors">Divorce Law</Link></li>
-                  <li><Link href="/practice-areas/custody" className="text-gray-400 hover:text-white transition-colors">Child Custody</Link></li>
-                  <li><Link href="/practice-areas/financial" className="text-gray-400 hover:text-white transition-colors">Financial Matters</Link></li>
-                  <li><Link href="/services" className="text-gray-400 hover:text-white transition-colors">All Services</Link></li>
-                  <li><Link href="/pricing" className="text-gray-400 hover:text-white transition-colors">Pricing</Link></li>
+                  <li><Link href="/practice-areas/divorce/" className="text-gray-400 hover:text-white transition-colors">Divorce Law</Link></li>
+                  <li><Link href="/practice-areas/custody/" className="text-gray-400 hover:text-white transition-colors">Child Custody</Link></li>
+                  <li><Link href="/practice-areas/financial/" className="text-gray-400 hover:text-white transition-colors">Financial Matters</Link></li>
+                  <li><Link href="/services/" className="text-gray-400 hover:text-white transition-colors">All Services</Link></li>
+                  <li><Link href="/pricing/" className="text-gray-400 hover:text-white transition-colors">Pricing</Link></li>
                 </ul>
               </div>
 
               {/* Contact & Legal */}
-              <div>
+              <div className="text-left">
                 <h4 className="text-lg font-semibold text-white mb-4">Contact & Legal</h4>
                 <ul className="space-y-3">
-                  <li><Link href="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Us</Link></li>
-                  <li><Link href="/about" className="text-gray-400 hover:text-white transition-colors">About Attorney</Link></li>
-                  <li><Link href="/how-it-works" className="text-gray-400 hover:text-white transition-colors">How It Works</Link></li>
-                  <li><Link href="/resources" className="text-gray-400 hover:text-white transition-colors">Resources</Link></li>
-                  <li><Link href="/book" className="text-gray-400 hover:text-[#f59e0b] transition-colors font-semibold">Book Consultation</Link></li>
+                  <li><Link href="/contact/" className="text-gray-400 hover:text-white transition-colors">Contact Us</Link></li>
+                  <li><Link href="/about/" className="text-gray-400 hover:text-white transition-colors">About Attorney</Link></li>
+                  <li><Link href="/how-it-works/" className="text-gray-400 hover:text-white transition-colors">How It Works</Link></li>
+                  <li><Link href="/resources/" className="text-gray-400 hover:text-white transition-colors">Resources</Link></li>
+                  <li><Link href="/book/" className="text-gray-400 hover:text-[#f59e0b] transition-colors font-semibold">Book Consultation</Link></li>
                 </ul>
               </div>
             </div>

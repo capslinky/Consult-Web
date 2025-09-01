@@ -5,18 +5,6 @@ export default function Home() {
   return (
     <>
       {/* Hero Section */}
-<<<<<<< HEAD
-      <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50">
-        <div className="container mx-auto">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1e3a8a] mb-6 leading-tight text-center">
-            Get the Legal Guidance You Need<br />
-            <span className="text-[#3b82f6]">During Life&rsquo;s Most Difficult Times</span>
-          </h1>
-          <p className="text-lg md:text-xl lg:text-2xl text-gray-700 mb-8 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto leading-relaxed text-center md:text-left">
-            When your family&rsquo;s future is at stake, you deserve an experienced Arizona attorney who understands what you&rsquo;re going through. Get personalized guidance with our comprehensive $500 virtual consultation.
-          </p>
-          
-=======
       <section className="py-16 md:py-24 px-4 bg-gradient-to-b from-white to-gray-50">
         <div className="container mx-auto max-w-7xl">
           <div className="text-center">
@@ -29,7 +17,6 @@ export default function Home() {
             </p>
           </div>
 
->>>>>>> 4110bf2 (feat: comprehensive UI/UX improvements)
           {/* Trust Indicators */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8 text-sm text-gray-600 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
             <div className="flex items-center gap-2">
@@ -66,7 +53,7 @@ export default function Home() {
               Learn How It Works
             </Link>
           </div>
-          
+
           {/* Urgency Element */}
           <p className="mt-6 text-sm text-gray-600 text-center max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
             <strong className="text-[#f59e0b]">Limited consultation slots available this week</strong> - Most clients see clarity within 24 hours
@@ -75,34 +62,6 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-<<<<<<< HEAD
-      <section className="bg-gray-50 py-16 px-4">
-        <div className="container mx-auto">
-          <h3 className="text-3xl font-bold text-center text-[#1e3a8a] mb-12">
-            Why Choose Paradise Law AZ
-          </h3>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-[#3b82f6] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                1
-              </div>
-              <h4 className="text-xl font-semibold mb-2">Expert Attorneys</h4>
-              <p className="text-gray-600">Experienced in Arizona family law with proven results</p>
-            </div>
-            <div className="text-center">
-              <div className="bg-[#3b82f6] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                2
-              </div>
-              <h4 className="text-xl font-semibold mb-2">Virtual Consultations</h4>
-              <p className="text-gray-600">Convenient online meetings from the comfort of your home</p>
-            </div>
-            <div className="text-center">
-              <div className="bg-[#3b82f6] text-white w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                3
-              </div>
-              <h4 className="text-xl font-semibold mb-2">Money-Back Guarantee</h4>
-              <p className="text-gray-600">100% satisfaction guaranteed or your money back</p>
-=======
       <section className="bg-gray-50 py-20 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16">
@@ -188,7 +147,6 @@ export default function Home() {
               </div>
               <h5 className="font-semibold text-[#1e3a8a] mb-2">Experience Matters</h5>
               <p className="text-sm text-gray-600">Decades of family law success</p>
->>>>>>> 4110bf2 (feat: comprehensive UI/UX improvements)
             </div>
           </div>
         </div>
@@ -205,7 +163,7 @@ export default function Home() {
               See how we&rsquo;ve helped Arizona families navigate their most challenging times
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             {/* Testimonial 1 */}
             <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-[#f59e0b]">

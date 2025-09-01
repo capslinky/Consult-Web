@@ -12,7 +12,7 @@ export default function GrandparentsRightsPage() {
     <main className="min-h-screen bg-white">
       <section className="bg-gradient-to-b from-navy to-navy-light py-20">
         <div className="container mx-auto px-4 max-w-5xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Grandparents' Rights</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Grandparents&apos; Rights</h1>
           <p className="text-xl text-white/90">
             Visitation and custody options for Arizona grandparents and third parties
           </p>
@@ -22,8 +22,8 @@ export default function GrandparentsRightsPage() {
         <div className="container mx-auto px-4 max-w-4xl space-y-6">
           <p className="text-gray-700">
             Arizona recognizes limited circumstances where grandparents and other third parties may
-            seek visitation or even legal decision-making and placement when in the child's best
-            interests. Courts consider the child's welfare, family history, and existing
+            seek visitation or even legal decision-making and placement when in the child&apos;s best
+            interests. Courts consider the child&apos;s welfare, family history, and existing
             relationships when evaluating requests.
           </p>
           <ul className="list-disc pl-6 text-gray-700 space-y-2">
@@ -40,4 +40,3 @@ export default function GrandparentsRightsPage() {
     </main>
   );
 }
-

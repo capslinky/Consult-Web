@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { CTABand } from "@/components/sections/CTABand";
 
 export const metadata: Metadata = {
   title: "Practice Areas | Paradise Law AZ",
@@ -94,6 +95,9 @@ export default function PracticeAreasIndex() {
           </div>
         </div>
       </section>
+
+      {/* End-cap CTA */}
+      <CTABand title="Need help choosing a practice area?" subtitle="Book your $500 consultation—get guidance tailored to your situation." />
     </main>
   );
 }

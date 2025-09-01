@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { CTABand } from '@/components/sections/CTABand';
 import { Button } from '@/components/ui/Button';
 
 export const metadata = {
@@ -387,6 +388,9 @@ export default function HowItWorksPage() {
           </p>
         </div>
       </section>
+
+      {/* End-cap CTA */}
+      <CTABand title="Ready to book your consultation?" subtitle="Secure a $500 virtual consult at a time that works for you." />
     </main>
   );
 }

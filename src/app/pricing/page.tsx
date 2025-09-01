@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { TrustBar } from '@/components/sections/TrustBar';
+import { CTABand } from '@/components/sections/CTABand';
 import { Button } from '@/components/ui/Button';
 
 export const metadata = {
@@ -44,7 +45,7 @@ export default function PricingPage() {
                 <h3 className="text-2xl font-semibold text-navy mb-6">What&apos;s Included:</h3>
                 <div className="grid md:grid-cols-2 gap-6 text-left max-w-3xl mx-auto">
                   <div className="flex items-start">
-                    <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <div>
@@ -54,7 +55,7 @@ export default function PricingPage() {
                   </div>
                   
                   <div className="flex items-start">
-                    <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <div>
@@ -64,7 +65,7 @@ export default function PricingPage() {
                   </div>
                   
                   <div className="flex items-start">
-                    <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <div>
@@ -74,7 +75,7 @@ export default function PricingPage() {
                   </div>
                   
                   <div className="flex items-start">
-                    <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                     </svg>
                     <div>
@@ -416,6 +417,9 @@ export default function PricingPage() {
           </p>
         </div>
       </section>
+
+      {/* End-cap CTA */}
+      <CTABand title="Confident about the value?" subtitle="Reserve your $500 consultation—get clarity within 24 hours." />
     </main>
   );
 }

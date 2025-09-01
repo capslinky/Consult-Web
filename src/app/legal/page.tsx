@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { CTABand } from "@/components/sections/CTABand";
 
 export const metadata: Metadata = {
   title: "Legal Policies | Paradise Law AZ",
@@ -40,7 +41,7 @@ export default function LegalIndex() {
           ))}
         </div>
       </section>
+      <CTABand title="Transparency first. Ready to move forward?" subtitle="Book your $500 consultation or learn how the process works." />
     </main>
   );
 }
-

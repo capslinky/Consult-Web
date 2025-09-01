@@ -1,5 +1,6 @@
 import { Button } from '@/components/ui/Button';
 import type { Metadata } from 'next';
+import { CTABand } from '@/components/sections/CTABand';
 
 export const metadata: Metadata = {
   title: 'Family Law Services - Paradise Law AZ Virtual Consultations',
@@ -263,6 +264,9 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+
+      {/* End-cap CTA */}
+      <CTABand />
     </>
   );
 }

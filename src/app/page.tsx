@@ -1,5 +1,6 @@
 import { LinkButton } from '@/components/ui/LinkButton';
 import { TrustBar } from '@/components/sections/TrustBar';
+import { CTABand } from '@/components/sections/CTABand';
 
 export default function Home() {
   return (
@@ -65,7 +66,7 @@ export default function Home() {
             {/* Expert Attorneys Card */}
             <div className="group bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 text-center border-l-4 border-[#3b82f6]">
               <div className="bg-[#3b82f6] text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-bold shadow-lg">
-                <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                   <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
@@ -76,7 +77,7 @@ export default function Home() {
             {/* Virtual Consultations Card */}
             <div className="group bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 text-center border-l-4 border-[#f59e0b]">
               <div className="bg-[#f59e0b] text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-bold shadow-lg">
-                <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                   <path fill="none" stroke="currentColor" strokeWidth="2" d="M4 4v4h4M20 16v-4h-4M2 12l8-8 8 8" />
                 </svg>
               </div>
@@ -87,7 +88,7 @@ export default function Home() {
             {/* Money-Back Guarantee Card */}
             <div className="group bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 text-center border-l-4 border-[#10b981]">
               <div className="bg-[#10b981] text-white w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-bold shadow-lg">
-                <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                   <path d="M9 2l2 2 4-4M13 13V9h3l-6 6zM9 15H3l6-6v4z" />
                 </svg>
               </div>
@@ -100,7 +101,7 @@ export default function Home() {
           <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <div className="w-12 h-12 bg-[#1e3a8a] rounded-full flex items-center justify-center mx-auto mb-3">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                 </svg>
               </div>
@@ -110,7 +111,7 @@ export default function Home() {
 
             <div className="bg-white rounded-lg p-6 shadow-sm">
               <div className="w-12 h-12 bg-[#1e3a8a] rounded-full flex items-center justify-center mx-auto mb-3">
-                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
                   <path d="M8 9a3 3 0 100-6 3 3 0 000 6zM8 11a6 6 0 016 6H2a6 6 0 016-6z" />
                 </svg>
               </div>
@@ -262,6 +263,9 @@ export default function Home() {
           </LinkButton>
         </div>
       </section>
+
+      {/* End-cap CTA */}
+      <CTABand />
     </>
   );
 }

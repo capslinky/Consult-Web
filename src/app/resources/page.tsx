@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { CTABand } from '@/components/sections/CTABand';
 
 export const metadata: Metadata = {
   title: 'Resources | Paradise Law AZ',
@@ -157,6 +158,9 @@ export default function ResourcesPage() {
           </div>
         </div>
       </section>
+
+      {/* End-cap CTA */}
+      <CTABand title="Want personalized guidance?" subtitle="A $500 consultation can save you time and stress—book now." />
 
       {/* Resource Categories Grid */}
       <section className="py-16 px-4">

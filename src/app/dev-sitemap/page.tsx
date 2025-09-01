@@ -39,7 +39,7 @@ export default function DevSitemapPage() {
     { url: '/practice-areas/custody/modifications', title: 'Custody Modifications', status: 'completed' },
     { url: '/practice-areas/custody/relocation', title: 'Relocation Cases', status: 'completed' },
     { url: '/practice-areas/custody/evaluations', title: 'Custody Evaluations', status: 'completed', notes: 'Not in original sitemap - added' },
-    { url: '/practice-areas/custody/grandparents-rights', title: 'Grandparents\' Rights', status: 'not-started', notes: 'From sitemap - needs creation' },
+    { url: '/practice-areas/custody/grandparents-rights', title: 'Grandparents\' Rights', status: 'completed' },
   ];
 
   const financialPages: PageStatus[] = [
@@ -48,40 +48,40 @@ export default function DevSitemapPage() {
     { url: '/practice-areas/financial/debt-division', title: 'Debt Division', status: 'completed', notes: 'Added - not in original sitemap' },
     { url: '/practice-areas/financial/business-valuation', title: 'Business Valuation', status: 'completed', notes: 'Added - not in original sitemap' },
     { url: '/practice-areas/financial/retirement-investment-accounts', title: 'Retirement & Investment Accounts', status: 'completed', notes: 'Added - not in original sitemap' },
-    { url: '/practice-areas/financial/prenuptial', title: 'Prenuptial Agreements', status: 'not-started', notes: 'From sitemap - needs creation' },
-    { url: '/practice-areas/financial/postnuptial', title: 'Postnuptial Agreements', status: 'not-started', notes: 'From sitemap - needs creation' },
+    { url: '/practice-areas/financial/prenuptial', title: 'Prenuptial Agreements', status: 'completed' },
+    { url: '/practice-areas/financial/postnuptial', title: 'Postnuptial Agreements', status: 'completed' },
   ];
 
   const specialPages: PageStatus[] = [
-    { url: '/practice-areas/special/domestic-violence', title: 'Domestic Violence', status: 'not-started', notes: 'From sitemap - needs creation' },
-    { url: '/practice-areas/special/paternity', title: 'Paternity Cases', status: 'not-started', notes: 'From sitemap - needs creation' },
-    { url: '/practice-areas/special/mediation', title: 'Mediation & ADR', status: 'not-started', notes: 'From sitemap - needs creation' },
-    { url: '/practice-areas/special/appeals', title: 'Appeals & Post-Decree', status: 'not-started', notes: 'From sitemap - needs creation' },
-    { url: '/practice-areas/special/enforcement', title: 'Enforcement Actions', status: 'not-started', notes: 'From sitemap - needs creation' },
+    { url: '/practice-areas/special/domestic-violence', title: 'Domestic Violence', status: 'completed' },
+    { url: '/practice-areas/special/paternity', title: 'Paternity Cases', status: 'completed' },
+    { url: '/practice-areas/special/mediation', title: 'Mediation & ADR', status: 'completed' },
+    { url: '/practice-areas/special/appeals', title: 'Appeals & Post-Decree', status: 'completed' },
+    { url: '/practice-areas/special/enforcement', title: 'Enforcement Actions', status: 'completed' },
   ];
 
   const resourcePages: PageStatus[] = [
-    { url: '/resources', title: 'Resource Hub', status: 'not-started' },
-    { url: '/resources/blog', title: 'Legal Blog & Articles', status: 'not-started' },
-    { url: '/resources/guides', title: 'Downloadable Guides', status: 'not-started' },
-    { url: '/resources/testimonials', title: 'Client Success Stories', status: 'not-started' },
-    { url: '/resources/faq', title: 'Frequently Asked Questions', status: 'not-started' },
+    { url: '/resources', title: 'Resource Hub', status: 'completed' },
+    { url: '/resources/blog', title: 'Legal Blog & Articles', status: 'completed' },
+    { url: '/resources/guides', title: 'Downloadable Guides', status: 'completed' },
+    { url: '/resources/testimonials', title: 'Client Success Stories', status: 'completed' },
+    { url: '/resources/faq', title: 'Frequently Asked Questions', status: 'completed' },
   ];
 
   const legalPages: PageStatus[] = [
-    { url: '/legal/privacy', title: 'Privacy Policy', status: 'not-started' },
-    { url: '/legal/terms', title: 'Terms of Service', status: 'not-started' },
-    { url: '/legal/disclaimer', title: 'Legal Disclaimer', status: 'not-started' },
-    { url: '/legal/cookie-policy', title: 'Cookie Policy', status: 'not-started' },
-    { url: '/legal/refund-policy', title: 'Refund Policy', status: 'not-started' },
-    { url: '/legal/attorney-advertising', title: 'Attorney Advertising Disclosure', status: 'not-started' },
+    { url: '/legal/privacy', title: 'Privacy Policy', status: 'completed' },
+    { url: '/legal/terms', title: 'Terms of Service', status: 'completed' },
+    { url: '/legal/disclaimer', title: 'Legal Disclaimer', status: 'completed' },
+    { url: '/legal/cookie-policy', title: 'Cookie Policy', status: 'completed' },
+    { url: '/legal/refund-policy', title: 'Refund Policy', status: 'completed' },
+    { url: '/legal/attorney-advertising', title: 'Attorney Advertising Disclosure', status: 'completed' },
   ];
 
   const utilityPages: PageStatus[] = [
-    { url: '/404', title: 'Page Not Found', status: 'not-started' },
-    { url: '/thank-you', title: 'Booking Confirmation', status: 'not-started' },
-    { url: '/confirmation', title: 'Payment Confirmation', status: 'not-started' },
-    { url: '/download-success', title: 'Guide Download Success', status: 'not-started' },
+    { url: '/404', title: 'Page Not Found', status: 'completed' },
+    { url: '/thank-you', title: 'Booking Confirmation', status: 'completed' },
+    { url: '/confirmation', title: 'Payment Confirmation', status: 'completed' },
+    { url: '/download-success', title: 'Guide Download Success', status: 'completed' },
   ];
 
   const getStatusColor = (status: PageStatus['status']) => {

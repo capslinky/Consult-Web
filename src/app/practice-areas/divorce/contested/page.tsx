@@ -557,7 +557,7 @@ export default function ContestedDivorcePage() {
               <span className="text-gold font-semibold">Learn more →</span>
             </Link>
 
-            <Link href="/practice-areas/custody/child-custody" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Link href="/practice-areas/custody/" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold text-navy mb-3">Child Custody</h3>
               <p className="text-gray-600 mb-4">
                 Legal decision-making and parenting time arrangements.
@@ -565,7 +565,7 @@ export default function ContestedDivorcePage() {
               <span className="text-gold font-semibold">Learn more →</span>
             </Link>
 
-            <Link href="/practice-areas/financial/spousal-maintenance" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Link href="/practice-areas/financial/child-support-spousal-support" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold text-navy mb-3">Spousal Maintenance</h3>
               <p className="text-gray-600 mb-4">
                 Alimony and spousal support arrangements.

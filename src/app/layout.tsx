@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description: "Expert Arizona family law attorneys offering virtual consultations for $500. Get personalized legal guidance for divorce, custody, and family financial matters.",
   keywords: "Arizona family law, virtual consultation, divorce attorney, custody lawyer, family law Phoenix",
   authors: [{ name: "Paradise Law AZ" }],
+  alternates: {
+    canonical: process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki",
+  },
   openGraph: {
     title: "Paradise Law AZ - Family Law Virtual Consultations",
     description: "Expert Arizona family law attorneys offering virtual consultations for $500",

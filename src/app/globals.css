@@ -11,10 +11,12 @@
   
   /* Custom colors for Paradise Law AZ */
   --color-navy: #1e3a8a;
+  --color-navy-light: #3a56b8;
   --color-navy-dark: #172e5c;
   --color-light-blue: #3b82f6;
   --color-light-blue-dark: #2563eb;
   --color-gold: #f59e0b;
+  --color-gold-light: #fbbf24;
   --color-gold-dark: #d97706;
   --color-success: #10b981;
   --color-error: #ef4444;

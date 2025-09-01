@@ -21,7 +21,7 @@ export default function ThankYouPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-[#1e3a8a] mb-4">
             Thank You!
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-6">
+          <p className="text-xl md:text-2xl text-gray-600 mb-6 text-left">
             Your consultation has been scheduled successfully
           </p>
 
@@ -103,7 +103,7 @@ export default function ThankYouPage() {
           <h3 className="text-2xl font-bold text-[#1e3a8a] mb-4 text-center">
             🎉 Your Free Resources
           </h3>
-          <p className="text-gray-600 mb-6 text-center">
+          <p className="text-gray-600 mb-6 text-left">
             While you wait for your consultation, here are some valuable resources to get started:
           </p>
 
@@ -135,7 +135,7 @@ export default function ThankYouPage() {
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
-            href="/resources"
+            href="/resources/"
             className="bg-[#3b82f6] text-white hover:bg-[#2563eb] px-8 py-4 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-200 inline-flex items-center justify-center gap-2"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">

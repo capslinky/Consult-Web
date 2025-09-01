@@ -123,14 +123,3 @@ button {
     scroll-behavior: auto !important;
   }
 }
-
-/* Readability: left-align multi-line body content even in centered wrappers */
-.text-center p,
-.text-center ul,
-.text-center ol,
-.text-center li,
-p.text-center,
-ul.text-center,
-ol.text-center {
-  text-align: left;
-}

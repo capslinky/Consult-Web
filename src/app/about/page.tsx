@@ -103,7 +103,7 @@ export default function AboutPage() {
                     <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
                   </svg>
                 </div>
-                <div className="text-center md:text-left flex-1">
+                <div className="text-left flex-1">
                   <h2 className="text-3xl font-bold mb-2">Attorney Paradise</h2>
                   <p className="text-blue-100 text-lg mb-3">Licensed Arizona Family Law Attorney</p>
                   <p className="text-blue-200 max-w-2xl">Dedicated to providing compassionate, professional legal guidance to Arizona families during life&apos;s most challenging transitions.</p>

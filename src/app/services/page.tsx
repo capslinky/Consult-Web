@@ -13,7 +13,7 @@ export default function ServicesPage() {
       <section className="bg-gradient-to-b from-[#1e3a8a] to-[#3b82f6] text-white py-16 px-4">
         <div className="container mx-auto">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-center">Our Services</h1>
-          <p className="text-lg md:text-xl lg:text-2xl max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto leading-relaxed text-center md:text-left">
+          <p className="text-lg md:text-xl lg:text-2xl max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto leading-relaxed text-left">
             Expert legal guidance for all aspects of family law. Get personalized advice 
             tailored to your unique situation through our convenient virtual consultations.
           </p>
@@ -23,11 +23,11 @@ export default function ServicesPage() {
       {/* Service Overview */}
       <section className="py-16 px-4">
         <div className="container mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-[#1e3a8a] mb-4">
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-[#1e3a8a] mb-4 text-center">
               Comprehensive Family Law Solutions
             </h2>
-            <p className="text-lg md:text-xl text-gray-700 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-700 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto leading-relaxed text-left">
               Our virtual consultation service covers all areas of Arizona family law. 
               During your session, we&apos;ll discuss your specific situation, explain your 
               legal options, and provide a clear path forward.

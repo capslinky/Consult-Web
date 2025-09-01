@@ -22,7 +22,7 @@ export default function ChildCustodyPage() {
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Child Custody & Parenting Time in Arizona
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl mb-8 opacity-90 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto text-center md:text-left">
+            <p className="text-lg md:text-xl lg:text-2xl mb-8 opacity-90 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto text-left">
               Protecting your parental rights and your children&apos;s best interests with compassionate, expert legal guidance
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

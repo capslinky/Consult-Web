@@ -1,4 +1,5 @@
 import { LinkButton } from '@/components/ui/LinkButton';
+import { TrustBar } from '@/components/sections/TrustBar';
 
 export default function Home() {
   return (
@@ -17,31 +18,8 @@ export default function Home() {
           </div>
 
           {/* Trust Indicators */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-8 text-sm text-gray-600 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
-            <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-[#10b981] rounded-full flex items-center justify-center">
-                <svg className="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <span>15+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-[#10b981] rounded-full flex items-center justify-center">
-                <svg className="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <span>Arizona State Bar Member</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <div className="w-4 h-4 bg-[#10b981] rounded-full flex items-center justify-center">
-                <svg className="w-2.5 h-2.5 text-white" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-              </div>
-              <span>100% Confidential</span>
-            </div>
+          <div className="mb-8 max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
+            <TrustBar />
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">

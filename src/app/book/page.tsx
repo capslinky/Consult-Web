@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { trackEvent } from '@/lib/analytics';
 
@@ -8,35 +8,44 @@ export default function BookPage() {
   const [isReady, setIsReady] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
   const [timezone, setTimezone] = useState<string>('');
+  const scriptRef = useRef<HTMLScriptElement | null>(null);
+  const [loadError, setLoadError] = useState<string | null>(null);
+  const [reloadKey, setReloadKey] = useState(0);
 
   // Calendly integration
   useEffect(() => {
     trackEvent('book_page_view');
     setTimezone(Intl.DateTimeFormat().resolvedOptions().timeZone || '');
-
-    const head = document.head;
-    const script = document.createElement('script');
-
-    script.innerHTML = `
-      (function (C, A, L, D, Y, L, I, C, O) {
-        C[A] = C[A] || function () { (C[A].q = C[A].q || []).push(arguments) };
-        const l = D.createElement(L);
-        l.src = Y + '/widget/embed.js';
-        D.body.appendChild(l);
-      })(window, 'Calendly', 'script', document, 'https://assets.calendly.com');
-    `;
-
-    script.onload = () => {
-      setIsReady(true);
-      setIsLoading(false);
-      trackEvent('calendly_script_loaded');
+    const loadCalendly = () => {
+      setLoadError(null);
+      // If already loaded, init directly
+      if (window.Calendly && typeof window.Calendly.initInlineWidget === 'function') {
+        setIsReady(true);
+        setIsLoading(false);
+        trackEvent('calendly_script_loaded');
+        handleCalendlyInit();
+        return;
+      }
+      // Create script
+      const s = document.createElement('script');
+      s.src = 'https://assets.calendly.com/assets/external/widget.js';
+      s.async = true;
+      s.defer = true;
+      s.onload = () => {
+        setIsReady(true);
+        setIsLoading(false);
+        trackEvent('calendly_script_loaded');
+        handleCalendlyInit();
+      };
+      s.onerror = () => {
+        setIsLoading(false);
+        setLoadError('Failed to load scheduling widget.');
+      };
+      document.body.appendChild(s);
+      scriptRef.current = s;
     };
 
-    script.onerror = () => {
-      setIsLoading(false);
-    };
-
-    head.appendChild(script);
+    loadCalendly();
 
     const onMessage = (e: MessageEvent) => {
       const data = (e?.data ?? {}) as { event?: string; payload?: Record<string, unknown> };
@@ -57,11 +66,13 @@ export default function BookPage() {
       const calendlyWidgets = document.querySelectorAll('[data-testid="calendly-widget"]');
       calendlyWidgets.forEach(widget => widget.remove());
 
-      const scripts = document.querySelectorAll('script[src*="calendly"]');
-      scripts.forEach(script => script.remove());
+      if (scriptRef.current) {
+        try { scriptRef.current.remove(); } catch {}
+        scriptRef.current = null;
+      }
       window.removeEventListener('message', onMessage);
     };
-  }, []);
+  }, [reloadKey]);
 
   const handleCalendlyInit = () => {
     if (window.Calendly) {
@@ -255,14 +266,45 @@ export default function BookPage() {
                 </div>
 
             <div className="relative">
-              {isLoading && (
-                <div className="absolute inset-0 bg-white bg-opacity-90 flex items-center justify-center z-10">
-                  <div className="text-center">
-                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#3b82f6] mx-auto mb-4"></div>
-                    <p className="text-gray-600">Loading booking calendar...</p>
-                  </div>
-                </div>
-              )}
+                  {isLoading && (
+                    <div className="absolute inset-0 bg-white bg-opacity-90 flex items-center justify-center z-10">
+                      <div className="text-center">
+                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#3b82f6] mx-auto mb-4"></div>
+                        <p className="text-gray-600">Loading booking calendar...</p>
+                      </div>
+                    </div>
+                  )}
+                  {loadError && (
+                    <div className="absolute inset-0 bg-white/95 flex items-center justify-center z-10">
+                      <div className="text-center max-w-sm">
+                        <div className="mb-3">
+                          <svg className="w-10 h-10 text-red-500 mx-auto" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9 9V5a1 1 0 112 0v4a1 1 0 11-2 0zm1 6a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" clipRule="evenodd" />
+                          </svg>
+                        </div>
+                        <p className="text-gray-700 mb-4">We couldn&apos;t load the scheduling widget. Please try again or contact us to book.</p>
+                        <div className="flex items-center justify-center gap-3">
+                          <button
+                            onClick={() => {
+                              trackEvent('calendly_retry_click');
+                              setIsLoading(true);
+                              if (scriptRef.current) {
+                                try { scriptRef.current.remove(); } catch {}
+                                scriptRef.current = null;
+                              }
+                              const widgets = document.querySelectorAll('[data-testid="calendly-widget"]');
+                              widgets.forEach(w => w.remove());
+                              setReloadKey(k => k + 1);
+                            }}
+                            className="bg-[#3b82f6] text-white px-4 py-2 rounded hover:bg-[#2563eb]"
+                          >
+                            Retry
+                          </button>
+                          <Link href="/contact" className="text-[#3b82f6] underline">Contact Us</Link>
+                        </div>
+                      </div>
+                    </div>
+                  )}
               {/* Booking Header Meta */}
               <div className="flex flex-col md:flex-row items-center justify-between gap-3 p-3 border-b">
                 <div className="text-sm text-gray-600">

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { TrustBar } from '@/components/sections/TrustBar';
 import { Button } from '@/components/ui/Button';
 
 export const metadata = {
@@ -24,6 +25,9 @@ export default function PricingPage() {
       {/* Main Pricing Card */}
       <section className="py-20">
         <div className="container mx-auto px-4 max-w-4xl">
+          <div className="mb-6">
+            <TrustBar />
+          </div>
           <div className="bg-white border-4 border-gold rounded-2xl shadow-2xl overflow-hidden">
             <div className="bg-gold p-6 text-center">
               <h2 className="text-2xl font-bold text-white mb-2">Virtual Family Law Consultation</h2>

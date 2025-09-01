@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
 import { Header } from "@/components/navigation/Header";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Paradise Law AZ - Family Law Virtual Consultations",
@@ -30,9 +31,27 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki";
+  const ldJson = {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    name: "Paradise Law AZ",
+    url: siteUrl,
+    areaServed: "Arizona",
+    telephone: "+1-480-555-0123",
+    serviceType: "Family Law",
+    address: {
+      "@type": "PostalAddress",
+      addressRegion: "AZ",
+      addressCountry: "US",
+    },
+  };
   return (
     <html lang="en">
       <body className="antialiased">
+        <Script id="ld-legalservice" type="application/ld+json" strategy="beforeInteractive">
+          {JSON.stringify(ldJson)}
+        </Script>
         <a href="#content" className="skip-link">Skip to content</a>
         <Header />
         <main id="content" role="main" className="min-h-screen">{children}</main>

@@ -21,7 +21,7 @@ export default function DevSitemapPage() {
     { url: '/services', title: 'Virtual Consultation Service Overview', status: 'completed' },
     { url: '/how-it-works', title: 'Process & Technology Requirements', status: 'completed' },
     { url: '/pricing', title: 'Investment & Value Proposition', status: 'completed' },
-    { url: '/book', title: 'Schedule Consultation (Calendly Integration)', status: 'not-started', notes: 'Needs Calendly integration' },
+    { url: '/book', title: 'Schedule Consultation (Calendly Integration)', status: 'completed', notes: 'Calendly inline embed implemented' },
     { url: '/contact', title: 'Contact Information & Form', status: 'completed' },
   ];
 
@@ -192,15 +192,13 @@ export default function DevSitemapPage() {
         </div>
 
         {/* Priority Issues */}
-        <div className="bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
-          <h2 className="text-xl font-semibold text-red-800 mb-4">⚠️ Priority Issues</h2>
-          <ul className="space-y-2 text-red-700">
-            <li>• URL inconsistencies between built pages and SITEMAP.md</li>
-            <li>• Missing /book page with Calendly integration</li>
-            <li>• 5 special circumstances practice area pages not started</li>
-            <li>• All resource pages (blog, guides, testimonials, FAQ) missing</li>
-            <li>• Legal compliance pages not created</li>
-            <li>• Internal links may be pointing to incorrect URLs</li>
+        <div className="bg-yellow-50 border border-yellow-200 rounded-lg p-6 mb-8">
+          <h2 className="text-xl font-semibold text-yellow-900 mb-4">⚠️ Current Focus</h2>
+          <ul className="space-y-2 text-yellow-800">
+            <li>• Audit internal links for trailing slash consistency</li>
+            <li>• Standardize color usage (Tailwind tokens vs custom utilities)</li>
+            <li>• Align README with current feature set (payments/email planned)</li>
+            <li>• Validate critical env vars during build (NEXT_PUBLIC_SITE_URL)</li>
           </ul>
         </div>
 
@@ -221,19 +219,19 @@ export default function DevSitemapPage() {
             <div>
               <h3 className="font-semibold text-[#1e3a8a] mb-2">High Priority:</h3>
               <ul className="space-y-1 text-sm">
-                <li>1. Fix internal link URLs throughout site</li>
-                <li>2. Create /book page with Calendly integration</li>
-                <li>3. Add missing special circumstances pages</li>
-                <li>4. Implement UI/UX improvements</li>
+                <li>1. Audit and normalize internal links (trailing slashes)</li>
+                <li>2. Consolidate color strategy across components</li>
+                <li>3. Review accessibility pass on all main pages</li>
+                <li>4. Add basic analytics (GA/Hotjar) once IDs provided</li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold text-[#1e3a8a] mb-2">Medium Priority:</h3>
               <ul className="space-y-1 text-sm">
-                <li>1. Create resource pages (blog, guides, etc.)</li>
-                <li>2. Add legal compliance pages</li>
-                <li>3. Create utility pages (404, thank you, etc.)</li>
-                <li>4. Update SITEMAP.md to match reality</li>
+                <li>1. Update README to reflect current scope</li>
+                <li>2. Add env validation and docs for configuration</li>
+                <li>3. Consider script loading polish for Calendly</li>
+                <li>4. Keep SITEMAP.md in sync with built routes</li>
               </ul>
             </div>
           </div>

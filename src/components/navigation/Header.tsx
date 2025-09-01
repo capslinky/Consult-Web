@@ -9,6 +9,13 @@ export function Header() {
   const pathname = usePathname();
   const toggleRef = useRef<HTMLButtonElement | null>(null);
 
+  // Normalize paths to compare consistently regardless of trailing slashes
+  const normalizePath = (p: string) => {
+    if (!p) return '/';
+    if (p === '/') return '/';
+    return p.endsWith('/') ? p.slice(0, -1) : p;
+  };
+
   const navigationItems = [
     { label: 'Services', href: '/services/' },
     { label: 'Practice Areas', href: '/practice-areas/' },
@@ -30,7 +37,7 @@ export function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6">
             {navigationItems.map((item) => {
-              const isActive = pathname === item.href;
+              const isActive = normalizePath(pathname) === normalizePath(item.href);
               return (
                 <Link
                   key={item.href}
@@ -94,7 +101,7 @@ export function Header() {
                   key={item.href}
                   href={item.href}
                   className="py-2 hover:text-gray-200 transition-colors"
-                  aria-current={pathname === item.href ? 'page' : undefined}
+                  aria-current={normalizePath(pathname) === normalizePath(item.href) ? 'page' : undefined}
                   onClick={() => { setIsMenuOpen(false); toggleRef.current?.focus(); }}
                 >
                   {item.label}

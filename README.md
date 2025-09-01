@@ -8,8 +8,8 @@ This Next.js application provides a complete virtual consultation booking platfo
 
 - 20+ practice area pages optimized for SEO
 - Integrated booking system with Calendly
-- Stripe payment processing
-- Email automation with ConvertKit
+- Stripe payment processing (planned)
+- Email automation with ConvertKit (planned)
 - Performance-optimized with static site generation
 - Mobile-first responsive design
 - WCAG 2.1 AA accessibility compliance
@@ -48,7 +48,7 @@ npm install
 cp .env.example .env.local
 ```
 
-4. Update `.env.local` with your configuration:
+4. Update `.env.local` with your configuration (note: payments/email are planned, not implemented yet):
 ```
 NEXT_PUBLIC_SITE_URL=https://azfamilylaw.wiki
 NEXT_PUBLIC_GA_ID=your_google_analytics_id
@@ -97,8 +97,8 @@ src/
 │   ├── forms/              # Form components
 │   ├── navigation/         # Navigation components
 │   └── practice-areas/     # Practice area specific
-├── lib/                    # Utilities and helpers
-├── content/                # Markdown content
+├── lib/                    # Utilities and helpers (planned)
+├── content/                # Markdown content (planned)
 └── styles/                 # Global styles
 ```
 
@@ -108,8 +108,8 @@ The project includes a custom component library:
 
 - **Button**: Primary, secondary, outline, and ghost variants
 - **Input**: Text input with validation states
-- **Select**: Dropdown with search functionality
-- **Textarea**: Auto-resizing text area
+- **Select**: Dropdown
+- **Textarea**: Resizable text area
 - **Header**: Responsive navigation with mobile menu
 
 ## Design System

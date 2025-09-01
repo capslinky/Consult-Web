@@ -1,489 +1,338 @@
-import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
-import { Input } from '@/components/ui/Input';
-import { Textarea } from '@/components/ui/Textarea';
-import { Select } from '@/components/ui/Select';
-
-export const metadata = {
-  title: 'Contact Us | Paradise Law AZ Family Law Virtual Consultations',
-  description: 'Contact Paradise Law AZ for virtual family law consultations. Multiple ways to reach us including phone, email, and online contact form.',
-};
+import Link from 'next/link';
 
 export default function ContactPage() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-gray-50">
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-navy to-navy-light py-20">
-        <div className="container mx-auto px-4 max-w-6xl text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">
-            Get In Touch
+      <section className="bg-[#1e3a8a] text-white py-16 px-4">
+        <div className="container mx-auto max-w-4xl text-center">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            Get In Touch With Paradise Law AZ
           </h1>
-          <p className="text-xl text-white/90 max-w-3xl mx-auto">
-            Ready to discuss your family law matter? We&apos;re here to help with multiple convenient ways to connect.
+          <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
+            Our experienced team is here to help you navigate your legal challenges.
+            Contact us today for a confidential consultation.
           </p>
-        </div>
-      </section>
 
-      {/* Contact Options */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            {/* Phone */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-gold rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          {/* Quick Contact Info */}
+          <div className="grid md:grid-cols-3 gap-6 mt-12">
+            <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
+              <div className="w-12 h-12 bg-[#f59e0b] rounded-lg flex items-center justify-center mx-auto mb-4">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-semibold text-navy mb-3">Call Us</h3>
-              <p className="text-gray-600 mb-4">
-                Speak directly with our team for immediate assistance
-              </p>
-              <a href="tel:602-555-0123" className="text-2xl font-bold text-gold hover:text-gold-light">
-                (602) 555-0123
-              </a>
-              <p className="text-sm text-gray-500 mt-2">
-                Monday - Friday: 8am - 6pm<br />
-                Saturday: 9am - 2pm
-              </p>
+              <h3 className="text-lg font-semibold mb-2">Call Us</h3>
+              <p className="text-blue-100">(480) 555-0123</p>
+              <p className="text-sm text-blue-200 mt-1">Emergency Legal Help Available 24/7</p>
             </div>
 
-            {/* Email */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-light-blue rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
+              <div className="w-12 h-12 bg-[#10b981] rounded-lg flex items-center justify-center mx-auto mb-4">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                  <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-semibold text-navy mb-3">Email Us</h3>
-              <p className="text-gray-600 mb-4">
-                Send us detailed information about your case
-              </p>
-              <a href="mailto:contact@paradiselawaz.com" className="text-xl font-bold text-gold hover:text-gold-light">
-                contact@paradiselawaz.com
-              </a>
-              <p className="text-sm text-gray-500 mt-2">
-                We respond within 24 hours<br />
-                during business days
-              </p>
+              <h3 className="text-lg font-semibold mb-2">Email Us</h3>
+              <p className="text-blue-100">info@paradisepassage.com</p>
+              <p className="text-sm text-blue-200 mt-1">We respond within 24 hours</p>
             </div>
 
-            {/* Book Online */}
-            <div className="text-center">
-              <div className="w-16 h-16 bg-navy rounded-full flex items-center justify-center mx-auto mb-6">
-                <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            <div className="bg-white/10 rounded-xl p-6 backdrop-blur-sm">
+              <div className="w-12 h-12 bg-[#8b5cf6] rounded-lg flex items-center justify-center mx-auto mb-4">
+                <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-2xl font-semibold text-navy mb-3">Book Online</h3>
-              <p className="text-gray-600 mb-4">
-                Schedule your consultation directly from our calendar
-              </p>
-              <Link href="/book">
-                <Button className="mb-2">
-                  Book Consultation
-                </Button>
-              </Link>
-              <p className="text-sm text-gray-500 mt-2">
-                Available evenings &<br />
-                weekends
-              </p>
+              <h3 className="text-lg font-semibold mb-2">Visit Us</h3>
+              <p className="text-blue-100">Phoenix, Arizona</p>
+              <p className="text-sm text-blue-200 mt-1">Virtual meetings available</p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Contact Form */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4 max-w-4xl">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-navy mb-4">
-              Send Us a Message
-            </h2>
-            <p className="text-xl text-gray-600">
-              Fill out the form below and we&apos;ll get back to you within 24 hours
+      {/* Contact Form Section */}
+      <section className="py-16 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid lg:grid-cols-2 gap-12">
+            {/* Form */}
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <h2 className="text-3xl font-bold text-[#1e3a8a] mb-6">Send Us a Message</h2>
+              <form className="space-y-6">
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">
+                      First Name *
+                    </label>
+                    <input
+                      type="text"
+                      id="firstName"
+                      name="firstName"
+                      required
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3b82f6] focus:border-transparent"
+                    />
+                  </div>
+                  <div>
+                    <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">
+                      Last Name *
+                    </label>
+                    <input
+                      type="text"
+                      id="lastName"
+                      name="lastName"
+                      required
+                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3b82f6] focus:border-transparent"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+                    Email Address *
+                  </label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3b82f6] focus:border-transparent"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
+                    Phone Number
+                  </label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3b82f6] focus:border-transparent"
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="caseType" className="block text-sm font-medium text-gray-700 mb-2">
+                    Type of Case
+                  </label>
+                  <select
+                    id="caseType"
+                    name="caseType"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3b82f6] focus:border-transparent"
+                  >
+                    <option value="">Select your situation...</option>
+                    <option value="divorce">Divorce & Family Law</option>
+                    <option value="custody">Child Custody</option>
+                    <option value="financial">Property Division</option>
+                    <option value="other">Other Legal Matter</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
+                    Message *
+                  </label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    rows={5}
+                    required
+                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#3b82f6] focus:border-transparent resize-vertical"
+                    placeholder="Please describe your situation and how we can help you..."
+                  />
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <input
+                    type="checkbox"
+                    id="consented"
+                    name="consented"
+                    required
+                    className="mt-1 h-4 w-4 text-[#3b82f6] border-gray-300 rounded focus:ring-[#3b82f6]"
+                  />
+                  <label htmlFor="consented" className="text-sm text-gray-700">
+                    I understand that any information I provide is confidential as a prospective client,
+                    protected by attorney-client privilege once retained, and will be used only to assess
+                    my legal situation. I agree to the <Link href="/legal/privacy" className="text-[#3b82f6] hover:text-[#2563eb]">Privacy Policy</Link> and <Link href="/legal/terms" className="text-[#3b82f6] hover:text-[#2563eb]">Terms of Service</Link>.
+                  </label>
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full bg-[#f59e0b] text-white hover:bg-[#d97706] px-6 py-4 rounded-lg font-semibold text-lg shadow-md hover:shadow-lg transition-all duration-200"
+                >
+                  Send Message Securely
+                </button>
+              </form>
+            </div>
+
+            {/* Information Sidebar */}
+            <div className="space-y-8">
+              {/* Quick Links */}
+              <div className="bg-white rounded-xl shadow-lg p-8">
+                <h3 className="text-2xl font-bold text-[#1e3a8a] mb-6">Quick Actions</h3>
+                <div className="space-y-4">
+                  <Link
+                    href="/book"
+                    className="flex items-center gap-4 p-4 bg-[#3b82f6]/10 hover:bg-[#3b82f6]/20 rounded-lg transition-colors group"
+                  >
+                    <div className="w-12 h-12 bg-[#3b82f6] rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="16" y1="2" x2="16" y2="6"></line>
+                        <line x1="8" y1="2" x2="8" y2="6"></line>
+                        <line x1="3" y1="10" x2="21" y2="10"></line>
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-[#1e3a8a]">Book Consultation</h4>
+                      <p className="text-sm text-gray-600">$500 Virtual Meeting</p>
+                    </div>
+                  </Link>
+
+                  <Link
+                    href="/resources"
+                    className="flex items-center gap-4 p-4 bg-[#10b981]/10 hover:bg-[#10b981]/20 rounded-lg transition-colors group"
+                  >
+                    <div className="w-12 h-12 bg-[#10b981] rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-[#1e3a8a]">Browse Resources</h4>
+                      <p className="text-sm text-gray-600">Legal Guides & Articles</p>
+                    </div>
+                  </Link>
+
+                  <a
+                    href="tel:4805550123"
+                    className="flex items-center gap-4 p-4 bg-[#f59e0b]/10 hover:bg-[#f59e0b]/20 rounded-lg transition-colors group"
+                  >
+                    <div className="w-12 h-12 bg-[#f59e0b] rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
+                      <svg className="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-[#1e3a8a]">Call Emergency</h4>
+                      <p className="text-sm text-gray-600">(480) 555-0123</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+
+              {/* Trust Indicators */}
+              <div className="bg-white rounded-xl shadow-lg p-8">
+                <h3 className="text-xl font-bold text-[#1e3a8a] mb-6">Why Choose Paradise Law AZ?</h3>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-3">
+                    <div className="w-8 h-8 bg-[#10b981] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-1">Licensed Arizona Attorneys</h4>
+                      <p className="text-sm text-gray-600">15+ years of experience in Arizona family law</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="w-8 h-8 bg-[#3b82f6] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-1">100% Confidential</h4>
+                      <p className="text-sm text-gray-600">Attorney-client privilege protects your information</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="w-8 h-8 bg-[#f59e0b] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-1">Money-Back Guarantee</h4>
+                      <p className="text-sm text-gray-600">100% satisfaction or your consultation fee refunded</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <div className="w-8 h-8 bg-[#8b5cf6] rounded-full flex items-center justify-center flex-shrink-0 mt-1">
+                      <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"></path>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                      </svg>
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-800 mb-1">Virtual Consultations</h4>
+                      <p className="text-sm text-gray-600">Convenient online meetings from any location</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* FAQ Section */}
+              <div className="bg-white rounded-xl shadow-lg p-8">
+                <h3 className="text-xl font-bold text-[#1e3a8a] mb-6">Frequently Asked Questions</h3>
+                <div className="space-y-4">
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">How quickly will you respond?</h4>
+                    <p className="text-sm text-gray-600">We respond to all inquiries within 24 hours during business days.</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Do consultations cost anything?</h4>
+                    <p className="text-sm text-gray-600">$500 virtual consultation fee covers personalized legal guidance.</p>
+                  </div>
+                  <div>
+                    <h4 className="font-semibold text-gray-800 mb-2">Are communications confidential?</h4>
+                    <p className="text-sm text-gray-600">Yes, information you provide is protected by attorney-client privilege.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Map Section (Placeholder) */}
+      <section className="bg-[#1e3a8a] text-white py-16 px-4">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-8">
+            <h2 className="text-3xl font-bold mb-4">Serving Clients Throughout Arizona</h2>
+            <p className="text-blue-100">
+              We provide comprehensive legal services for families across the state,
+              with offices and virtual consultations available statewide.
             </p>
           </div>
 
-          <div className="bg-white p-8 md:p-12 rounded-2xl shadow-lg">
-            <form className="space-y-6">
-              {/* Name Fields */}
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="firstName" className="block text-sm font-semibold text-navy mb-2">
-                    First Name *
-                  </label>
-                  <Input
-                    id="firstName"
-                    name="firstName"
-                    type="text"
-                    required
-                    placeholder="Your first name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="lastName" className="block text-sm font-semibold text-navy mb-2">
-                    Last Name *
-                  </label>
-                  <Input
-                    id="lastName"
-                    name="lastName"
-                    type="text"
-                    required
-                    placeholder="Your last name"
-                  />
-                </div>
-              </div>
-
-              {/* Contact Fields */}
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <label htmlFor="email" className="block text-sm font-semibold text-navy mb-2">
-                    Email Address *
-                  </label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    required
-                    placeholder="your@email.com"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-semibold text-navy mb-2">
-                    Phone Number
-                  </label>
-                  <Input
-                    id="phone"
-                    name="phone"
-                    type="tel"
-                    placeholder="(602) 555-0123"
-                  />
-                </div>
-              </div>
-
-              {/* Case Type */}
-              <div>
-                <label htmlFor="caseType" className="block text-sm font-semibold text-navy mb-2">
-                  Type of Legal Matter *
-                </label>
-                <Select
-                  id="caseType"
-                  name="caseType"
-                  required
-                  options={[
-                    { value: '', label: 'Please select...' },
-                    { value: 'divorce', label: 'Divorce' },
-                    { value: 'custody', label: 'Child Custody' },
-                    { value: 'support', label: 'Child Support' },
-                    { value: 'spousal-support', label: 'Spousal Support' },
-                    { value: 'property', label: 'Property Division' },
-                    { value: 'paternity', label: 'Paternity' },
-                    { value: 'protection-order', label: 'Protection Orders' },
-                    { value: 'adoption', label: 'Adoption' },
-                    { value: 'modification', label: 'Order Modification' },
-                    { value: 'other', label: 'Other Family Law Matter' }
-                  ]}
-                />
-              </div>
-
-              {/* Urgency */}
-              <div>
-                <label htmlFor="urgency" className="block text-sm font-semibold text-navy mb-2">
-                  How urgent is your matter?
-                </label>
-                <Select
-                  id="urgency"
-                  name="urgency"
-                  options={[
-                    { value: '', label: 'Please select...' },
-                    { value: 'immediate', label: 'Immediate - Court date within 2 weeks' },
-                    { value: 'urgent', label: 'Urgent - Need help within 1 month' },
-                    { value: 'soon', label: 'Soon - Within 2-3 months' },
-                    { value: 'planning', label: 'Planning ahead - No immediate deadline' }
-                  ]}
-                />
-              </div>
-
-              {/* Message */}
-              <div>
-                <label htmlFor="message" className="block text-sm font-semibold text-navy mb-2">
-                  Tell us about your situation *
-                </label>
-                <Textarea
-                  id="message"
-                  name="message"
-                  required
-                  rows={6}
-                  placeholder="Please provide details about your family law matter. The more information you share, the better we can help you during our consultation."
-                />
-                <p className="text-sm text-gray-500 mt-2">
-                  * This information is confidential and protected by attorney-client privilege
-                </p>
-              </div>
-
-              {/* Preferred Contact */}
-              <div>
-                <label className="block text-sm font-semibold text-navy mb-3">
-                  Preferred Contact Method
-                </label>
-                <div className="space-y-2">
-                  <label className="flex items-center">
-                    <input
-                      type="radio"
-                      name="contactMethod"
-                      value="phone"
-                      className="mr-3 text-gold focus:ring-gold"
-                    />
-                    <span className="text-gray-700">Phone Call</span>
-                  </label>
-                  <label className="flex items-center">
-                    <input
-                      type="radio"
-                      name="contactMethod"
-                      value="email"
-                      defaultChecked
-                      className="mr-3 text-gold focus:ring-gold"
-                    />
-                    <span className="text-gray-700">Email</span>
-                  </label>
-                  <label className="flex items-center">
-                    <input
-                      type="radio"
-                      name="contactMethod"
-                      value="text"
-                      className="mr-3 text-gold focus:ring-gold"
-                    />
-                    <span className="text-gray-700">Text Message</span>
-                  </label>
-                </div>
-              </div>
-
-              {/* Best Time */}
-              <div>
-                <label htmlFor="bestTime" className="block text-sm font-semibold text-navy mb-2">
-                  Best time to contact you
-                </label>
-                <Select
-                  id="bestTime"
-                  name="bestTime"
-                  options={[
-                    { value: '', label: 'Please select...' },
-                    { value: 'morning', label: 'Morning (8am - 12pm)' },
-                    { value: 'afternoon', label: 'Afternoon (12pm - 5pm)' },
-                    { value: 'evening', label: 'Evening (5pm - 8pm)' },
-                    { value: 'anytime', label: 'Anytime during business hours' }
-                  ]}
-                />
-              </div>
-
-              {/* Newsletter */}
-              <div className="flex items-start">
-                <input
-                  type="checkbox"
-                  id="newsletter"
-                  name="newsletter"
-                  className="mt-1 mr-3 text-gold focus:ring-gold"
-                />
-                <label htmlFor="newsletter" className="text-sm text-gray-700">
-                  I&apos;d like to receive helpful tips and updates about Arizona family law (you can unsubscribe anytime)
-                </label>
-              </div>
-
-              {/* Submit Button */}
-              <div className="pt-6">
-                <Button
-                  type="submit"
-                  size="lg"
-                  className="w-full md:w-auto"
-                >
-                  Send Message
-                </Button>
-                <p className="text-sm text-gray-600 mt-3">
-                  By submitting this form, you agree to our{' '}
-                  <Link href="/legal/privacy-policy" className="text-gold hover:text-gold-light underline">
-                    Privacy Policy
-                  </Link>
-                  {' '}and consent to be contacted about your inquiry.
-                </p>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
-
-      {/* Office Information */}
-      <section className="py-20">
-        <div className="container mx-auto px-4 max-w-6xl">
-          <h2 className="text-3xl font-bold text-navy mb-12 text-center">
-            Office Information
-          </h2>
-          
-          <div className="grid md:grid-cols-2 gap-12">
+          {/* Service Areas */}
+          <div className="grid md:grid-cols-4 gap-6 text-center">
             <div>
-              <h3 className="text-2xl font-semibold text-navy mb-6">Paradise Law AZ</h3>
-              <div className="space-y-4">
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                  </svg>
-                  <div>
-                    <strong className="text-navy block">Mailing Address</strong>
-                    <p className="text-gray-600">
-                      123 N Central Avenue<br />
-                      Suite 456<br />
-                      Phoenix, AZ 85004
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                  <div>
-                    <strong className="text-navy block">Phone</strong>
-                    <a href="tel:602-555-0123" className="text-gold hover:text-gold-light">
-                      (602) 555-0123
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  <div>
-                    <strong className="text-navy block">Email</strong>
-                    <a href="mailto:contact@paradiselawaz.com" className="text-gold hover:text-gold-light">
-                      contact@paradiselawaz.com
-                    </a>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <div>
-                    <strong className="text-navy block">Office Hours</strong>
-                    <p className="text-gray-600">
-                      Monday - Friday: 8:00am - 6:00pm<br />
-                      Saturday: 9:00am - 2:00pm<br />
-                      Sunday: By appointment only
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <h3 className="text-2xl font-bold text-[#f59e0b] mb-2">Phoenix</h3>
+              <p className="text-blue-100">Maricopa County</p>
             </div>
-
             <div>
-              <h3 className="text-2xl font-semibold text-navy mb-6">Virtual Consultations</h3>
-              <div className="space-y-4">
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
-                  </svg>
-                  <div>
-                    <strong className="text-navy block">Video Conferencing</strong>
-                    <p className="text-gray-600">
-                      Secure, browser-based video calls<br />
-                      No software downloads required
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                  </svg>
-                  <div>
-                    <strong className="text-navy block">Available Times</strong>
-                    <p className="text-gray-600">
-                      Evenings and weekends available<br />
-                      Early morning appointments by request
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                  </svg>
-                  <div>
-                    <strong className="text-navy block">Privacy & Security</strong>
-                    <p className="text-gray-600">
-                      HIPAA-compliant platform<br />
-                      End-to-end encryption
-                    </p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <svg className="w-6 h-6 text-gold mr-3 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
-                  </svg>
-                  <div>
-                    <strong className="text-navy block">Service Areas</strong>
-                    <p className="text-gray-600">
-                      Serving all of Arizona<br />
-                      Licensed in all Arizona courts
-                    </p>
-                  </div>
-                </div>
-              </div>
+              <h3 className="text-2xl font-bold text-[#f59e0b] mb-2">Tucson</h3>
+              <p className="text-blue-100">Pima County</p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Emergency Notice */}
-      <section className="py-12 bg-red-50">
-        <div className="container mx-auto px-4 max-w-4xl text-center">
-          <div className="flex items-center justify-center mb-4">
-            <svg className="w-8 h-8 text-red-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L5.082 16.5c-.77.833.192 2.5 1.732 2.5z" />
-            </svg>
-            <h3 className="text-xl font-semibold text-red-900">Emergency Legal Situations</h3>
-          </div>
-          <p className="text-red-800 mb-4">
-            If you are in immediate physical danger or need emergency protection, please contact:
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="tel:911" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700">
-              Call 911 - Emergency Services
-            </a>
-            <a href="tel:1-800-799-7233" className="bg-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-red-700">
-              1-800-799-SAFE - Domestic Violence Hotline
-            </a>
-          </div>
-          <p className="text-sm text-red-700 mt-4">
-            For non-emergency urgent legal matters, call our office at (602) 555-0123
-          </p>
-        </div>
-      </section>
-
-      {/* Final CTA */}
-      <section className="py-20 bg-navy">
-        <div className="container mx-auto px-4 max-w-4xl text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-            Ready to Take the Next Step?
-          </h2>
-          <p className="text-xl text-white/90 mb-8">
-            Don&apos;t navigate family law alone. Get expert guidance for your unique situation.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/book">
-              <Button size="lg" className="w-full sm:w-auto">
-                Book Your Consultation
-              </Button>
-            </Link>
-            <a href="tel:602-555-0123">
-              <Button variant="outline" size="lg" className="w-full sm:w-auto bg-white text-navy hover:bg-gray-100">
-                Call Now: (602) 555-0123
-              </Button>
-            </a>
+            <div>
+              <h3 className="text-2xl font-bold text-[#f59e0b] mb-2">Scottsdale</h3>
+              <p className="text-blue-100">Greater Phoenix Area</p>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold text-[#f59e0b] mb-2">Statewide</h3>
+              <p className="text-blue-100">Virtual Consultations</p>
+            </div>
           </div>
         </div>
       </section>

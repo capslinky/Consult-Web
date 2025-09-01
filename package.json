@@ -8,9 +8,10 @@
     "build": "next build",
     "start": "next start",
     "export": "next build && next export",
-    "lint": "eslint",
+    "lint": "eslint .",
     "type-check": "tsc --noEmit",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "prepare": "husky"
   },
   "dependencies": {
     "next": "15.5.2",
@@ -25,8 +26,18 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
     "prettier": "^3.6.2",
     "tailwindcss": "^4",
     "typescript": "5.9.2"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx,js,jsx}": [
+      "eslint --max-warnings=0 --fix"
+    ],
+    "**/*.{css,md,mdx,json}": [
+      "prettier --check"
+    ]
   }
 }

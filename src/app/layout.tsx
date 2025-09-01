@@ -40,7 +40,7 @@ export default function RootLayout({
               <div className="md:col-span-2">
                 <h3 className="text-2xl font-bold text-white mb-4">Paradise Law AZ</h3>
                 <p className="text-gray-300 mb-4 leading-relaxed max-w-md">
-                  Experienced Arizona family law attorneys providing compassionate guidance during life's most challenging times. Dedicated to helping families through divorce, custody, and financial matters.
+                  Experienced Arizona family law attorneys providing compassionate guidance during life&apos;s most challenging times. Dedicated to helping families through divorce, custody, and financial matters.
                 </p>
                 <div className="flex space-x-4">
                   <div className="flex items-center text-sm text-gray-400">

@@ -51,7 +51,7 @@ export default function AboutPage() {
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1e3a8a] mb-6">Our Mission</h2>
             <p className="text-xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-              At Paradise Law AZ, we believe every family deserves fair, compassionate legal representation during life's most difficult times. Our mission is to provide exceptional legal services while prioritizing our clients' emotional well-being and long-term family stability.
+              At Paradise Law AZ, we believe every family deserves fair, compassionate legal representation during life&apos;s most difficult times. Our mission is to provide exceptional legal services while prioritizing our clients&apos; emotional well-being and long-term family stability.
             </p>
           </div>
 
@@ -64,7 +64,7 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className="text-2xl font-semibold text-[#1e3a8a] mb-3">Compassionate Support</h3>
-              <p className="text-gray-600 leading-relaxed">We understand divorce and family conflicts are among life's most painful experiences. We approach every case with empathy while protecting your rights and future.</p>
+              <p className="text-gray-600 leading-relaxed">We understand divorce and family conflicts are among life&apos;s most painful experiences. We approach every case with empathy while protecting your rights and future.</p>
             </div>
 
             <div className="text-center">
@@ -74,7 +74,7 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className="text-2xl font-semibold text-[#1e3a8a] mb-3">Justice & Fairness</h3>
-              <p className="text-gray-600 leading-relaxed">We fight tirelessly for fair outcomes that protect your interests, financial security, and children's futures. Our record demonstrates consistent success in achieving justice.</p>
+              <p className="text-gray-600 leading-relaxed">We fight tirelessly for fair outcomes that protect your interests, financial security, and children&apos;s futures. Our record demonstrates consistent success in achieving justice.</p>
             </div>
 
             <div className="text-center">
@@ -84,7 +84,7 @@ export default function AboutPage() {
                 </svg>
               </div>
               <h3 className="text-2xl font-semibold text-[#1e3a8a] mb-3">Family-Focused</h3>
-              <p className="text-gray-600 leading-relaxed">We prioritize solutions that support long-term family stability and healthy relationships, particularly when children are involved. Our approach considers the whole family's future.</p>
+              <p className="text-gray-600 leading-relaxed">We prioritize solutions that support long-term family stability and healthy relationships, particularly when children are involved. Our approach considers the whole family&apos;s future.</p>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function AboutPage() {
                 <div className="text-center md:text-left flex-1">
                   <h2 className="text-3xl font-bold mb-2">Attorney Paradise</h2>
                   <p className="text-blue-100 text-lg mb-3">Licensed Arizona Family Law Attorney</p>
-                  <p className="text-blue-200 max-w-2xl">Dedicated to providing compassionate, professional legal guidance to Arizona families during life's most challenging transitions.</p>
+                  <p className="text-blue-200 max-w-2xl">Dedicated to providing compassionate, professional legal guidance to Arizona families during life&apos;s most challenging transitions.</p>
                 </div>
               </div>
             </div>
@@ -205,13 +205,13 @@ export default function AboutPage() {
               <h3 className="text-2xl font-semibold text-[#1e3a8a] mb-6">Comprehensive Legal Services</h3>
               <div className="space-y-4">
                 <p className="text-gray-700 leading-relaxed">
-                  For over 15 years, we've helped Arizona families navigate divorce, custody, and financial matters with professionalism and care. Every client receives personalized attention and comprehensive representation.
+                  For over 15 years, we&apos;ve helped Arizona families navigate divorce, custody, and financial matters with professionalism and care. Every client receives personalized attention and comprehensive representation.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
                   Our practice is built on the foundation of strong attorney-client relationships. We take the time to understand your unique situation and work tirelessly to protect your interests and achieve the best possible outcomes.
                 </p>
                 <p className="text-gray-700 leading-relaxed">
-                  Whether you're seeking a collaborative divorce, preparing for trial, or need guidance through mediation, our experienced team provides the support and expertise you need during these challenging times.
+                  Whether you&apos;re seeking a collaborative divorce, preparing for trial, or need guidance through mediation, our experienced team provides the support and expertise you need during these challenging times.
                 </p>
               </div>
             </div>
@@ -226,7 +226,7 @@ export default function AboutPage() {
 
                 <div className="bg-[#f8fafc] rounded-lg p-6 border-l-4 border-[#f59e0b]">
                   <h4 className="font-semibold text-[#1e3a8a] mb-2">Proven Results</h4>
-                  <p className="text-gray-600">Consistent success protecting our clients' rights and reaching favorable outcomes</p>
+                  <p className="text-gray-600">Consistent success protecting our clients&apos; rights and reaching favorable outcomes</p>
                 </div>
 
                 <div className="bg-[#f8fafc] rounded-lg p-6 border-l-4 border-[#10b981]">
@@ -249,7 +249,7 @@ export default function AboutPage() {
         <div className="container mx-auto max-w-4xl text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Experience the Paradise Law AZ Difference</h2>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Schedule your confidential $500 consultation today and discover how we can help protect your family's future.
+            Schedule your confidential $500 consultation today and discover how we can help protect your family&apos;s future.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -309,7 +309,7 @@ export default function AboutPage() {
                 ))}
               </div>
               <p className="text-gray-700 italic mb-4">
-                "Attorney Paradise provided exceptional guidance during our divorce. Professional, compassionate, and always available. Highly recommend."
+                &ldquo;Attorney Paradise provided exceptional guidance during our divorce. Professional, compassionate, and always available. Highly recommend.&rdquo;
               </p>
               <div className="flex items-center">
                 <div className="w-8 h-8 bg-[#1e3a8a] rounded-full flex items-center justify-center text-white font-semibold mr-3">
@@ -331,7 +331,7 @@ export default function AboutPage() {
                 ))}
               </div>
               <p className="text-gray-700 italic mb-4">
-                "During one of the most difficult times in our family, Paradise Law AZ provided clear direction and got us through it. Outstanding results."
+                &ldquo;During one of the most difficult times in our family, Paradise Law AZ provided clear direction and got us through it. Outstanding results.&rdquo;
               </p>
               <div className="flex items-center">
                 <div className="w-8 h-8 bg-[#1e3a8a] rounded-full flex items-center justify-center text-white font-semibold mr-3">
@@ -353,7 +353,7 @@ export default function AboutPage() {
                 ))}
               </div>
               <p className="text-gray-700 italic mb-4">
-                "The team understood our military family's unique situation. They fought for fair property division and protected our children's future."
+                &ldquo;The team understood our military family&apos;s unique situation. They fought for fair property division and protected our children&apos;s future.&rdquo;
               </p>
               <div className="flex items-center">
                 <div className="w-8 h-8 bg-[#1e3a8a] rounded-full flex items-center justify-center text-white font-semibold mr-3">

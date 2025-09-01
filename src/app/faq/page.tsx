@@ -85,7 +85,7 @@ export default function FAQPage() {
           </h1>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl mx-auto">
             Get answers to the most common questions about family law in Arizona.
-            We're here to help you understand your options and make informed decisions.
+            We&apos;re here to help you understand your options and make informed decisions.
           </p>
 
           {/* Quick Stats */}

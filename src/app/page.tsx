@@ -1,4 +1,3 @@
-import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
 
 export default function Home() {
@@ -103,7 +102,7 @@ export default function Home() {
                 </svg>
               </div>
               <h4 className="text-xl font-semibold mb-3 text-[#1e3a8a]">Money-Back Guarantee</h4>
-              <p className="text-gray-600 leading-relaxed">100% satisfaction guaranteed. If you're not completely satisfied, we refund your consultation fee</p>
+              <p className="text-gray-600 leading-relaxed">100% satisfaction guaranteed. If you&apos;re not completely satisfied, we refund your consultation fee</p>
             </div>
           </div>
 

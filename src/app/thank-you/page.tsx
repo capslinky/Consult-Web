@@ -59,7 +59,7 @@ export default function ThankYouPage() {
         {/* Next Steps */}
         <div className="bg-white rounded-xl shadow-lg p-8 mb-8">
           <h3 className="text-2xl font-bold text-[#1e3a8a] mb-6 text-center">
-            What's Next?
+            What&apos;s Next?
           </h3>
 
           <div className="grid md:grid-cols-3 gap-8">

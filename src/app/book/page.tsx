@@ -211,7 +211,7 @@ export default function BookPage() {
               <div className="bg-gray-100 rounded-xl p-6">
                 <h3 className="text-lg font-bold text-[#1e3a8a] mb-3">Have Questions Before Booking?</h3>
                 <p className="text-gray-600 text-sm mb-4">
-                  We're here to help! Reach out if you have any questions before scheduling your consultation.
+                  We&apos;re here to help! Reach out if you have any questions before scheduling your consultation.
                 </p>
                 <Link
                   href="/contact"
@@ -282,7 +282,7 @@ export default function BookPage() {
           </h2>
           <div className="space-y-6">
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold text-[#1e3a8a] mb-3">What's included in the $500 consultation?</h3>
+              <h3 className="text-lg font-semibold text-[#1e3a8a] mb-3">What&apos;s included in the $500 consultation?</h3>
               <p className="text-gray-600">
                 Your virtual consultation includes a full 30-minute discussion about your legal situation,
                 personalized strategy development, timeline planning, and follow-up email support.
@@ -293,14 +293,14 @@ export default function BookPage() {
               <h3 className="text-lg font-semibold text-[#1e3a8a] mb-3">Do I need to prepare anything?</h3>
               <p className="text-gray-600">
                 Simply have your calendar ready to book a time that works best for you.
-                Bring any questions you have - that's what we're here for!
+                Bring any questions you have - that&apos;s what we&apos;re here for!
               </p>
             </div>
 
             <div className="bg-white rounded-lg shadow-sm p-6">
-              <h3 className="text-lg font-semibold text-[#1e3a8a] mb-3">What if I'm not satisfied with my consultation?</h3>
+              <h3 className="text-lg font-semibold text-[#1e3a8a] mb-3">What if I&apos;m not satisfied with my consultation?</h3>
               <p className="text-gray-600">
-                Your satisfaction is guaranteed. If you're not completely satisfied with your consultation,
+                Your satisfaction is guaranteed. If you&apos;re not completely satisfied with your consultation,
                 we offer a full refund of the $500 rate.
               </p>
             </div>
@@ -322,6 +322,13 @@ export default function BookPage() {
 // Extend window interface for Calendly
 declare global {
   interface Window {
-    Calendly?: any;
+    Calendly?: {
+      initInlineWidget: (options: {
+        url: string;
+        parentElement: HTMLElement | null;
+        prefill: Record<string, unknown>;
+        utm: Record<string, unknown>;
+      }) => void;
+    };
   }
 }

@@ -31,7 +31,7 @@ export default function TermsPage() {
           <div>
             <h2 className="text-2xl font-bold text-[#1e3a8a] mb-4">Agreement to Terms</h2>
             <p className="text-gray-700 mb-4">
-              Welcome to Paradise Law AZ. These Terms of Service ("Terms") constitute a legally binding agreement between you and Paradise Law AZ ("we," "us," or "our") regarding your use of our website and services.
+              Welcome to Paradise Law AZ. These Terms of Service (&ldquo;Terms&rdquo;) constitute a legally binding agreement between you and Paradise Law AZ (&ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) regarding your use of our website and services.
             </p>
             <p className="text-gray-700">
               By accessing or using our website, booking consultations, or purchasing services, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy.

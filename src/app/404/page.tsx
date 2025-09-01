@@ -1,3 +1,5 @@
+'use client';
+
 import Link from 'next/link';
 
 export default function NotFoundPage() {
@@ -17,10 +19,10 @@ export default function NotFoundPage() {
 
         {/* Message */}
         <h1 className="text-3xl md:text-5xl font-bold text-[#1e3a8a] mb-4">
-          Oops! This page doesn't exist
+          Oops! This page doesn&apos;t exist
         </h1>
         <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg mx-auto">
-          We can't find the page you're looking for. It might have been moved,
+          We can&apos;t find the page you&apos;re looking for. It might have been moved,
           deleted, or you entered the wrong URL.
         </p>
 
@@ -135,7 +137,7 @@ export default function NotFoundPage() {
         <div className="mt-12 bg-[#f8fafc] rounded-xl p-8 max-w-2xl mx-auto">
           <h3 className="text-xl font-bold text-[#1e3a8a] mb-3">Still Need Help?</h3>
           <p className="text-gray-600 mb-4">
-            Can't find what you're looking for? We're here to help.
+            Can&apos;t find what you&apos;re looking for? We&apos;re here to help.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a

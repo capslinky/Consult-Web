@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "Grandparents' Rights in Arizona | Paradise Law AZ",
   description:
     "Understand visitation and third-party rights for grandparents in Arizona. Learn options under in loco parentis and how courts decide.",
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/custody/grandparents-rights/` },
+  openGraph: {
+    title: "Grandparents' Rights in Arizona | Paradise Law AZ",
+    description: "Visitation and third-party rights for grandparents in Arizona.",
+    type: "article",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/custody/grandparents-rights/`,
+  },
 };
 
 export default function GrandparentsRightsPage() {

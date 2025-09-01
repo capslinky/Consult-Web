@@ -4,6 +4,13 @@ export const metadata: Metadata = {
   title: "Downloadable Guides | Paradise Law AZ",
   description:
     "Checklists and preparation guides for Arizona family law matters. Free downloads coming soon.",
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/resources/guides/` },
+  openGraph: {
+    title: "Downloadable Guides | Paradise Law AZ",
+    description: "Checklists and preparation guides.",
+    type: "website",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/resources/guides/`,
+  },
 };
 
 export default function GuidesIndex() {
@@ -23,4 +30,3 @@ export default function GuidesIndex() {
     </main>
   );
 }
-

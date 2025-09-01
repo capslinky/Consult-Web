@@ -159,14 +159,14 @@ export default function AboutPage() {
                 <div>
                   <h3 className="text-2xl font-semibold text-[#1e3a8a] mb-4">Practice Areas</h3>
                   <div className="space-y-3">
-                    <Link href="/practice-areas/divorce" className="flex items-center justify-between p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors">
+                    <Link href="/practice-areas/divorce/" className="flex items-center justify-between p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors">
                       <span className="font-medium text-gray-800">Divorce & Family Law</span>
                       <svg className="w-5 h-5 text-[#3b82f6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
                       </svg>
                     </Link>
 
-                    <Link href="/practice-areas/custody" className="flex items-center justify-between p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors">
+                    <Link href="/practice-areas/custody/" className="flex items-center justify-between p-4 bg-gray-50 hover:bg-gray-100 rounded-lg transition-colors">
                       <span className="font-medium text-gray-800">Child Custody & Support</span>
                       <svg className="w-5 h-5 text-[#3b82f6]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
@@ -254,7 +254,7 @@ export default function AboutPage() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/book"
+              href="/book/"
               className="bg-[#f59e0b] hover:bg-[#d97706] px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-200 inline-flex items-center justify-center gap-3"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -267,7 +267,7 @@ export default function AboutPage() {
             </Link>
 
             <Link
-              href="/contact"
+              href="/contact/"
               className="bg-white text-[#1e3a8a] hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-200 inline-flex items-center justify-center gap-3"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -368,7 +368,7 @@ export default function AboutPage() {
           </div>
 
           <div className="text-center mt-8">
-            <Link href="/resources" className="text-[#3b82f6] hover:text-[#2563eb] font-semibold">
+            <Link href="/resources/" className="text-[#3b82f6] hover:text-[#2563eb] font-semibold">
               Read more client testimonials →
             </Link>
           </div>

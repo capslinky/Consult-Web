@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "Enforcement & Contempt Actions | Paradise Law AZ",
   description:
     "Enforce Arizona family court orders through contempt, wage garnishment, and asset seizure options.",
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/special/enforcement/` },
+  openGraph: {
+    title: "Enforcement & Contempt Actions | Paradise Law AZ",
+    description: "Enforcement of family court orders in Arizona.",
+    type: "article",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/special/enforcement/`,
+  },
 };
 
 export default function EnforcementPage() {

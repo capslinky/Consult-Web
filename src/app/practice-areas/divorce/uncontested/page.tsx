@@ -23,12 +23,12 @@ export default function UncontestedDivorcePage() {
               When you and your spouse agree on the terms, an uncontested divorce can be completed quickly and affordably. Get expert guidance to ensure everything is done correctly.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link href="/book">
+              <Link href="/book/">
                 <Button size="lg" className="w-full sm:w-auto">
                   Book Your $500 Consultation
                 </Button>
               </Link>
-              <Link href="/pricing">
+              <Link href="/pricing/">
                 <Button variant="outline" size="lg" className="w-full sm:w-auto bg-white text-[#1e3a8a] hover:bg-gray-100">
                   View Pricing
                 </Button>
@@ -458,7 +458,7 @@ export default function UncontestedDivorcePage() {
               <p className="text-red-800 mb-4">
                 If any of these situations apply, you may need a contested divorce or additional legal protection.
               </p>
-              <Link href="/practice-areas/divorce/contested">
+              <Link href="/practice-areas/divorce/contested/">
                 <Button variant="outline" className="border-red-600 text-red-600 hover:bg-red-600 hover:text-white">
                   Learn About Contested Divorce
                 </Button>
@@ -478,12 +478,12 @@ export default function UncontestedDivorcePage() {
             Get expert guidance to ensure your uncontested divorce is completed correctly and efficiently.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/book">
+            <Link href="/book/">
               <Button size="lg" className="w-full sm:w-auto">
                 Book Your $500 Consultation
               </Button>
             </Link>
-            <Link href="/contact">
+            <Link href="/contact/">
               <Button variant="outline" size="lg" className="w-full sm:w-auto bg-white text-[#1e3a8a] hover:bg-gray-100">
                 Ask a Question
               </Button>
@@ -491,7 +491,7 @@ export default function UncontestedDivorcePage() {
           </div>
           <p className="text-white/80 mt-8">
             Questions? Call <a href="tel:602-555-0123" className="text-[#f59e0b] hover:text-[#f59e0b]/80 underline">602-555-0123</a> or{' '}
-            <Link href="/contact" className="text-[#f59e0b] hover:text-[#f59e0b]/80 underline">
+            <Link href="/contact/" className="text-[#f59e0b] hover:text-[#f59e0b]/80 underline">
               contact us online
             </Link>
           </p>
@@ -511,7 +511,7 @@ export default function UncontestedDivorcePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/practice-areas/divorce/contested" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Link href="/practice-areas/divorce/contested/" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold text-[#1e3a8a] mb-3">Contested Divorce</h3>
               <p className="text-gray-600 mb-4">
                 When spouses cannot agree on terms and need court intervention.

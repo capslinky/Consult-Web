@@ -4,6 +4,13 @@ export const metadata: Metadata = {
   title: "Client Testimonials | Paradise Law AZ",
   description:
     "Testimonials and client stories from Arizona family law matters. Social proof and outcomes.",
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/resources/testimonials/` },
+  openGraph: {
+    title: "Client Testimonials | Paradise Law AZ",
+    description: "Client stories and outcomes.",
+    type: "website",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/resources/testimonials/`,
+  },
 };
 
 export default function TestimonialsIndex() {
@@ -23,4 +30,3 @@ export default function TestimonialsIndex() {
     </main>
   );
 }
-

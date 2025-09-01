@@ -1,4 +1,17 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Resources | Paradise Law AZ',
+  description: 'Resource hub: legal guides, blog articles, testimonials, and FAQs for Arizona family law.',
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://azfamilylaw.wiki'}/resources/` },
+  openGraph: {
+    title: 'Resources | Paradise Law AZ',
+    description: 'Legal guides, articles, testimonials, and FAQs for Arizona family law.',
+    type: 'website',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://azfamilylaw.wiki'}/resources/`,
+  },
+};
 
 interface ResourceItem {
   title: string;
@@ -257,7 +270,7 @@ export default function ResourcesPage() {
               <p className="text-gray-600">Stay informed with the latest Arizona family law updates</p>
             </div>
             <Link
-              href="/resources/blog"
+              href="/resources/blog/"
               className="text-[#3b82f6] hover:text-[#f59e0b] font-medium"
             >
               View All Posts →
@@ -380,13 +393,13 @@ export default function ResourcesPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/book"
+              href="/book/"
               className="bg-[#f59e0b] text-white hover:bg-[#d97706] px-8 py-4 rounded-lg font-semibold shadow-md hover:shadow-lg transition-all duration-200"
             >
               Schedule Your Consultation
             </Link>
             <Link
-              href="/contact"
+              href="/contact/"
               className="bg-white text-[#3b82f6] border-2 border-[#3b82f6] hover:bg-[#3b82f6] hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200"
             >
               Get Free Advice

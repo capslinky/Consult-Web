@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "Domestic Violence & Protection Orders | Paradise Law AZ",
   description:
     "Orders of protection, emergency orders, and safety planning in Arizona family cases.",
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/special/domestic-violence/` },
+  openGraph: {
+    title: "Domestic Violence & Protection Orders | Paradise Law AZ",
+    description: "Protection orders and safety planning in Arizona.",
+    type: "article",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/special/domestic-violence/`,
+  },
 };
 
 export default function DomesticViolencePage() {

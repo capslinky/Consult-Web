@@ -4,6 +4,13 @@ export const metadata: Metadata = {
   title: "Frequently Asked Questions | Paradise Law AZ",
   description:
     "Clear answers to common questions about Arizona family law and our virtual consultations.",
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/resources/faq/` },
+  openGraph: {
+    title: "Frequently Asked Questions | Paradise Law AZ",
+    description: "Common questions and helpful answers.",
+    type: "website",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/resources/faq/`,
+  },
 };
 
 export default function FAQIndex() {
@@ -23,4 +30,3 @@ export default function FAQIndex() {
     </main>
   );
 }
-

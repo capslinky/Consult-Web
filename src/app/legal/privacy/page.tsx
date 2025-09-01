@@ -1,4 +1,18 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy | Paradise Law AZ',
+  description: 'Privacy practices for paradiselawaz.com and virtual consultations.',
+  robots: { index: true, follow: true },
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://azfamilylaw.wiki'}/legal/privacy/` },
+  openGraph: {
+    title: 'Privacy Policy | Paradise Law AZ',
+    description: 'Privacy practices for Paradise Law AZ.',
+    type: 'article',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://azfamilylaw.wiki'}/legal/privacy/`,
+  },
+};
 
 export default function PrivacyPage() {
   return (
@@ -21,7 +35,7 @@ export default function PrivacyPage() {
         <div className="mb-8">
           <Link href="/" className="text-[#3b82f6] hover:text-[#2563eb]">Home</Link>
           <span className="mx-2 text-gray-400">→</span>
-          <Link href="/legal" className="text-[#3b82f6] hover:text-[#2563eb]">Legal</Link>
+          <Link href="/legal/" className="text-[#3b82f6] hover:text-[#2563eb]">Legal</Link>
           <span className="mx-2 text-gray-400">→</span>
           <span className="text-gray-600">Privacy Policy</span>
         </div>

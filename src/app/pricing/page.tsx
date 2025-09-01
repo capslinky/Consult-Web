@@ -102,7 +102,7 @@ export default function PricingPage() {
               </div>
 
               <div className="mb-8">
-                <Link href="/book">
+                <Link href="/book/">
                   <Button size="lg" className="w-full sm:w-auto">
                     Book Your Consultation Now
                   </Button>
@@ -396,12 +396,12 @@ export default function PricingPage() {
             $500 for expert legal guidance that could save you thousands in mistakes and stress
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/book">
+            <Link href="/book/">
               <Button size="lg" className="w-full sm:w-auto">
                 Book Your $500 Consultation
               </Button>
             </Link>
-            <Link href="/how-it-works">
+            <Link href="/how-it-works/">
               <Button variant="outline" size="lg" className="w-full sm:w-auto bg-white text-navy hover:bg-gray-100">
                 How It Works
               </Button>

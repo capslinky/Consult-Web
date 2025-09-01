@@ -180,7 +180,7 @@ export default function ContactPage() {
                 <h3 className="text-2xl font-bold text-[#1e3a8a] mb-6">Quick Actions</h3>
                 <div className="space-y-4">
                   <Link
-                    href="/book"
+                    href="/book/"
                     className="flex items-center gap-4 p-4 bg-[#3b82f6]/10 hover:bg-[#3b82f6]/20 rounded-lg transition-colors group"
                   >
                     <div className="w-12 h-12 bg-[#3b82f6] rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -198,7 +198,7 @@ export default function ContactPage() {
                   </Link>
 
                   <Link
-                    href="/resources"
+                    href="/resources/"
                     className="flex items-center gap-4 p-4 bg-[#10b981]/10 hover:bg-[#10b981]/20 rounded-lg transition-colors group"
                   >
                     <div className="w-12 h-12 bg-[#10b981] rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform">

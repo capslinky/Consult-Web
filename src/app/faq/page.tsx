@@ -182,7 +182,7 @@ export default function FAQPage() {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/book"
+                href="/book/"
                 className="bg-[#f59e0b] hover:bg-[#d97706] px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-200 inline-flex items-center justify-center gap-3"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -195,7 +195,7 @@ export default function FAQPage() {
               </Link>
 
               <Link
-                href="/contact"
+                href="/contact/"
                 className="bg-white text-[#1e3a8a] hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl transition-all duration-200 inline-flex items-center justify-center gap-3"
               >
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -237,7 +237,7 @@ export default function FAQPage() {
               </div>
               <h4 className="text-xl font-semibold text-[#1e3a8a] mb-3">Legal Resources</h4>
               <p className="text-gray-600 mb-4">Free guides and articles to help you understand your rights</p>
-              <Link href="/resources" className="text-[#3b82f6] hover:text-[#2563eb] font-medium">
+              <Link href="/resources/" className="text-[#3b82f6] hover:text-[#2563eb] font-medium">
                 Browse Resources →
               </Link>
             </div>
@@ -263,7 +263,7 @@ export default function FAQPage() {
               </div>
               <h4 className="text-xl font-semibold text-[#1e3a8a] mb-3">Quick Consultation</h4>
               <p className="text-gray-600 mb-4">$500 virtual meeting to discuss your specific situation</p>
-              <Link href="/book" className="text-[#10b981] font-medium">
+              <Link href="/book/" className="text-[#10b981] font-medium">
                 Schedule Now →
               </Link>
             </div>

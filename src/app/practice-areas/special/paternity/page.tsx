@@ -6,6 +6,13 @@ export const metadata: Metadata = {
   title: "Paternity & Parentage in Arizona | Paradise Law AZ",
   description:
     "Establish parentage, rights, and responsibilities in Arizona paternity cases, including genetic testing.",
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/special/paternity/` },
+  openGraph: {
+    title: "Paternity & Parentage in Arizona | Paradise Law AZ",
+    description: "Establish parentage, rights, and responsibilities.",
+    type: "article",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/special/paternity/`,
+  },
 };
 
 export default function PaternityPage() {

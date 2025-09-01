@@ -27,13 +27,13 @@ export default function RetirementInvestmentAccountsPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/book"
+                href="/book/"
                 className="inline-flex items-center px-8 py-4 bg-gold text-navy font-semibold rounded-lg hover:bg-yellow-400 transition-colors duration-200"
               >
                 Book Virtual Consultation - $500
               </Link>
               <Link
-                href="/contact"
+                href="/contact/"
                 className="inline-flex items-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-navy transition-colors duration-200"
               >
                 Free Retirement Account Review
@@ -406,7 +406,7 @@ export default function RetirementInvestmentAccountsPage() {
           <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">Related Practice Areas</h2>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/practice-areas/financial/property-division" className="group">
+            <Link href="/practice-areas/financial/property-division/" className="group">
               <div className="bg-white rounded-lg shadow-md p-6 h-full hover:shadow-lg transition-shadow duration-200">
                 <div className="w-12 h-12 bg-light-blue rounded-full flex items-center justify-center mb-4">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -418,7 +418,7 @@ export default function RetirementInvestmentAccountsPage() {
               </div>
             </Link>
             
-            <Link href="/practice-areas/financial/business-valuation" className="group">
+            <Link href="/practice-areas/financial/business-valuation/" className="group">
               <div className="bg-white rounded-lg shadow-md p-6 h-full hover:shadow-lg transition-shadow duration-200">
                 <div className="w-12 h-12 bg-light-blue rounded-full flex items-center justify-center mb-4">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -430,7 +430,7 @@ export default function RetirementInvestmentAccountsPage() {
               </div>
             </Link>
             
-            <Link href="/practice-areas/financial/child-support-spousal-support" className="group">
+            <Link href="/practice-areas/financial/child-support-spousal-support/" className="group">
               <div className="bg-white rounded-lg shadow-md p-6 h-full hover:shadow-lg transition-shadow duration-200">
                 <div className="w-12 h-12 bg-light-blue rounded-full flex items-center justify-center mb-4">
                   <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">

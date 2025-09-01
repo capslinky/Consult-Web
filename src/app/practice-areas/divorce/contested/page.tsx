@@ -549,7 +549,7 @@ export default function ContestedDivorcePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <Link href="/practice-areas/divorce/uncontested" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Link href="/practice-areas/divorce/uncontested/" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold text-navy mb-3">Uncontested Divorce</h3>
               <p className="text-gray-600 mb-4">
                 When both spouses agree on all terms of divorce.
@@ -565,7 +565,7 @@ export default function ContestedDivorcePage() {
               <span className="text-gold font-semibold">Learn more →</span>
             </Link>
 
-            <Link href="/practice-areas/financial/child-support-spousal-support" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
+            <Link href="/practice-areas/financial/child-support-spousal-support/" className="block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold text-navy mb-3">Spousal Maintenance</h3>
               <p className="text-gray-600 mb-4">
                 Alimony and spousal support arrangements.

@@ -5,6 +5,13 @@ export const metadata: Metadata = {
   title: "Practice Areas | Paradise Law AZ",
   description:
     "Explore our Arizona family law practice areas: divorce, child custody, financial matters, and special circumstances.",
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/` },
+  openGraph: {
+    title: "Practice Areas | Paradise Law AZ",
+    description: "Divorce, custody, financial matters, special circumstances.",
+    type: "website",
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/`,
+  },
 };
 
 const sections = [
@@ -90,4 +97,3 @@ export default function PracticeAreasIndex() {
     </main>
   );
 }
-

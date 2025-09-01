@@ -60,7 +60,7 @@ export default function NotFoundPage() {
           </Link>
 
           <Link
-            href="/resources"
+            href="/resources/"
             className="bg-white text-[#3b82f6] border-2 border-[#3b82f6] hover:bg-[#3b82f6] hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 inline-flex items-center justify-center gap-2"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
@@ -80,16 +80,16 @@ export default function NotFoundPage() {
               <h3 className="font-semibold text-[#1e3a8a] text-sm uppercase tracking-wide mb-3">
                 Services
               </h3>
-              <Link href="/practice-areas/divorce" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
+              <Link href="/practice-areas/divorce/" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
                 Divorce Law
               </Link>
-              <Link href="/practice-areas/custody" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
+              <Link href="/practice-areas/custody/" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
                 Child Custody
               </Link>
-              <Link href="/practice-areas/financial" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
+              <Link href="/practice-areas/financial/" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
                 Property Division
               </Link>
-              <Link href="/services" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
+              <Link href="/services/" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
                 All Practice Areas
               </Link>
             </div>
@@ -98,16 +98,16 @@ export default function NotFoundPage() {
               <h3 className="font-semibold text-[#1e3a8a] text-sm uppercase tracking-wide mb-3">
                 Resources
               </h3>
-              <Link href="/resources/guides" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
+              <Link href="/resources/guides/" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
                 Legal Guides
               </Link>
-              <Link href="/resources/blog" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
+              <Link href="/resources/blog/" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
                 Legal Blog
               </Link>
-              <Link href="/resources/testimonials" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
+              <Link href="/resources/testimonials/" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
                 Client Stories
               </Link>
-              <Link href="/resources/faq" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
+              <Link href="/resources/faq/" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
                 FAQ
               </Link>
             </div>
@@ -116,13 +116,13 @@ export default function NotFoundPage() {
               <h3 className="font-semibold text-[#1e3a8a] text-sm uppercase tracking-wide mb-3">
                 Quick Help
               </h3>
-              <Link href="/book" className="block text-gray-600 hover:text-[#f59e0b] py-1 text-sm font-medium">
+              <Link href="/book/" className="block text-gray-600 hover:text-[#f59e0b] py-1 text-sm font-medium">
                 Book Consultation
               </Link>
-              <Link href="/contact" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
+              <Link href="/contact/" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
                 Contact Us
               </Link>
-              <Link href="/about" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
+              <Link href="/about/" className="block text-gray-600 hover:text-[#3b82f6] py-1 text-sm">
                 About Attorney
               </Link>
               <div className="border-t border-gray-200 pt-2 mt-3">
@@ -150,7 +150,7 @@ export default function NotFoundPage() {
               Call Us Now
             </a>
             <Link
-              href="/contact"
+              href="/contact/"
               className="bg-[#3b82f6] text-white hover:bg-[#2563eb] px-6 py-3 rounded-lg font-medium transition-colors inline-flex items-center justify-center gap-2"
             >
               <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">

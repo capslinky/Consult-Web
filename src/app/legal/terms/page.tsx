@@ -1,4 +1,17 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Terms of Service | Paradise Law AZ',
+  description: 'Website and service terms for Paradise Law AZ.',
+  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://azfamilylaw.wiki'}/legal/terms/` },
+  openGraph: {
+    title: 'Terms of Service | Paradise Law AZ',
+    description: 'Website and service terms for Paradise Law AZ.',
+    type: 'article',
+    url: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://azfamilylaw.wiki'}/legal/terms/`,
+  },
+};
 
 export default function TermsPage() {
   return (
@@ -21,7 +34,7 @@ export default function TermsPage() {
         <div className="mb-8">
           <Link href="/" className="text-[#3b82f6] hover:text-[#2563eb]">Home</Link>
           <span className="mx-2 text-gray-400">→</span>
-          <Link href="/legal" className="text-[#3b82f6] hover:text-[#2563eb]">Legal</Link>
+          <Link href="/legal/" className="text-[#3b82f6] hover:text-[#2563eb]">Legal</Link>
           <span className="mx-2 text-gray-400">→</span>
           <span className="text-gray-600">Terms of Service</span>
         </div>

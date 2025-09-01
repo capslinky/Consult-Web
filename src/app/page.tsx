@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { LinkButton } from '@/components/ui/LinkButton';
 
 export default function Home() {
   return (
@@ -45,12 +46,12 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
-            <Link href="/book" className="bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-8 py-4 text-lg font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
+            <LinkButton href="/book/" variant="primary" size="lg">
               Book Your Consultation Today
-            </Link>
-            <Link href="/how-it-works" className="bg-[#3b82f6] text-white hover:bg-[#2563eb] focus:ring-2 focus:ring-[#3b82f6] focus:ring-offset-2 px-8 py-4 text-lg font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
+            </LinkButton>
+            <LinkButton href="/how-it-works/" variant="secondary" size="lg">
               Learn How It Works
-            </Link>
+            </LinkButton>
           </div>
 
           {/* Urgency Element */}
@@ -267,9 +268,9 @@ export default function Home() {
         <div className="container mx-auto text-center">
           <h3 className="text-3xl font-bold mb-4">Ready to Get Started?</h3>
           <p className="text-xl mb-8">Schedule your consultation today and get the legal guidance you need.</p>
-          <Link href="/book" className="bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-8 py-4 text-lg font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
+          <LinkButton href="/book/" variant="primary" size="lg">
             Book Your Consultation Now
-          </Link>
+          </LinkButton>
         </div>
       </section>
     </>

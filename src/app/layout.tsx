@@ -33,8 +33,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased">
+        <a href="#content" className="skip-link">Skip to content</a>
         <Header />
-        <main className="min-h-screen">{children}</main>
+        <main id="content" role="main" className="min-h-screen">{children}</main>
         <footer className="bg-gray-800 text-white py-16 px-4">
           <div className="container mx-auto max-w-6xl">
             {/* Main Footer Content */}

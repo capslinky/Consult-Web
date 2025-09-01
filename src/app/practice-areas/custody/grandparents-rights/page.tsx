@@ -18,6 +18,16 @@ export default function GrandparentsRightsPage() {
           </p>
         </div>
       </section>
+      <div className="container mx-auto px-4 max-w-5xl mt-6">
+        <Breadcrumb
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Practice Areas', href: '/practice-areas/' },
+            { label: 'Child Custody & Parenting', href: '/practice-areas/custody/' },
+            { label: "Grandparents' Rights" },
+          ]}
+        />
+      </div>
       <section className="py-16">
         <div className="container mx-auto px-4 max-w-4xl space-y-6">
           <p className="text-gray-700">
@@ -30,6 +40,7 @@ export default function GrandparentsRightsPage() {
             <li>Visitation requests after divorce, death, or if a child was born outside marriage</li>
             <li>In loco parentis claims based on a meaningful parental relationship</li>
             <li>Best interests factors and evidentiary standards</li>
+import { Breadcrumb } from '@/components/ui/Breadcrumb';
           </ul>
           <div className="flex gap-4 pt-4">
             <Link href="/book/" className="bg-gold text-white hover:bg-gold-dark px-6 py-3 rounded-md font-semibold">Book Consultation</Link>

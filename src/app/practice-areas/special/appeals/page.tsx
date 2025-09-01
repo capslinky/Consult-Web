@@ -16,11 +16,22 @@ export default function AppealsPage() {
           <p className="text-xl text-white/90">Challenging and refining court orders</p>
         </div>
       </section>
+      <div className="container mx-auto px-4 max-w-5xl mt-6">
+        <Breadcrumb
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Practice Areas', href: '/practice-areas/' },
+            { label: 'Special Circumstances', href: '/practice-areas/special/' },
+            { label: 'Appeals & Post-Decree' },
+          ]}
+        />
+      </div>
       <section className="py-16">
         <div className="container mx-auto px-4 max-w-4xl space-y-6">
           <p className="text-gray-700">
             We evaluate grounds for appeal, deadlines, and the likelihood of success, as well as
             pursue modifications or relief from judgment when circumstances change.
+import { Breadcrumb } from '@/components/ui/Breadcrumb';
           </p>
           <div className="flex gap-4 pt-4">
             <Link href="/book/" className="bg-gold text-white hover:bg-gold-dark px-6 py-3 rounded-md font-semibold">Book Consultation</Link>
@@ -31,4 +42,3 @@ export default function AppealsPage() {
     </main>
   );
 }
-

@@ -16,11 +16,22 @@ export default function MediationPage() {
           <p className="text-xl text-white/90">Practical paths to settlement</p>
         </div>
       </section>
+      <div className="container mx-auto px-4 max-w-5xl mt-6">
+        <Breadcrumb
+          items={[
+            { label: 'Home', href: '/' },
+            { label: 'Practice Areas', href: '/practice-areas/' },
+            { label: 'Special Circumstances', href: '/practice-areas/special/' },
+            { label: 'Mediation & ADR' },
+          ]}
+        />
+      </div>
       <section className="py-16">
         <div className="container mx-auto px-4 max-w-4xl space-y-6">
           <p className="text-gray-700">
             We guide clients through confidential mediation and collaborative processes designed to
             reduce conflict, costs, and timelines, while maintaining control over outcomes.
+import { Breadcrumb } from '@/components/ui/Breadcrumb';
           </p>
           <div className="flex gap-4 pt-4">
             <Link href="/book/" className="bg-gold text-white hover:bg-gold-dark px-6 py-3 rounded-md font-semibold">Book Consultation</Link>
@@ -31,4 +42,3 @@ export default function MediationPage() {
     </main>
   );
 }
-

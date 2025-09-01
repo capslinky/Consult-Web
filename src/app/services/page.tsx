@@ -46,8 +46,8 @@ export default function ServicesPage() {
                 <li>• High-asset divorce</li>
                 <li>• Military divorce</li>
               </ul>
-              <Button variant="outline" size="sm" className="w-full">
-                Learn More
+              <Button variant="outline" size="sm" className="w-full" aria-label="Explore divorce services">
+                Explore Divorce Services
               </Button>
             </div>
 
@@ -61,8 +61,8 @@ export default function ServicesPage() {
                 <li>• Relocation cases</li>
                 <li>• Grandparents&apos; rights</li>
               </ul>
-              <Button variant="outline" size="sm" className="w-full">
-                Learn More
+              <Button variant="outline" size="sm" className="w-full" aria-label="Explore child custody services">
+                Explore Child Custody Services
               </Button>
             </div>
 
@@ -76,8 +76,8 @@ export default function ServicesPage() {
                 <li>• Prenuptial agreements</li>
                 <li>• Postnuptial agreements</li>
               </ul>
-              <Button variant="outline" size="sm" className="w-full">
-                Learn More
+              <Button variant="outline" size="sm" className="w-full" aria-label="Explore financial matters">
+                Explore Financial Matters
               </Button>
             </div>
 
@@ -91,8 +91,8 @@ export default function ServicesPage() {
                 <li>• Safety planning</li>
                 <li>• Victim advocacy</li>
               </ul>
-              <Button variant="outline" size="sm" className="w-full">
-                Learn More
+              <Button variant="outline" size="sm" className="w-full" aria-label="Explore protection orders">
+                Explore Protection Orders
               </Button>
             </div>
 
@@ -106,8 +106,8 @@ export default function ServicesPage() {
                 <li>• Arbitration</li>
                 <li>• Conflict resolution</li>
               </ul>
-              <Button variant="outline" size="sm" className="w-full">
-                Learn More
+              <Button variant="outline" size="sm" className="w-full" aria-label="Explore alternative dispute resolution">
+                Explore Mediation & ADR
               </Button>
             </div>
 
@@ -121,8 +121,8 @@ export default function ServicesPage() {
                 <li>• Contempt proceedings</li>
                 <li>• Paternity cases</li>
               </ul>
-              <Button variant="outline" size="sm" className="w-full">
-                Learn More
+              <Button variant="outline" size="sm" className="w-full" aria-label="Explore post-decree issues">
+                Explore Post-Decree Issues
               </Button>
             </div>
           </div>

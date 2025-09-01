@@ -1,18 +1,21 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
+  const toggleRef = useRef<HTMLButtonElement | null>(null);
 
   const navigationItems = [
-    { label: 'Services', href: '/services' },
-    { label: 'Practice Areas', href: '/practice-areas' },
-    { label: 'About', href: '/about' },
-    { label: 'How It Works', href: '/how-it-works' },
-    { label: 'Resources', href: '/resources' },
-    { label: 'Contact', href: '/contact' },
+    { label: 'Services', href: '/services/' },
+    { label: 'Practice Areas', href: '/practice-areas/' },
+    { label: 'About', href: '/about/' },
+    { label: 'How It Works', href: '/how-it-works/' },
+    { label: 'Resources', href: '/resources/' },
+    { label: 'Contact', href: '/contact/' },
   ];
 
   return (
@@ -26,16 +29,20 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-6">
-            {navigationItems.map((item) => (
-              <Link
-                key={item.href}
-                href={item.href}
-                className="hover:text-gray-200 transition-colors"
-              >
-                {item.label}
-              </Link>
-            ))}
-            <Link href="/book" className="ml-4 bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-6 py-2 text-base font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center shadow-md hover:shadow-lg">
+            {navigationItems.map((item) => {
+              const isActive = pathname === item.href;
+              return (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  aria-current={isActive ? 'page' : undefined}
+                  className={`hover:text-gray-200 transition-colors ${isActive ? 'underline underline-offset-4' : ''}`}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
+            <Link href="/book/" className="ml-4 bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-6 py-2 text-base font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center shadow-md hover:shadow-lg">
               <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                 <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-11.25a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z" clipRule="evenodd" />
               </svg>
@@ -45,6 +52,7 @@ export function Header() {
 
           {/* Mobile Menu Button */}
           <button
+            ref={toggleRef}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="lg:hidden p-2 rounded-md hover:bg-[#172e5c] transition-colors focus:outline-none focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2"
             aria-label="Toggle menu"
@@ -86,12 +94,13 @@ export function Header() {
                   key={item.href}
                   href={item.href}
                   className="py-2 hover:text-gray-200 transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
+                  aria-current={pathname === item.href ? 'page' : undefined}
+                  onClick={() => { setIsMenuOpen(false); toggleRef.current?.focus(); }}
                 >
                   {item.label}
                 </Link>
               ))}
-              <Link href="/book" className="mt-4 w-full bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-6 py-3 text-lg font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center shadow-md hover:shadow-lg">
+              <Link href="/book/" className="mt-4 w-full bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-6 py-3 text-lg font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center shadow-md hover:shadow-lg">
                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-11.25a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z" clipRule="evenodd" />
                 </svg>

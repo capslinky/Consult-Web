@@ -36,9 +36,18 @@ export function Header() {
                 {item.label}
               </Link>
             ))}
+<<<<<<< HEAD
             <Link href="/book" className="ml-4 bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-6 py-2 text-base font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
               Book Now
             </Link>
+=======
+          <Link href="/book" className="ml-4 bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-6 py-2 text-base font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center shadow-md hover:shadow-lg">
+            <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+              <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-11.25a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z" clipRule="evenodd" />
+            </svg>
+            Book Consultation
+          </Link>
+>>>>>>> 4110bf2 (feat: comprehensive UI/UX improvements)
           </nav>
 
           {/* Mobile Menu Button */}
@@ -88,8 +97,19 @@ export function Header() {
                   {item.label}
                 </Link>
               ))}
+<<<<<<< HEAD
               <Link href="/book" className="mt-4 w-full bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-6 py-2 text-base font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center">
                 Book Now
+=======
+              <Link href="/book" className="mt-4 w-full bg-[#f59e0b] text-white hover:bg-[#d97706] focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-6 py-3 text-lg font-semibold rounded-md transition-all duration-200 focus:outline-none inline-flex items-center justify-center shadow-md hover:shadow-lg">
+                <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.75-11.25a.75.75 0 00-1.5 0v2.5h-2.5a.75.75 0 000 1.5h2.5v2.5a.75.75 0 001.5 0v-2.5h2.5a.75.75 0 000-1.5h-2.5v-2.5z" clipRule="evenodd" />
+                </svg>
+                Book Your Consultation
+                <div className="ml-2 px-2 py-1 bg-[#d97706] rounded text-xs font-medium">
+                  $500
+                </div>
+>>>>>>> 4110bf2 (feat: comprehensive UI/UX improvements)
               </Link>
             </div>
           </nav>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Breadcrumb } from '@/components/ui/Breadcrumb';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -40,7 +41,6 @@ export default function GrandparentsRightsPage() {
             <li>Visitation requests after divorce, death, or if a child was born outside marriage</li>
             <li>In loco parentis claims based on a meaningful parental relationship</li>
             <li>Best interests factors and evidentiary standards</li>
-import { Breadcrumb } from '@/components/ui/Breadcrumb';
           </ul>
           <div className="flex gap-4 pt-4">
             <Link href="/book/" className="bg-gold text-white hover:bg-gold-dark px-6 py-3 rounded-md font-semibold">Book Consultation</Link>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Breadcrumb } from '@/components/ui/Breadcrumb';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -31,7 +32,6 @@ export default function DomesticViolencePage() {
           <p className="text-gray-700">
             We help petitioners and respondents navigate orders of protection, emergency orders,
             and how domestic violence allegations impact custody and parenting time.
-import { Breadcrumb } from '@/components/ui/Breadcrumb';
           </p>
           <div className="flex gap-4 pt-4">
             <Link href="/book/" className="bg-gold text-white hover:bg-gold-dark px-6 py-3 rounded-md font-semibold">Book Consultation</Link>

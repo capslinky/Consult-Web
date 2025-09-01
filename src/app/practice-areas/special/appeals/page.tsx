@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Breadcrumb } from '@/components/ui/Breadcrumb';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -31,7 +32,6 @@ export default function AppealsPage() {
           <p className="text-gray-700">
             We evaluate grounds for appeal, deadlines, and the likelihood of success, as well as
             pursue modifications or relief from judgment when circumstances change.
-import { Breadcrumb } from '@/components/ui/Breadcrumb';
           </p>
           <div className="flex gap-4 pt-4">
             <Link href="/book/" className="bg-gold text-white hover:bg-gold-dark px-6 py-3 rounded-md font-semibold">Book Consultation</Link>

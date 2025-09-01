@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Breadcrumb } from '@/components/ui/Breadcrumb';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -32,7 +33,6 @@ export default function PaternityPage() {
             We assist with voluntary acknowledgments, court petitions, and genetic testing orders,
             and address child support and legal decision-making following establishment of
             parentage.
-import { Breadcrumb } from '@/components/ui/Breadcrumb';
           </p>
           <div className="flex gap-4 pt-4">
             <Link href="/book/" className="bg-gold text-white hover:bg-gold-dark px-6 py-3 rounded-md font-semibold">Book Consultation</Link>

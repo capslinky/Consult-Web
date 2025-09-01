@@ -2,13 +2,18 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { trackEvent } from '@/lib/analytics';
 
 export default function BookPage() {
   const [isReady, setIsReady] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
+  const [timezone, setTimezone] = useState<string>('');
 
   // Calendly integration
   useEffect(() => {
+    trackEvent('book_page_view');
+    setTimezone(Intl.DateTimeFormat().resolvedOptions().timeZone || '');
+
     const head = document.head;
     const script = document.createElement('script');
 
@@ -24,6 +29,7 @@ export default function BookPage() {
     script.onload = () => {
       setIsReady(true);
       setIsLoading(false);
+      trackEvent('calendly_script_loaded');
     };
 
     script.onerror = () => {
@@ -32,6 +38,20 @@ export default function BookPage() {
 
     head.appendChild(script);
 
+    const onMessage = (e: MessageEvent) => {
+      const data = (e?.data ?? {}) as { event?: string; payload?: Record<string, unknown> };
+      if (data && typeof data === 'object' && 'event' in data) {
+        if (data.event === 'calendly.event_scheduled') {
+          trackEvent('calendly_scheduled', { source: 'inline_widget', ...data.payload });
+        } else if (data.event === 'calendly.profile_page_viewed') {
+          trackEvent('calendly_viewed');
+        } else if (data.event === 'calendly.date_and_time_selected') {
+          trackEvent('calendly_datetime_selected');
+        }
+      }
+    };
+    window.addEventListener('message', onMessage);
+
     return () => {
       // Cleanup
       const calendlyWidgets = document.querySelectorAll('[data-testid="calendly-widget"]');
@@ -39,6 +59,7 @@ export default function BookPage() {
 
       const scripts = document.querySelectorAll('script[src*="calendly"]');
       scripts.forEach(script => script.remove());
+      window.removeEventListener('message', onMessage);
     };
   }, []);
 
@@ -233,20 +254,37 @@ export default function BookPage() {
                   <p className="text-blue-100 text-sm mt-1">Select from available 30-minute slots</p>
                 </div>
 
-                <div className="relative">
-                  {isLoading && (
-                    <div className="absolute inset-0 bg-white bg-opacity-90 flex items-center justify-center z-10">
-                      <div className="text-center">
-                        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#3b82f6] mx-auto mb-4"></div>
-                        <p className="text-gray-600">Loading booking calendar...</p>
-                      </div>
-                    </div>
+            <div className="relative">
+              {isLoading && (
+                <div className="absolute inset-0 bg-white bg-opacity-90 flex items-center justify-center z-10">
+                  <div className="text-center">
+                    <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#3b82f6] mx-auto mb-4"></div>
+                    <p className="text-gray-600">Loading booking calendar...</p>
+                  </div>
+                </div>
+              )}
+              {/* Booking Header Meta */}
+              <div className="flex flex-col md:flex-row items-center justify-between gap-3 p-3 border-b">
+                <div className="text-sm text-gray-600">
+                  {timezone ? (
+                    <span>
+                      Your timezone: <span className="font-medium text-gray-800">{timezone}</span>
+                    </span>
+                  ) : (
+                    <span>We detect your local timezone automatically</span>
                   )}
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs px-2 py-1 rounded-full bg-[#fef3c7] text-[#92400e] font-medium">
+                    Satisfaction Guaranteed: 100% refund
+                  </span>
+                </div>
+              </div>
 
-                  <div
-                    id="calendly-widget"
-                    className="min-h-[700px]"
-                  ></div>
+              <div
+                id="calendly-widget"
+                className="min-h-[700px]"
+              ></div>
 
                   {!isReady && !isLoading && (
                     <div className="p-8 text-center">
@@ -261,6 +299,7 @@ export default function BookPage() {
                       </p>
                       <Link
                         href="/contact"
+                        onClick={() => trackEvent('contact_click', { source: 'calendly_error' })}
                         className="inline-flex items-center bg-[#3b82f6] text-white px-4 py-2 rounded-md hover:bg-[#2563eb] transition-colors"
                       >
                         Contact Us to Book

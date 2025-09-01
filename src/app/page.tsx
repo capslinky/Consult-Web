@@ -45,10 +45,22 @@ export default function Home() {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl mx-auto">
-            <LinkButton href="/book/" variant="primary" size="lg">
+            <LinkButton
+              href="/book/"
+              variant="primary"
+              size="lg"
+              eventName="hero_cta_click"
+              eventParams={{ action: 'book', page: 'home_hero' }}
+            >
               Book Your Consultation Today
             </LinkButton>
-            <LinkButton href="/how-it-works/" variant="secondary" size="lg">
+            <LinkButton
+              href="/how-it-works/"
+              variant="secondary"
+              size="lg"
+              eventName="hero_cta_click"
+              eventParams={{ action: 'learn', page: 'home_hero' }}
+            >
               Learn How It Works
             </LinkButton>
           </div>

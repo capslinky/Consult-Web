@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import React from "react";
+import { trackEvent } from "@/lib/analytics";
 
 type ButtonVariant = "primary" | "secondary" | "outline" | "ghost";
 type ButtonSize = "sm" | "md" | "lg";
@@ -10,6 +13,8 @@ interface LinkButtonProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> 
   size?: ButtonSize;
   fullWidth?: boolean;
   children: React.ReactNode;
+  eventName?: string;
+  eventParams?: Record<string, unknown>;
 }
 
 export function LinkButton({
@@ -19,6 +24,8 @@ export function LinkButton({
   fullWidth = false,
   className = "",
   children,
+  eventName,
+  eventParams,
   ...props
 }: LinkButtonProps) {
   const base = "font-semibold rounded-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 inline-flex items-center justify-center";
@@ -37,9 +44,18 @@ export function LinkButton({
   const classes = `${base} ${variants[variant]} ${sizes[size]} ${width} ${className}`.trim();
 
   return (
-    <Link href={href} className={classes} {...props}>
+    <Link
+      href={href}
+      className={classes}
+      onClick={(e) => {
+        if (eventName) {
+          trackEvent(eventName, { location: "link_button", href, ...eventParams });
+        }
+        props.onClick?.(e);
+      }}
+      {...props}
+    >
       {children}
     </Link>
   );
 }
-

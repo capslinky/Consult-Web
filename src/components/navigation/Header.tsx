@@ -194,7 +194,8 @@ export function Header() {
         <Link
           href="/book/"
           onClick={() => trackEvent('book_cta_click', { location: 'floating_mobile' })}
-          className="lg:hidden fixed bottom-4 right-4 z-50 bg-[#f59e0b] text-white hover:bg-[#d97706] focus:outline-none focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-5 py-3 rounded-full shadow-lg transition-all duration-200"
+          className="lg:hidden fixed right-4 z-50 bg-[#f59e0b] text-white hover:bg-[#d97706] focus:outline-none focus:ring-2 focus:ring-[#f59e0b] focus:ring-offset-2 px-5 py-3 rounded-full shadow-lg transition-all duration-200"
+          style={{ bottom: 'calc(1rem + env(safe-area-inset-bottom))' }}
           aria-label="Book consultation"
         >
           Book Now

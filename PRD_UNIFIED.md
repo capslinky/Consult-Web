@@ -851,3 +851,108 @@ Use these H2/H3 skeletons to draft content (≥1,500 words per page; cornerstone
 - H1: Page Not Found
 - H2: Popular Pages
 - H2: Need Help? (Contact/CTABand)
+
+## 29) First‑Pass Draft Copy (Phase 1 Static Pages)
+The following copy is production‑quality in tone and structure and can be pasted into the page templates as a starting point. Adjust names, dates, and details as needed. Content reflects Arizona‑specific language and the static‑only MVP (manual conflict review, payment by emailed LawPay link, questionnaire by email/MyCase).
+
+### Home — Draft Copy
+H1: Get the Legal Guidance You Need
+
+Subhead: During life’s most difficult moments, you deserve clear answers from an experienced Arizona family law attorney who understands what you’re facing.
+
+Intro (60–90 words)
+When your family, future, and finances are on the line, confusion makes everything harder. At Paradise Law AZ, our 90‑minute virtual consultation gives you clarity fast: what the law says, which options fit your situation, and what to do next. You’ll meet directly with an Arizona family law attorney and leave with a written action plan within 24–48 hours. It’s compassionate, confidential guidance designed to help you move forward with confidence.
+
+Compassionate Arizona Family Law Support (approx. 2–3 paragraphs)
+Family cases aren’t just “legal issues”—they’re personal turning points. Whether you’re beginning a divorce, navigating parenting time and legal decision‑making, or sorting out complex property questions, you need advice you can trust. Our role is to explain Arizona law in plain language, outline your choices, and help you see a path that protects what matters most.
+
+We focus on practical solutions. Sometimes that means building toward a fair settlement; other times it means preparing for firm, strategic litigation. In either case, we’ll tell you what each path involves—timelines, costs, and likely trade‑offs—so you can decide with clarity.
+
+Why Choose Paradise Law AZ (bulleted points can be rendered as cards)
+- 15+ Years of Arizona Family Law Experience: informed guidance grounded in day‑to‑day courtroom realities.
+- Licensed Arizona Attorneys: your consultation is attorney‑led from start to finish.
+- 100% Confidential: attorney‑client communications are confidential to the extent permitted by law.
+- Written Action Plan: get a clear, practical plan within 24–48 hours after your consult.
+
+How Our 90‑Minute Consultation Works (3 paragraphs)
+Step 1: Pick a time that works for you. We’ll tentatively hold the appointment while we complete a quick, manual conflict check to ensure we can ethically help you. No payment is requested until this review is complete.
+
+Step 2: Once we clear conflicts, our staff emails a secure LawPay link for the $500 fee, along with a pre‑consultation questionnaire and document checklist (typically via email or through our MyCase intake). Completing the questionnaire at least 24 hours before your appointment helps us tailor the discussion to your goals.
+
+Step 3: Meet with your attorney for 90 minutes. We’ll listen to your story, answer questions, and map your options. Within 24–48 hours, you’ll receive a written action plan summarizing next steps, resources, and recommendations.
+
+Client Experiences (social proof teaser)
+Clients consistently tell us the consultation gave them “a plan,” “relief,” and “a realistic understanding of the process.” While every matter is unique and results vary, our commitment to clarity, preparation, and professional care remains constant.
+
+Call to Action (CTA band microcopy)
+Ready to get clear on your next steps? Book your 90‑minute virtual consultation today and move forward with confidence.
+
+### How It Works — Draft Copy
+H1: How Our Process Works
+
+Intro (40–60 words)
+We keep the process straightforward: choose a time, we complete a quick conflict check, you pay once cleared, and you complete a short questionnaire so we can prepare. Then we meet for 90 minutes and deliver a written action plan within 24–48 hours.
+
+Step 1 — Pick a Time (1 paragraph)
+Use our online calendar to choose a day and time that fits your schedule. We’ll tentatively hold the appointment while we complete a manual conflict check to ensure we can ethically represent you.
+
+Step 2 — Manual Conflict Check (2 paragraphs)
+Before taking any payment, our staff reviews your information to confirm there’s no ethical conflict. This protects you and ensures that any advice we provide is appropriate. If we identify a conflict, we’ll promptly notify you and cancel the appointment.
+
+If cleared, we’ll email you next steps—no surprises. If flagged, we’ll explain that we cannot proceed and—when ethically permissible—suggest neutral resources or a referral list.
+
+Step 3 — Payment via LawPay (1–2 paragraphs)
+Once cleared, our staff emails a secure LawPay link for the $500 consultation fee. We do not accept payment before conflict clearance. LawPay is a widely‑used legal payment platform that keeps your payment information secure.
+
+Step 4 — Pre‑Consultation Questionnaire & Documents (2 paragraphs)
+We’ll also send a short pre‑consultation questionnaire and a document checklist. These help us understand your key concerns and prepare for a focused, efficient meeting. Please complete the questionnaire at least 24 hours before your consult and upload or bring any relevant documents.
+
+Step 5 — 90‑Minute Virtual Consultation (1–2 paragraphs)
+Meet with your Arizona attorney by secure video. We’ll discuss your goals, explain how Arizona law applies, outline options, and help you weigh trade‑offs. You’ll have plenty of time to ask questions and get clarity on what to do next.
+
+Step 6 — Written Action Plan (1 paragraph)
+Within 24–48 hours, you’ll receive a written action plan that summarizes your situation, next steps, key dates, and helpful resources. You can use it on your own or as a roadmap if you decide to retain us for limited‑scope or full‑scope representation.
+
+Timelines & Policies (1 paragraph)
+Questionnaire completion: ≥24 hours prior to your consult (earlier is even better). Rescheduling: please let us know as soon as possible; we’ll work with you to find a new time.
+
+Confidentiality & Guarantee (2 short paragraphs)
+Your consultation is confidential to the extent permitted by law. We handle sensitive matters with care and professionalism.
+
+Your satisfaction matters. If you’re not satisfied with your consultation, contact us within the timeframe in our Refund Policy and we’ll make it right.
+
+### Pricing — Draft Copy
+H1: Simple, Transparent Pricing
+
+Intro (35–50 words)
+Your consultation is a flat $500 for 90 minutes with an Arizona family law attorney. No hourly surprises. You’ll leave with a written action plan within 24–48 hours.
+
+What’s Included (bulleted list + paragraph)
+- 90‑minute video consultation
+- Case review and legal analysis
+- Strategy discussion tailored to your goals
+- Written action plan (delivered within 24–48 hours)
+
+We focus on clarity, not paperwork volume. If we need additional materials to provide a more precise recommendation, we’ll tell you exactly what will help.
+
+What’s Not Included (short list)
+- Ongoing representation (retainer required)
+- Court filings or drafting beyond initial guidance
+- Expert fees or third‑party costs
+
+How Payment Works (manual conflict check first)
+We complete a quick, manual conflict review before any payment is requested. If cleared, our staff emails a secure LawPay link for the $500 consultation fee. If we can’t proceed due to a conflict, we’ll let you know and cancel the appointment.
+
+Why the 90‑Minute Format Works (1–2 paragraphs)
+90 minutes is enough time to understand your situation, explain how Arizona law applies, discuss options, and build a realistic plan. You’ll end the call with clear next steps—and a written action plan you can refer back to.
+
+Compare Your Options (DIY vs Consultation) (balanced summary)
+Do‑It‑Yourself: Lower immediate cost, but higher risk of missing deadlines, overlooking evidence, or making concessions that are hard to undo.
+
+Attorney Consultation: A focused 90 minutes can save weeks of uncertainty, help avoid common pitfalls, and provide confident direction. If you choose to move forward with us, your consultation lays the groundwork for limited‑scope or full‑scope representation.
+
+Guarantee & Refunds (short paragraph)
+Your satisfaction matters. Review our Refund Policy for timing and eligibility. If you’re not satisfied, contact us and we’ll make it right.
+
+Call to Action
+Ready to get clarity on your next steps? Book your 90‑minute virtual consultation today.

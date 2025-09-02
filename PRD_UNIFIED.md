@@ -1137,3 +1137,86 @@ Refunds are not available for no‑shows or for services already performed beyon
 
 Process
 Email or call our office to request a refund. Approved refunds are processed to the original payment method.
+
+### Book — Draft Copy
+H1: Schedule Your Consultation
+
+Intro (40–60 words)
+Choose a time that fits your schedule. We’ll tentatively hold your appointment while we perform a quick, manual conflict check to ensure we can ethically proceed. No payment is requested until that review is complete. Once cleared, we’ll email a secure LawPay link and a pre‑consultation questionnaire.
+
+Before You Book (key notes)
+- Manual Conflict Review: We verify there’s no ethical conflict before taking payment.
+- Payment Link by Email: After clearance, our staff emails a LawPay link for the $500 fee.
+- Questionnaire by Email/MyCase: Please complete it ≥24 hours before your consultation.
+
+Choose a Time (Calendly embed section copy)
+Use the calendar below to select your date and time. If the widget fails to load, try again or contact us and we’ll help you book.
+
+What Happens Next
+After you book, check your email. If we clear conflicts, we’ll send your payment link and questionnaire with a quick list of what to prepare. If we identify a conflict, we’ll notify you and cancel the appointment.
+
+Having Trouble?
+If the calendar doesn’t load or you prefer to book by phone, call us and our team will help you schedule.
+
+### Contact — Draft Copy
+H1: Contact Paradise Law AZ
+
+Intro (35–50 words)
+We’re here to help. If you have a quick question or need help booking, call or email and we’ll respond as soon as we can. If you’re ready to move forward, the fastest path to a plan is to schedule a 90‑minute virtual consultation.
+
+Call Us
+Phone: (480) 555‑0123  
+Hours: Monday–Friday, 9:00 AM–5:00 PM (extended hours by appointment)  
+If this is a safety‑sensitive situation, call 911 or seek immediate assistance.
+
+Email Us
+General: info@paradiselawaz.com  
+We aim to respond within one business day. Please do not include highly sensitive details by email—save those for your consultation.
+
+Service Area
+We serve clients throughout the Phoenix metro area and across Arizona. Virtual consultations make it simple to meet wherever you are.
+
+When to Book vs When to Call
+If you need immediate clarity about your situation, booking a consultation is often the best next step. If you’re unsure whether a consult is appropriate, call or email and we’ll help you decide.
+
+Ready to Book?
+Schedule your 90‑minute consultation today and receive a written action plan within 24–48 hours.
+
+### Thank You — Draft Copy
+H1: Thank You — We’ve Received Your Submission
+
+What Happens Next
+We’ll review your message and respond as soon as possible. If you requested scheduling help, our team will contact you with available times and next steps.
+
+Prepare for a Consultation
+If you plan to book, gather any court orders, important communications, and a brief timeline of key events. This helps us tailor your consultation.
+
+Helpful Resources
+Explore our How It Works, Pricing, and FAQ pages for a clear picture of the process and what to expect.
+
+### Payment Confirmation — Draft Copy
+H1: Payment Confirmed
+
+Appointment Details
+We’ve sent a confirmation email with your appointment date/time and video link. If you do not see it, check your spam folder or contact us for assistance.
+
+What Happens Next
+If you haven’t completed your questionnaire yet, please do so as soon as possible (ideally ≥24 hours before your appointment). We’ll review your responses to make the most of your consultation.
+
+Need Assistance?
+If anything changes—scheduling, contact info, or new documents—please let us know so we can update your file.
+
+### 404 — Draft Copy
+H1: Page Not Found
+
+It looks like the page you’re looking for has moved or no longer exists. Try one of the popular pages below or contact us for help.
+
+Popular Pages
+- Home  
+- How It Works  
+- Pricing  
+- Book a Consultation  
+- Practice Areas  
+
+Need Help?
+Call or email and we’ll point you in the right direction.

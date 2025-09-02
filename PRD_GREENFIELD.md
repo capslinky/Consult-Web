@@ -75,7 +75,9 @@ This PRD is self‑contained for a new team to implement the website and back‑
 - Language: TypeScript (strict).  
 - UI: Tailwind CSS with design tokens; Radix UI/Headless UI for a11y primitives; View Transitions API.
 - Forms: React Hook Form + Zod; autosave; magic‑link auth for resume.
-- Data: Postgres (Neon/Supabase) + Prisma ORM.  
+- Data: Crunchy Bridge (Managed Postgres) + Prisma ORM.  
+  - Security: TLS required (`sslmode=require`); least‑privilege roles (`app_user` runtime no‑DDL, `migration_user` for migrations); optional `read_only`.
+  - Ops: PITR enabled, pgaudit logging, password rotation, optional IP allowlist/Egress allowlisting; DR via cross‑region replica.
 - Storage: S3‑compatible (Cloudflare R2/S3) with presigned uploads; optional AV scan step.
 - Email: Resend or Postmark for transactional emails (clearance, payment, reminders, action plan).
 - Scheduling: Calendly embed initially; Calendly API later for programmatic cancels/confirms; webhooks for schedule/cancel.
@@ -206,7 +208,7 @@ This PRD is self‑contained for a new team to implement the website and back‑
 - Experience: Lighthouse Mobile ≥90; keyboard operability; structured data validates.
 
 ## 19) Environment & Dev Onboarding
-- Requirements: Node 20+, npm, Postgres (Neon/Supabase), S3/R2 bucket, email provider (Resend/Postmark), Calendly account, LawPay account, MyCase intake inbox (or Zapier).
+- Requirements: Node 20+, npm, Crunchy Bridge Postgres, S3/R2 bucket, email provider (Resend/Postmark), Calendly account, LawPay account, MyCase intake inbox (or Zapier).
 - Env Vars (examples):
   - `DATABASE_URL`, `STORAGE_BUCKET`, `STORAGE_REGION`, `STORAGE_ACCESS_KEY`, `STORAGE_SECRET_KEY`
   - `EMAIL_PROVIDER_API_KEY`, `EMAIL_FROM`
@@ -220,4 +222,3 @@ This PRD is self‑contained for a new team to implement the website and back‑
 ---
 
 This PRD is intentionally prescriptive to enable a new developer to start without prior context. It balances fast, SEO‑friendly marketing with the dynamic workflows required for manual conflict gating, LawPay payments, robust questionnaires, and MyCase handoff.
-

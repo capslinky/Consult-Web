@@ -165,7 +165,8 @@ Outcomes if not happy path
 - Single hybrid app: Next.js 15 (App Router, PPR, Route Handlers) on Vercel.
 - Styling & a11y: Tailwind + tokens; Radix/Headless UI; aria‑hidden for decorative icons.
 - Forms: React Hook Form + Zod; presigned S3‑style uploads; email (Resend/Postmark).
-- Data: Postgres (Neon/Supabase) + Prisma; storage (R2/S3).
-- Integrations: Calendly embed + API; LawPay HPP; MyCase adapter (email/Zapier now, API later).
+- Data: Crunchy Bridge (Managed Postgres) + Prisma; storage (Cloudflare R2/S3). Enforce TLS, least‑privilege roles, PITR, and auditing.
+  - Roles: `app_user` (runtime, no DDL), `migration_user` (migrations/DDL), optional `read_only`.
+  - Security: `sslmode=require`, IP allowlist (if available), password rotation, pgaudit enabled, PITR snapshots, DR plan.
+- Integrations: Calendly embed + API; LawPay HPP; MyCase adapter (intake email/Zapier now, API later).
 - Analytics: GA4/Plausible + PostHog; consent gating; standardized events.
-

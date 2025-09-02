@@ -542,3 +542,99 @@ Page‑level acceptance criteria (AC) to validate usability, accessibility, SEO,
 - Admin AC (authenticated)
   - Conflicts queue lists pending with SLA badges; detail actions (Clear/Flag/Needs Info) function; audit logs are created.
   - Booking, payments, questionnaires dashboards show correct counts and allow filtering.
+
+## 24) Content Matrix (Owners, Sources, Deadlines)
+Use this matrix to plan drafting, review, and publication. SEO = title/description/keywords; Media = images/icons; Legal = policy/legal review; A11y = headings, contrast, alt text.
+
+| Page | Owner | Source Inputs | Media | SEO | Legal | A11y | Draft Due | Final Due | Status |
+|---|---|---|---|---|---|---|---|---|---|
+| Home (`/`) | Attorney + Copywriter | Firm positioning, trust claims | Hero image/illustrations | Yes | N/A | Yes | T+7d | T+14d | Not started |
+| How It Works | Attorney | Process details, refund/confidentiality policy | Step icons | Yes | Yes | Yes | T+7d | T+14d | Not started |
+| Pricing | Attorney + Ops | $500/90m, inclusions, guarantee | Badges | Yes | Yes | Yes | T+7d | T+14d | Not started |
+| Book | PM + Dev | Calendly config, conflict notice copy | None | Yes | N/A | Yes | T+5d | T+10d | Not started |
+| Contact | Staff | Phone/email, hours, service area | Icons/map | Yes | N/A | Yes | T+5d | T+10d | Not started |
+| LSR Services | Attorney | List of services, inclusions/exclusions, prices | Service icons | Yes | Yes | Yes | T+10d | T+17d | Not started |
+| FSR Services | Attorney | Retainer ranges, onboarding steps | Process icons | Yes | Yes | Yes | T+10d | T+17d | Not started |
+| Practice Areas Hub | Copywriter | Summaries for 4 pillars | Icons | Yes | N/A | Yes | T+10d | T+17d | Not started |
+| Uncontested Divorce | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | T+12d | T+19d | Not started |
+| Custody Overview | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | T+12d | T+19d | Not started |
+| Child Support | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | T+12d | T+19d | Not started |
+| Domestic Violence | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | T+12d | T+19d | Not started |
+| Resources Hub | Editor | Outline + category blurbs | N/A | Yes | N/A | Yes | T+10d | T+17d | Not started |
+| FAQ | Attorney + Editor | Objection handling | N/A | Yes (FAQ LD) | Yes | Yes | T+7d | T+14d | Not started |
+| Blog (first 3) | Editor | Topics: custody timeline, asset protection, residence rules | Thumbnails | Yes | N/A | Yes | T+14d | T+21d | Not started |
+| Guides (first 2) | Editor | Divorce Guide, Custody Checklist | Cover images | Yes | N/A | Yes | T+14d | T+21d | Not started |
+| Testimonials | Staff | Client quotes (approved) | Portrait initials | Yes | Yes | Yes | T+14d | T+21d | Not started |
+| Legal: Privacy | Attorney | Policy | N/A | Yes | Yes | Yes | T+5d | T+10d | Not started |
+| Legal: Terms | Attorney | Policy | N/A | Yes | Yes | Yes | T+5d | T+10d | Not started |
+| Legal: Refund | Attorney | Policy | N/A | Yes | Yes | Yes | T+5d | T+10d | Not started |
+
+Notes:
+- Replace T+Xd with calendar dates. “Attorney” indicates subject‑matter drafting/review by you or your designee; “Editor” can be internal or external content writer.
+
+## 25) Ticket Breakdown (Epics → Stories)
+Tag stories with Phase (P1–P4), Assignee, and AC link (from §23). Suggested estimates are for reference.
+
+- Epic: Project Setup (P1)
+  - Story: Initialize Next.js 15 app with Tailwind, TS strict, base layout (1d)
+  - Story: Configure env validation (Zod), basic CI (lint/type‑check/build) (1d)
+  - Story: Add design tokens, base components (Button, LinkButton, TrustBar, CTABand) (1–2d)
+
+- Epic: Marketing Baseline (P1)
+  - Story: Implement Home per wireframe + copy placeholders + CTAs (2d)
+  - Story: How It Works page (1d)
+  - Story: Pricing page (1–2d)
+  - Story: Contact page + form (1–2d)
+
+- Epic: Practice Areas (P1–P2)
+  - Story: Practice Areas Hub (1d)
+  - Story: Uncontested Divorce page (1–2d)
+  - Story: Custody Overview page (1–2d)
+  - Story: Child Support page (1–2d)
+  - Story: Domestic Violence page (1–2d)
+  - Story: Remaining practice pages (batch by pillar) (6–10d)
+
+- Epic: Booking & Conflict Gate (P1)
+  - Story: Calendly embed + loader/retry + timezone banner (1–2d)
+  - Story: BookingIntent model + API to capture slot + conflict info (2d)
+  - Story: Conflict queue (list) with SLA badges (2d)
+  - Story: Conflict detail actions (Clear/Flag/Needs Info) + email templates (3d)
+
+- Epic: Payments (LawPay) (P1)
+  - Story: Generate HPP link for cleared intents (server) (1d)
+  - Story: Webhook verification + receipt email + confirmation page (2d)
+  - Story: Auto‑cancel unpaid by deadline (cron) (1–2d)
+
+- Epic: Questionnaire (P1)
+  - Story: RHF+Zod multi‑step form with autosave and magic‑link resume (3–5d)
+  - Story: Presigned uploads to R2/S3 + validation + mobile UX (2–3d)
+  - Story: Completion gate (≥24h) + reminders T‑72/T‑24/T‑4 (2d)
+
+- Epic: Admin Console (P1–P2)
+  - Story: Auth (NextAuth or magic link) + RBAC (2d)
+  - Story: Conflict queue/filters + detail drawer/page (2–3d)
+  - Story: Bookings/Payments/Questionnaires dashboards (2–4d)
+
+- Epic: Integrations (P2–P3)
+  - Story: Calendly API (programmatic cancel/confirm) (3–4d)
+  - Story: MyCase fallback (intake email/Zapier) adapter (2d)
+  - Story: MyCase API adapter (when available) + idempotent sync (4–6d)
+
+- Epic: SEO/Analytics/Consent (P1–P2)
+  - Story: Canonicals, sitemap, robots, JSON‑LD (2d)
+  - Story: Consent banner + analytics events (cta_click, time_selected, payment_*, questionnaire_*) (2d)
+
+- Epic: Accessibility & Performance (P1–P2)
+  - Story: A11y sweep (aria, labels, headings, focus, contrast) (2–3d)
+  - Story: CWV hardening (reserve CLS, lazy scripts, next/image) + Lighthouse CI (2–3d)
+
+Dependencies:
+- Payments depends on Conflict gate; Questionnaire reminders depend on Payment success and slot time; MyCase adapter depends on questionnaire completion and payment; Calendly API depends on BookingIntent identifiers.
+
+## 26) Roles & RACI (Suggested)
+- Attorney (A/R for legal content, conflict policy, refund policy)
+- PM (A/R for scope/order, deadlines, AC sign‑off)
+- Tech Lead (A/R for architecture, security, delivery)
+- Devs (R for implementation)
+- Editor/Designer (R for copy, visual assets)
+- Paralegal/Staff (R for conflict review workflow, email templates)

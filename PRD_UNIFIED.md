@@ -44,17 +44,94 @@ This document unifies the prior PRD and Greenfield plans into a single, self‑c
 - Stripe or other processors (LawPay only).
 
 ## 5) Information Architecture
-- Top nav: Book Consultation | Limited‑Scope Services | Full Representation | Practice Areas | How It Works | Pricing | Resources | Contact.
-- Key pages
-  - Book Consultation (primary funnel)
-  - Limited‑Scope Services (menu with inclusions/exclusions/pricing)
-  - Full Representation (retainer ranges, onboarding steps, expectations)
-  - How It Works (process transparency for conflict → payment → questionnaire → consult → action plan)
-  - Pricing (consult fee; sample LSR fees/ranges; retainer guidance)
-  - Practice Areas (divorce, custody, financial, special circumstances)
-  - Resources (blog, guides, FAQ, testimonials)
-  - Legal (Privacy, Terms, Disclaimer, Cookie, Refund, Attorney Advertising)
-  - 404/500/Thank‑you
+### 5.1 Top Navigation (Primary)
+- Book Consultation | Limited‑Scope Services | Full Representation | Practice Areas | How It Works | Pricing | Resources | Contact
+
+### 5.2 Webpages & Detailed Sitemap
+Note: All URLs use trailing slashes. Redirects handle common alternates (e.g., /blog → /resources/blog/).
+
+- Core
+  - `/` — Home (hero, trust, primary CTA, overview of services)
+  - `/how-it-works/` — Process transparency (conflict → payment → questionnaire → consult → action plan)
+  - `/pricing/` — $500 consult; representative LSR fees/ranges; retainer guidance
+  - `/book/` — Booking page (Calendly embed, conflict info capture banner, expectations)
+  - `/contact/` — Contact options (tel, email, form), office/service area
+
+- Services
+  - `/services/limited-scope/` — Menu of limited-scope services with inclusions/exclusions and transparent pricing; CTAs to start LSR funnel
+  - `/services/full-representation/` — Full-scope overview; retainer ranges, onboarding steps, expectations; CTA to contact/lead form
+
+- Practice Areas
+  - `/practice-areas/` — Hub with four pillars
+  - Divorce & Separation — `/practice-areas/divorce/`
+    - `/practice-areas/divorce/uncontested/`
+    - `/practice-areas/divorce/contested/`
+    - `/practice-areas/divorce/high-asset/`
+    - `/practice-areas/divorce/military/`
+    - `/practice-areas/divorce/legal-separation/`
+  - Child Custody & Parenting — `/practice-areas/custody/`
+    - `/practice-areas/custody/parental-rights/`
+    - `/practice-areas/custody/modifications/`
+    - `/practice-areas/custody/relocation/`
+    - `/practice-areas/custody/evaluations/`
+    - `/practice-areas/custody/grandparents-rights/`
+  - Financial Matters — `/practice-areas/financial/`
+    - `/practice-areas/financial/child-support/`
+    - `/practice-areas/financial/spousal-maintenance/`
+    - `/practice-areas/financial/property-division/`
+    - `/practice-areas/financial/debt-division/`
+    - `/practice-areas/financial/business-valuation/`
+    - `/practice-areas/financial/retirement-investment-accounts/`
+    - `/practice-areas/financial/prenuptial/`
+    - `/practice-areas/financial/postnuptial/`
+  - Special Circumstances — `/practice-areas/special/`
+    - `/practice-areas/special/domestic-violence/`
+    - `/practice-areas/special/paternity/`
+    - `/practice-areas/special/mediation/`
+    - `/practice-areas/special/appeals/`
+    - `/practice-areas/special/enforcement/`
+
+- Resources
+  - `/resources/` — Hub
+  - `/resources/blog/` — Blog index
+    - `/resources/blog/[slug]/` — Blog article detail
+  - `/resources/guides/` — Guides index
+    - `/resources/guides/[slug]/` — Guide/Download detail
+  - `/resources/faq/` — FAQ (with FAQPage JSON‑LD)
+  - `/resources/testimonials/` — Client success stories (with disclaimers)
+
+- Legal & Compliance
+  - `/legal/` — Hub
+  - `/legal/privacy/`
+  - `/legal/terms/`
+  - `/legal/disclaimer/`
+  - `/legal/cookie-policy/`
+  - `/legal/refund-policy/`
+  - `/legal/attorney-advertising/`
+
+- Utility
+  - `/404/` — Not found
+  - `/500/` — Server error (friendly fallback)
+  - `/thank-you/` — Post‑booking or post‑questionnaire success message
+  - `/confirmation/` — Payment confirmation receipt page
+  - `/download-success/` — Optional guide download success
+
+- Admin (Authenticated, not indexed)
+  - `/admin/` — Dashboard (KPIs)
+  - `/admin/conflicts/` — Conflict queue
+  - `/admin/conflicts/[id]/` — Conflict review detail (actions: Clear/Flag/Needs Info)
+  - `/admin/bookings/` — Bookings list and filters
+  - `/admin/payments/` — Payment statuses
+  - `/admin/questionnaires/` — Intake status overview
+  - `/admin/settings/` — System settings (LawPay, Calendly, MyCase adapter) and email templates
+
+### 5.3 Redirects
+- `/blog` → `/resources/blog/`
+- `/guides` → `/resources/guides/`
+
+### 5.4 URL & SEO Conventions
+- Lowercase, hyphen‑separated slugs; trailing slashes; ≤3 levels deep where possible.
+- Clear canonicals; sitemap includes all indexable routes; admin routes excluded.
 
 ## 6) Core Flows
 ### 6.1 90‑Minute Consult (Manual Conflict Gate)
@@ -244,4 +321,3 @@ Unhappy paths
 ---
 
 This unified PRD is prescriptive so a new developer can begin immediately. It balances fast, SEO‑friendly marketing with the dynamic workflows required for manual conflict gating, LawPay payments, robust questionnaires, and MyCase handoff.
-

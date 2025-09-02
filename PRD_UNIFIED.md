@@ -641,6 +641,7 @@ Tag stories with Phase (P1–P4), Assignee, and AC link (from §23). Suggested e
 - Epic: SEO/Analytics/Consent (P1–P2)
   - Story: Canonicals, sitemap, robots, JSON‑LD (2d)
   - Story: Consent banner + analytics events (cta_click, time_selected, payment_*, questionnaire_*) (2d)
+  - Story: Add content length check to CI using `npm run check-content` (0.5d)
 
 - Epic: Accessibility & Performance (P1–P2)
   - Story: A11y sweep (aria, labels, headings, focus, contrast) (2–3d)

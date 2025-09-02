@@ -11,6 +11,7 @@
     "lint": "eslint .",
     "type-check": "tsc --noEmit",
     "format": "prettier --write .",
+    "check-content": "node scripts/check-content-length.mjs",
     "prepare": "husky"
   },
   "dependencies": {

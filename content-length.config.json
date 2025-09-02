@@ -1,0 +1,11 @@
+{
+  "baseDir": "content",
+  "defaults": { "minWords": 1500 },
+  "entries": [
+    { "dir": "practice-areas/divorce", "minWords": 3000 },
+    { "dir": "practice-areas/custody", "minWords": 3000 },
+    { "dir": "practice-areas/financial", "minWords": 3000 },
+    { "dir": "practice-areas/special", "minWords": 3000 }
+  ]
+}
+

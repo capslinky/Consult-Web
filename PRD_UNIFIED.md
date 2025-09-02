@@ -223,6 +223,22 @@ For each page, include: clear H1, concise intro (40–60 words), primary CTA, se
 - Phase 1 must‑have pages: `/`, `/how-it-works/`, `/pricing/`, `/book/`, `/contact/`, `/practice-areas/` hub + 4 key details (uncontested divorce, custody overview, child support, domestic violence), `/resources/faq/`, `/legal/privacy/`, `/legal/terms/`, `/legal/refund-policy/`, `/thank-you/`, `/confirmation/`, `/404/`.
 - Phase 2: Remaining practice details, resources hub and indexes, testimonials, cookie policy, attorney advertising, guides/blog initial content set.
 
+### 5.9 Content Length & Quality Standards
+- Minimum word count per content page: 1,500 words.
+  - Applies to: practice area pages (all details and hubs), services pages (LSR/FSR), resources (blog posts, guides, testimonials where narrative), legal pages where appropriate.
+  - Exclusions: transactional/utility pages (book, confirmation, thank‑you, 404/500), admin pages.
+- Cornerstone pages (≥3,000 words, comprehensive):
+  - `/practice-areas/divorce/` (Divorce & Separation hub)
+  - `/practice-areas/custody/` (Child Custody & Parenting hub)
+  - `/practice-areas/financial/` (Financial Matters hub)
+  - `/practice-areas/special/` (Special Circumstances hub)
+- Structure & quality:
+  - Clear H2/H3 hierarchy; scannable sections; FAQs embedded for rich results.
+  - Arizona‑specific guidance (statutes/rules referenced in plain language); note that this is general information, not legal advice.
+  - Internal links to related practice pages, How It Works, Pricing, and FAQ; external authoritative links sparingly.
+  - Include examples, timelines, checklists where helpful; add “What to bring” or “How to prepare” sections for consult relevance.
+  - Maintain empathetic voice per §22 and meet a11y/SEO AC per §23.
+
 ## 6) Core Flows
 ### 6.1 90‑Minute Consult (Manual Conflict Gate)
 1) User selects slot in Calendly (tentative hold).
@@ -546,31 +562,31 @@ Page‑level acceptance criteria (AC) to validate usability, accessibility, SEO,
 ## 24) Content Matrix (Owners, Sources, Deadlines)
 Use this matrix to plan drafting, review, and publication. SEO = title/description/keywords; Media = images/icons; Legal = policy/legal review; A11y = headings, contrast, alt text.
 
-| Page | Owner | Source Inputs | Media | SEO | Legal | A11y | Draft Due | Final Due | Status |
+| Page | Owner | Source Inputs | Media | SEO | Legal | A11y | Min Words | Draft Due | Final Due | Status |
 |---|---|---|---|---|---|---|---|---|---|
-| Home (`/`) | Attorney + Copywriter | Firm positioning, trust claims | Hero image/illustrations | Yes | N/A | Yes | T+7d | T+14d | Not started |
-| How It Works | Attorney | Process details, refund/confidentiality policy | Step icons | Yes | Yes | Yes | T+7d | T+14d | Not started |
-| Pricing | Attorney + Ops | $500/90m, inclusions, guarantee | Badges | Yes | Yes | Yes | T+7d | T+14d | Not started |
-| Book | PM + Dev | Calendly config, conflict notice copy | None | Yes | N/A | Yes | T+5d | T+10d | Not started |
-| Contact | Staff | Phone/email, hours, service area | Icons/map | Yes | N/A | Yes | T+5d | T+10d | Not started |
-| LSR Services | Attorney | List of services, inclusions/exclusions, prices | Service icons | Yes | Yes | Yes | T+10d | T+17d | Not started |
-| FSR Services | Attorney | Retainer ranges, onboarding steps | Process icons | Yes | Yes | Yes | T+10d | T+17d | Not started |
-| Practice Areas Hub | Copywriter | Summaries for 4 pillars | Icons | Yes | N/A | Yes | T+10d | T+17d | Not started |
-| Uncontested Divorce | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | T+12d | T+19d | Not started |
-| Custody Overview | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | T+12d | T+19d | Not started |
-| Child Support | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | T+12d | T+19d | Not started |
-| Domestic Violence | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | T+12d | T+19d | Not started |
-| Resources Hub | Editor | Outline + category blurbs | N/A | Yes | N/A | Yes | T+10d | T+17d | Not started |
-| FAQ | Attorney + Editor | Objection handling | N/A | Yes (FAQ LD) | Yes | Yes | T+7d | T+14d | Not started |
-| Blog (first 3) | Editor | Topics: custody timeline, asset protection, residence rules | Thumbnails | Yes | N/A | Yes | T+14d | T+21d | Not started |
-| Guides (first 2) | Editor | Divorce Guide, Custody Checklist | Cover images | Yes | N/A | Yes | T+14d | T+21d | Not started |
-| Testimonials | Staff | Client quotes (approved) | Portrait initials | Yes | Yes | Yes | T+14d | T+21d | Not started |
-| Legal: Privacy | Attorney | Policy | N/A | Yes | Yes | Yes | T+5d | T+10d | Not started |
-| Legal: Terms | Attorney | Policy | N/A | Yes | Yes | Yes | T+5d | T+10d | Not started |
-| Legal: Refund | Attorney | Policy | N/A | Yes | Yes | Yes | T+5d | T+10d | Not started |
+| Home (`/`) | Attorney + Copywriter | Firm positioning, trust claims | Hero image/illustrations | Yes | N/A | Yes | 1000–1500 | T+7d | T+14d | Not started |
+| How It Works | Attorney | Process details, refund/confidentiality policy | Step icons | Yes | Yes | Yes | 1200–1500 | T+7d | T+14d | Not started |
+| Pricing | Attorney + Ops | $500/90m, inclusions, guarantee | Badges | Yes | Yes | Yes | 1200–1500 | T+7d | T+14d | Not started |
+| Book | PM + Dev | Calendly config, conflict notice copy | None | Yes | N/A | Yes | ≤600 (transactional) | T+5d | T+10d | Not started |
+| Contact | Staff | Phone/email, hours, service area | Icons/map | Yes | N/A | Yes | 800–1200 | T+5d | T+10d | Not started |
+| LSR Services | Attorney | List of services, inclusions/exclusions, prices | Service icons | Yes | Yes | Yes | ≥1500 | T+10d | T+17d | Not started |
+| FSR Services | Attorney | Retainer ranges, onboarding steps | Process icons | Yes | Yes | Yes | ≥1500 | T+10d | T+17d | Not started |
+| Practice Areas Hub | Copywriter | Summaries for 4 pillars | Icons | Yes | N/A | Yes | ≥1500 (or 3k if cornerstone) | T+10d | T+17d | Not started |
+| Uncontested Divorce | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | ≥1500 | T+12d | T+19d | Not started |
+| Custody Overview | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | ≥1500 | T+12d | T+19d | Not started |
+| Child Support | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | ≥1500 | T+12d | T+19d | Not started |
+| Domestic Violence | Attorney | FAQs, process, timelines | Section art | Yes | N/A | Yes | ≥1500 | T+12d | T+19d | Not started |
+| Resources Hub | Editor | Outline + category blurbs | N/A | Yes | N/A | Yes | ≥1000 | T+10d | T+17d | Not started |
+| FAQ | Attorney + Editor | Objection handling | N/A | Yes (FAQ LD) | Yes | Yes | ≥1500 | T+7d | T+14d | Not started |
+| Blog (first 3) | Editor | Topics: custody timeline, asset protection, residence rules | Thumbnails | Yes | N/A | Yes | ≥1500 each | T+14d | T+21d | Not started |
+| Guides (first 2) | Editor | Divorce Guide, Custody Checklist | Cover images | Yes | N/A | Yes | ≥2000 each | T+14d | T+21d | Not started |
+| Testimonials | Staff | Client quotes (approved) | Portrait initials | Yes | Yes | Yes | Narrative ≥1000 | T+14d | T+21d | Not started |
+| Legal: Privacy | Attorney | Policy | N/A | Yes | Yes | Yes | ≥1200 | T+5d | T+10d | Not started |
+| Legal: Terms | Attorney | Policy | N/A | Yes | Yes | Yes | ≥1200 | T+5d | T+10d | Not started |
+| Legal: Refund | Attorney | Policy | N/A | Yes | Yes | Yes | ≥1200 | T+5d | T+10d | Not started |
 
 Notes:
-- Replace T+Xd with calendar dates. “Attorney” indicates subject‑matter drafting/review by you or your designee; “Editor” can be internal or external content writer.
+- Replace T+Xd with calendar dates. “Attorney” indicates subject‑matter drafting/review by you or your designee; “Editor” can be internal or external content writer. Cornerstone pages in §5.9 must be ≥3,000 words.
 
 ## 25) Ticket Breakdown (Epics → Stories)
 Tag stories with Phase (P1–P4), Assignee, and AC link (from §23). Suggested estimates are for reference.
@@ -585,6 +601,7 @@ Tag stories with Phase (P1–P4), Assignee, and AC link (from §23). Suggested e
   - Story: How It Works page (1d)
   - Story: Pricing page (1–2d)
   - Story: Contact page + form (1–2d)
+  - Story: Content length verification tooling (script or CI check) for ≥1,500/3,000 word targets (1d)
 
 - Epic: Practice Areas (P1–P2)
   - Story: Practice Areas Hub (1d)
@@ -593,6 +610,7 @@ Tag stories with Phase (P1–P4), Assignee, and AC link (from §23). Suggested e
   - Story: Child Support page (1–2d)
   - Story: Domestic Violence page (1–2d)
   - Story: Remaining practice pages (batch by pillar) (6–10d)
+  - Story: Cornerstone expansions (Divorce/Custody/Financial/Special hubs ≥3k words) (4–6d)
 
 - Epic: Booking & Conflict Gate (P1)
   - Story: Calendly embed + loader/retry + timezone banner (1–2d)

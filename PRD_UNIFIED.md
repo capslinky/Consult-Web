@@ -1558,6 +1558,96 @@ When orders aren’t followed, options include contempt, wage assignments, or ot
 
 CTA: Discuss targeted enforcement steps for your situation.
 
+## 35) Copy Review Checklist (Use Before Publishing)
+- Voice & Clarity
+  - Empathetic, plain‑language, Arizona‑specific; avoids legalese and promises of outcomes
+  - Reading level ~8th–10th grade; short paragraphs; scannable bullets
+- Content Targets
+  - ≥1,500 words for content pages; cornerstone hubs ≥3,000 words (Divorce, Custody, Financial, Special)
+  - H2/H3 hierarchy; 40–60 word intro; CTAs present (Primary: Book; Secondary: How It Works/Pricing)
+- Accuracy & Compliance
+  - Reflects Arizona terminology (legal decision‑making, parenting time); includes disclaimers
+  - Policies match Legal pages (Privacy, Terms, Refund)
+- Links & Structure
+  - Internal links to core pages (How It Works, Pricing, Book) and related practice pages; no dead links
+  - Clear end‑cap CTABand; TrustBar on core/pricing pages
+- Accessibility
+  - Logical heading order; descriptive link text; decorative icons `aria-hidden="true"`; alt text for meaningful images; visible focus
+- SEO
+  - Unique title (≤60 chars), description (150–160 chars), canonical with trailing slash
+  - Structured data where applicable (FAQPage, LegalService, Article)
+- QA
+  - No typos or placeholder text; dates/phones/emails correct; contact methods functional
+
+## 36) Issue Backlog (Epics → Stories → Page Issues)
+Paste these into GitHub as issues. Use labels: `content`, `phase-1`, `seo`, `a11y`. Replace `T+Xd` with real dates.
+
+### Issue Template (copy into each issue Body)
+Title: Page — {Name}
+
+Body:
+- Scope: Draft and finalize content for {URL}. Align with static‑only MVP (manual conflict → emailed LawPay link → questionnaire by email/MyCase).
+- Min words: {1500 or 3000 for hub}
+- DoD:
+  - H1 + 40–60 word intro; H2/H3 hierarchy
+  - Primary CTA (Book) + Secondary CTA (How It Works/Pricing)
+  - Internal links to related practice pages and core CTAs
+  - Meets a11y checklist (headings, links, alt, focus)
+  - SEO: title ≤60, desc 150–160, canonical w/ trailing slash; schema where applicable
+  - Copy Review Checklist (§35) completed
+- Acceptance Criteria (§23/§27.5):
+  - Static‑only constraints satisfied (no payment links/forms)
+  - Content length target met; brand voice; AZ‑specific terminology
+  - Links verified; CTAs present; error‑free text
+- Notes: See §28 (Outlines) and §29–34 (Drafts/Long‑form seeds)
+
+Assignee: {Name}
+Labels: content, phase-1, seo, a11y
+Due: T+14d
+
+### Phase 1 Issues
+1) Home — /  (Min 1500)
+2) How It Works — /how-it-works/  (Min 1500)
+3) Pricing — /pricing/  (Min 1500)
+4) Book — /book/  (Transactional; focus on process copy)
+5) Contact — /contact/  (Min 800–1200)
+6) Services — Limited‑Scope — /services/limited-scope/  (Min 1500)
+7) Services — Full Representation — /services/full-representation/  (Min 1500)
+8) Practice Areas Hub — /practice-areas/  (Min 1500 now; grows to 3000 in Phase 2)
+9) Uncontested Divorce — /practice-areas/divorce/uncontested/  (Min 1500)
+10) Custody Overview — /practice-areas/custody/  (Min 1500)
+11) Child Support — /practice-areas/financial/child-support/  (Min 1500)
+12) Domestic Violence — /practice-areas/special/domestic-violence/  (Min 1500)
+13) FAQ — /resources/faq/  (Min 1500; FAQPage schema)
+14) Privacy — /legal/privacy/  (Min 1200)
+15) Terms — /legal/terms/  (Min 1200)
+16) Refund — /legal/refund-policy/  (Min 1200)
+17) Thank You — /thank-you/  (Short transactional)
+18) Payment Confirmation — /confirmation/  (Short transactional)
+19) 404 — /404/  (Helpful links + contact)
+
+### Phase 2 Issues (Cornerstones & Details)
+20) Divorce & Separation Hub — /practice-areas/divorce/  (Min 3000)
+21) Custody & Parenting Hub — /practice-areas/custody/  (Min 3000)
+22) Financial Matters Hub — /practice-areas/financial/  (Min 3000)
+23) Special Circumstances Hub — /practice-areas/special/  (Min 3000)
+24) Property Division — /practice-areas/financial/property-division/  (Min 1500)
+25) Spousal Maintenance — /practice-areas/financial/spousal-maintenance/  (Min 1500)
+26) Debt Division — /practice-areas/financial/debt-division/  (Min 1500)
+27) Business Valuation — /practice-areas/financial/business-valuation/  (Min 1500)
+28) Retirement & QDROs — /practice-areas/financial/retirement-investment-accounts/  (Min 1500)
+29) Prenuptial — /practice-areas/financial/prenuptial/  (Min 1500)
+30) Postnuptial — /practice-areas/financial/postnuptial/  (Min 1500)
+31) Parental Rights — /practice-areas/custody/parental-rights/  (Min 1500)
+32) Modifications — /practice-areas/custody/modifications/  (Min 1500)
+33) Relocation — /practice-areas/custody/relocation/  (Min 1500)
+34) Evaluations — /practice-areas/custody/evaluations/  (Min 1500)
+35) Grandparents’ Rights — /practice-areas/custody/grandparents-rights/  (Min 1500)
+36) Paternity — /practice-areas/special/paternity/  (Min 1500)
+37) Mediation — /practice-areas/special/mediation/  (Min 1500)
+38) Appeals — /practice-areas/special/appeals/  (Min 1500)
+39) Enforcement — /practice-areas/special/enforcement/  (Min 1500)
+
 ### Services — Limited‑Scope (LSR) — Draft Copy
 H1: Limited‑Scope Family Law Services
 

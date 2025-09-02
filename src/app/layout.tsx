@@ -3,6 +3,7 @@ import "./globals.css";
 import Link from "next/link";
 import { Header } from "@/components/navigation/Header";
 import Script from "next/script";
+import { canonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Paradise Law AZ - Family Law Virtual Consultations",
@@ -10,7 +11,7 @@ export const metadata: Metadata = {
   keywords: "Arizona family law, virtual consultation, divorce attorney, custody lawyer, family law Phoenix",
   authors: [{ name: "Paradise Law AZ" }],
   alternates: {
-    canonical: process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki",
+    canonical: canonical('/'),
   },
   openGraph: {
     title: "Paradise Law AZ - Family Law Virtual Consultations",

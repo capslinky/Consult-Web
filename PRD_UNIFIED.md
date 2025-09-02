@@ -657,3 +657,35 @@ Dependencies:
 - Devs (R for implementation)
 - Editor/Designer (R for copy, visual assets)
 - Paralegal/Staff (R for conflict review workflow, email templates)
+
+## 27) Static‑Only MVP Addendum (Authoritative for Phase 1)
+This addendum narrows Phase 1 to a static‑only website. All automation and back‑office features are explicitly deferred.
+
+### 27.1 Scope (Static‑Only)
+- Build only static pages listed in §5.2 (Core, Services, Practice Areas, Resources, Legal, Utility). Admin pages are excluded from MVP.
+- Book page embeds Calendly. Copy must clearly state that (a) staff will perform a manual conflict check, (b) payment link will be emailed after clearance, and (c) a questionnaire will arrive by email/MyCase.
+- No custom forms or data capture beyond Calendly; the Contact page may link to `mailto:` and `tel:` and display basic info.
+- No payment links anywhere on the site. Pricing/How‑It‑Works/Book pages must reinforce the manual sequence.
+
+### 27.2 Manual Operations (Off‑Site for MVP)
+- Calendly emails booking notifications to staff.
+- Staff performs conflict review in MyCase/firm systems.
+- If Clear: Staff emails LawPay link to client; if Flagged: staff declines and cancels the event in Calendly.
+- Staff emails questionnaire link (MyCase intake or form provider) and document checklist.
+- Attorney sends action plan 24–48h post‑consult; staff files materials in MyCase.
+
+### 27.3 Tech Stack (Static‑Only)
+- SSG: Next.js static export (or Astro) deployed on a CDN.
+- Content only (no route handlers, no database, no webhooks, no admin auth).
+- Calendly embed; analytics with consent; canonical URLs and sitemap.xml; FAQ/LegalService JSON‑LD.
+
+### 27.4 Phased Plan (Revised)
+- Phase 1 (2–3 weeks): Static pages, Calendly embed, content length standards, SEO/a11y/performance baselines; clear copy for manual steps.
+- Phase 2 (3–6 weeks): Content expansion to meet/beat word count targets (≥1,500; cornerstones ≥3,000), additional practice pages, resources, testimonials.
+- Phase 3+: Introduce backend for automation (conflict queue, LawPay verification, questionnaire autosave/uploads, admin console, MyCase API) when operations require it.
+
+### 27.5 Acceptance Criteria (Overrides for Phase 1)
+- No payment link appears anywhere on site; copy explicitly explains manual conflict → payment by email → questionnaire by email/MyCase.
+- Book page shows Calendly embed with reserved space; includes timezone & guarantee copy; provides an error fallback message.
+- Content length: ≥1,500 words per content page; cornerstone hubs ≥3,000; H2/H3 hierarchy; internal links.
+- SEO/a11y: Unique titles/descriptions; canonical URLs; sitemap.xml; FAQ JSON‑LD; keyboard navigation; visible focus; decorative icons hidden; reduced motion respected.

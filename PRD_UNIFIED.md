@@ -133,6 +133,96 @@ Note: All URLs use trailing slashes. Redirects handle common alternates (e.g., /
 - Lowercase, hyphen‑separated slugs; trailing slashes; ≤3 levels deep where possible.
 - Clear canonicals; sitemap includes all indexable routes; admin routes excluded.
 
+### 5.5 Page Content Specifications (Definition of Done per page)
+For each page, include: clear H1, concise intro (40–60 words), primary CTA, secondary CTA (where applicable), trust reinforcement, accessibility checks (heading order, focus order, color contrast), SEO (unique title ≤60 chars, description 150–160 chars, canonical), and structured data where noted.
+
+- Home (`/`)
+  - Purpose: Introduce firm, value proposition, and drive to Book.
+  - Content: Hero (H1 + subhead), TrustBar (Licensed AZ, years, confidentiality), 3–6 feature cards, social proof teaser, CTABand end‑cap.
+  - CTAs: Primary “Book Consultation”, Secondary “How It Works”.
+  - SEO: LegalService JSON‑LD (site‑wide), OG/Twitter images.
+
+- How It Works (`/how-it-works/`)
+  - Purpose: Set expectations for conflict → payment → questionnaire → consult → action plan.
+  - Content: Step grid with timelines, expectations, refund policy summary, FAQ teaser.
+  - CTAs: “Book Consultation”, “Pricing”.
+  - SEO: Descriptive title/description; internal links to Book/Pricing/FAQ.
+
+- Pricing (`/pricing/`)
+  - Purpose: Communicate $500/90‑minute consult + representative LSR fees; reinforce guarantee.
+  - Content: Pricing card (what’s included), comparison band (DIY vs Consult), refund policy note, trust badges, CTABand.
+  - CTAs: “Book Consultation”, “How It Works”.
+  - SEO: Structured content; OG image with price badge.
+
+- Book (`/book/`)
+  - Purpose: Present Calendly embed + expectations; explain conflict review and payment sequence.
+  - Content: Clear banner: “Appointment held pending manual conflict check”, timezone display, guarantee chip, Calendly embed, fallback/contact on error.
+  - CTAs: “Contact Us” fallback; no immediate payment button.
+  - A11y: Async loader with retry; ensure iframe focus/labels.
+
+- Contact (`/contact/`)
+  - Purpose: Quick help paths and general leads.
+  - Content: Call/email cards; simple form (name, email, phone, message); office/service area; emergency note.
+  - CTAs: “Book Consultation”, “Call Now”.
+
+- Services — Limited‑Scope (`/services/limited-scope/`)
+  - Purpose: Present LSR menu (document review/drafting, motion, coaching, hearing appearances) with clear inclusions/exclusions and pricing.
+  - CTAs: “Start Limited‑Scope Service” (begins conflict gate); “Contact for Questions”.
+
+- Services — Full Representation (`/services/full-representation/`)
+  - Purpose: Explain full‑scope engagement, retainer ranges, onboarding steps, expectations.
+  - CTAs: “Request Consultation” (or “Contact Attorney”), internal links to Practice Areas.
+
+- Practice Area Hub (`/practice-areas/`)
+  - Purpose: Orient to four pillars with cards linking to details; brief descriptions; CTABand.
+
+- Practice Area Detail (e.g., `/practice-areas/divorce/uncontested/`)
+  - Template: Overview, common scenarios, process, timelines, FAQs, related resources, end‑cap CTAs (“Book”, “How It Works”).
+  - SEO: Unique title/description; internal links to related practice/FAQs.
+
+- Resources Hub (`/resources/`)
+  - Purpose: Orient to Blogs, Guides, FAQ, Testimonials; stats; categories; CTABand.
+
+- Blog Index/Detail (`/resources/blog/`, `/resources/blog/[slug]/`)
+  - Index: Paginated posts; filters/tags.
+  - Detail: Article content; related posts; author; share meta; Article JSON‑LD.
+
+- Guides Index/Detail (`/resources/guides/`, `/resources/guides/[slug]/`)
+  - Index: Downloadable guides; teaser blurbs; read time.
+  - Detail: Landing page for guide; download success page; optional email capture.
+
+- FAQ (`/resources/faq/`)
+  - Purpose: Address objections (refunds, confidentiality, rescheduling, scope, payment sequence).
+  - SEO: FAQPage JSON‑LD.
+
+- Testimonials (`/resources/testimonials/`)
+  - Purpose: Social proof; include context and ethical disclaimer (“results vary”).
+
+- Legal Hub & Pages (`/legal/`, `/legal/privacy/`, `/legal/terms/`, `/legal/disclaimer/`, `/legal/cookie-policy/`, `/legal/refund-policy/`, `/legal/attorney-advertising/`)
+  - Purpose: Transparency; link surfaced in footer and relevant flows (payment, forms).
+  - A11y: Plain, readable; skip links; logical headings.
+
+- Utility (`/404/`, `/500/`, `/thank-you/`, `/confirmation/`, `/download-success/`)
+  - 404: Helpful suggestions and quick links; search hint.
+  - 500: Friendly fallback; retry guidance; contact link.
+  - Thank‑you/Confirmation: Reinforce next steps; links to resources.
+
+- Admin (authenticated, noindex)
+  - Queue, review, bookings, payments, questionnaires, settings; a11y and audit requirements apply.
+
+### 5.6 Canonical & Redirect Policy
+- Canonicals: Built from a single base URL (production domain) + normalized path (always trailing slash). One canonical per route.
+- Redirects: `/blog` → `/resources/blog/`, `/guides` → `/resources/guides/`; any legacy paths 301 → current slugs.
+- Trailing slashes: Enforced for consistency; internal links should match.
+
+### 5.7 Sitemap & Robots
+- XML Sitemap: Includes all indexable routes (core, services, practice areas, resources, legal, utility as needed), excludes admin and any noindex pages. Update weekly or on deploy. Priority weighting: home (1.0), book/pricing/how‑it‑works (0.9), practice (0.8), resources (0.6), legal (0.5), utility (0.4).
+- Robots.txt: Allow all except `/admin/` and explicit noindex routes. Link `Sitemap: https://<domain>/sitemap.xml`.
+
+### 5.8 Content Prioritization (MVP)
+- Phase 1 must‑have pages: `/`, `/how-it-works/`, `/pricing/`, `/book/`, `/contact/`, `/practice-areas/` hub + 4 key details (uncontested divorce, custody overview, child support, domestic violence), `/resources/faq/`, `/legal/privacy/`, `/legal/terms/`, `/legal/refund-policy/`, `/thank-you/`, `/confirmation/`, `/404/`.
+- Phase 2: Remaining practice details, resources hub and indexes, testimonials, cookie policy, attorney advertising, guides/blog initial content set.
+
 ## 6) Core Flows
 ### 6.1 90‑Minute Consult (Manual Conflict Gate)
 1) User selects slot in Calendly (tentative hold).

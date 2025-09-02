@@ -411,3 +411,134 @@ Unhappy paths
 ---
 
 This unified PRD is prescriptive so a new developer can begin immediately. It balances fast, SEO‑friendly marketing with the dynamic workflows required for manual conflict gating, LawPay payments, robust questionnaires, and MyCase handoff.
+
+## 21) Wireframe Blueprints (Lo‑Fi)
+Visual references to guide layout and hierarchy. Final design can evolve, but structure/order should remain.
+
+- Home (`/`)
+  - Above the fold: [Header] → [Hero (H1, subhead, Primary CTA, Secondary CTA)] → [TrustBar]
+  - Body: [Feature Cards (3)] → [Social Proof Teaser] → [CTABand] → [Footer]
+  - Mobile: single‑column; CTAs visible without scrolling more than 1–2 screens.
+
+- How It Works (`/how-it-works/`)
+  - [Header] → [Hero] → [Steps Grid (5): Conflict → Payment → Questionnaire → Consult (90m) → Action Plan]
+  - [FAQ Teaser] → [CTABand] → [Footer]
+
+- Pricing (`/pricing/`)
+  - [Header] → [Hero] → [Pricing Card ($500/90m, inclusions, guarantee)] → [Comparison Band]
+  - [Trust Badges Row] → [CTABand] → [Footer]
+
+- Book (`/book/`)
+  - [Header] → [Info Banner: “Appointment held pending manual conflict check” + timezone + guarantee chip]
+  - [Calendly Embed] (reserved height to avoid CLS) → [Error Fallback (Retry, Contact)] → [Footer]
+
+- Contact (`/contact/`)
+  - [Header] → [Contact Cards (Call, Email, Visit)] → [Contact Form] → [Trust Row] → [Footer]
+
+- Services — LSR (`/services/limited-scope/`)
+  - [Header] → [Intro] → [Services Grid: each with price + inclusions/exclusions] → [CTABand] → [Footer]
+
+- Services — FSR (`/services/full-representation/`)
+  - [Header] → [Intro (retainer ranges, onboarding steps)] → [Process Steps] → [CTA + Contact] → [Footer]
+
+- Practice Area Detail
+  - [Header] → [H1 + Intro] → [Common Scenarios] → [Process/Timelines] → [Related FAQs/Resources] → [CTABand] → [Footer]
+
+- Resources Hub/Indexes/Detail
+  - Hub: [Header] → [Categories] → [Stats] → [CTABand] → [Footer]
+  - Blog/Guide Index: [List/Grid with tags] → [Pagination]
+  - Blog Detail: [Title] → [Meta] → [Body] → [Related] → [Share]
+
+- FAQ (`/resources/faq/`)
+  - [Header] → [H1] → [Disclosure List by Topic] → [Contact CTA] → [Footer]
+
+- Legal Pages
+  - [Header] → [H1] → [Sectioned copy] → [Footer]
+
+- Admin (authenticated)
+  - Dashboard: [KPIs] → [Quick filters]
+  - Conflicts Queue: [List with SLA badges] → [Detail drawer/page with actions]
+
+## 22) Copy Blocks & Voice
+Guidelines and reusable copy to accelerate drafting.
+
+- Voice & Tone
+  - Empathetic, clear, professional; plain language; avoid legalese; validate stress; avoid pressure.
+  - Use second person (“you/your”), action‑oriented CTAs; emphasize confidentiality and next steps.
+
+- Core CTAs
+  - Primary: “Book Consultation”, “Schedule Your Consultation”
+  - Secondary: “Learn How It Works”, “View Pricing”, “Contact Us”
+
+- Hero (Home)
+  - H1: “Get the Legal Guidance You Need”
+  - Subhead: “During life’s most difficult times, get clear answers from an experienced Arizona family law attorney.”
+  - Primary CTA: “Book Consultation”  | Secondary CTA: “How It Works”
+
+- Trust Microcopy
+  - “Licensed Arizona Attorneys” | “15+ Years Experience” | “100% Confidential” | “Secure payment via LawPay”
+
+- Pricing/Guarantee
+  - “$500 for a 90‑minute virtual consultation”
+  - “Includes a written action plan delivered within 24–48 hours”
+  - “Satisfaction guaranteed—full refund if you’re not satisfied”
+
+- Book Banner (Conflict Gate)
+  - “Your appointment is held pending a quick conflict check by our staff. Once cleared, we’ll send your payment link and pre‑consultation questionnaire.”
+
+- FAQ Objections (examples)
+  - “Is my consultation confidential?” → “Yes. Communications are protected by attorney‑client privilege to the extent permitted by law.”
+  - “When do I pay?” → “After a manual conflict check. We’ll email a LawPay link once cleared.”
+  - “What if I need to reschedule?” → “You can reschedule up to 24 hours in advance at no cost.”
+
+- Legal Disclaimers
+  - “This website provides general information and does not create an attorney‑client relationship. Legal advice is provided during consultation; ongoing representation requires a separate engagement.”
+  - Testimonials: “Results vary. Past outcomes do not guarantee future results.”
+
+## 23) Acceptance Test Checklists
+Page‑level acceptance criteria (AC) to validate usability, accessibility, SEO, and flow correctness.
+
+- Site‑Wide AC
+  - A11y: Keyboard navigation works across all interactive elements; focus is visible; decorative icons are aria‑hidden; headings are logical.
+  - Performance: LCP <2.5s on median device; CLS <0.1; no large layout shifts; third‑party scripts only where used.
+  - SEO: Unique title/description; canonical set; OG/Twitter image for core pages; sitemap lists public routes; robots excludes admin.
+  - Analytics: Consent banner blocks non‑essential scripts until accepted; core events fire with expected params (cta_click, time_selected, payment_*, questionnaire_*).
+
+- Home AC
+  - H1 + subhead present; primary/secondary CTAs visible above the fold on desktop; TrustBar visible within first viewport on mobile.
+  - End‑cap CTABand present; links to How It Works and Pricing function.
+
+- How It Works AC
+  - Steps show correct sequence: Conflict → Payment → Questionnaire → Consult (90m) → Action Plan.
+  - Links to Book and Pricing work; content explains manual conflict gate and timing.
+
+- Pricing AC
+  - Shows “$500/90‑minute consultation” and inclusions; refund/guarantee copy; comparison band present.
+  - CTAs route to Book/How It Works; OG image renders correctly.
+
+- Book AC
+  - Info banner states manual conflict policy; timezone displays; Calendly loads with reserved space; error fallback offers Retry + Contact.
+  - No payment CTAs before conflict clearance.
+
+- Contact AC
+  - Call/email cards with tel/mailto; form has labels, validation, and success feedback; office/service area listed.
+
+- Services (LSR/FSR) AC
+  - LSR: Clear inclusions/exclusions and pricing; CTA starts conflict‑gated flow.
+  - FSR: Retainer ranges and onboarding steps; CTA to contact/lead; links to practice areas.
+
+- Practice Area Detail AC
+  - Unique H1; content sections present; related resources/FAQ; end‑cap CTAs working.
+
+- Resources AC
+  - Blog/Guides indexes paginate; detail pages have structured Article data; FAQ has FAQPage JSON‑LD; testimonials have disclaimer.
+
+- Legal AC
+  - Pages readable and accessible; linked in footer; canonical set; noindex not applied.
+
+- Utility AC
+  - 404 offers helpful links; 500 offers retry + contact; thank‑you/confirmation summarize next steps.
+
+- Admin AC (authenticated)
+  - Conflicts queue lists pending with SLA badges; detail actions (Clear/Flag/Needs Info) function; audit logs are created.
+  - Booking, payments, questionnaires dashboards show correct counts and allow filtering.

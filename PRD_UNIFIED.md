@@ -1392,6 +1392,172 @@ LSR — Additions
 FSR — Additions
 - “Phased Strategy” (early disclosures → settlement → motions → trial readiness)
 
+## 32) Practice Detail Drafts — Financial Matters (Phase 2 Long‑Form Seeds)
+Use these drafts to seed ≥1,500‑word details (and link back to the Financial hub). Expand with examples, plain‑language AZ references, and checklists.
+
+### Spousal Maintenance (Alimony) — Draft Copy
+H1: Spousal Maintenance in Arizona — Eligibility, Amount, and Duration
+
+Overview (2–3 paragraphs)
+Spousal maintenance is not automatic. Arizona courts consider whether a spouse lacks sufficient property to meet reasonable needs, is unable to be self‑sufficient, contributed to the other’s education/career, or has caretaking responsibilities or health conditions that affect earning capacity. If eligibility is established, the court weighs factors to set amount and duration.
+
+Eligibility & Factors (3–5 paragraphs)
+We’ll clarify what facts matter: length of marriage, standard of living, financial resources and earning capacity, contributions and sacrifices, age and health, time needed to acquire training or education, and balancing of hardships. We’ll discuss realistic ranges and structures (step‑down, time‑limited, review).
+
+Evidence & Settlement (2–3 paragraphs)
+Maintenance outcomes depend on credible budgets, documentation, and practical proposals. We help you present the numbers plainly and negotiate workable solutions that align with long‑term goals.
+
+CTA: Book a consultation to understand realistic maintenance ranges and strategies.
+
+### Property Division — Draft Copy
+H1: Property Division in Arizona — Community, Separate, and Practical Solutions
+
+Overview (2–3 paragraphs)
+Arizona is a community property state. Assets and debts acquired during marriage are presumed community, with exceptions. The goal is an equitable division—usually equal, but practical constraints (liquidity, taxes, refinancing) matter.
+
+Inventory & Valuation (2–3 paragraphs)
+Start with a complete inventory: bank/investment accounts, vehicles, real estate, retirement, business interests, and debts. Then consider valuations and tax consequences. For homes, feasibility of refinance and timelines matter.
+
+Separate Property & Reimbursements (2–3 paragraphs)
+Tracing separate property and reimbursement for community contributions (or vice versa) often require documentation and a clear story. We’ll show you how to present it in plain language.
+
+Settlement Structures (2 paragraphs)
+Creativity helps: staged buyouts, sale timelines, or trade‑offs that avoid unnecessary friction. We’ll map options that meet legal and practical needs.
+
+CTA: Get a plan to protect value while resolving property efficiently.
+
+### Debt Division — Draft Copy
+H1: Debt Division in Arizona — Avoiding Credit Pitfalls
+
+Overview (2–3 paragraphs)
+Debt allocation should match practical ability to pay and reflect how obligations were incurred. We’ll discuss closing joint accounts, protecting credit, and ensuring responsibility aligns with the overall division.
+
+Safeguards (2 paragraphs)
+Plan for missed payments, refinance timelines, and communication with creditors. We’ll outline protections that reduce risk.
+
+CTA: Get a strategy that protects your credit and reduces conflict.
+
+### Business Valuation — Draft Copy
+H1: Business Valuation in Divorce — Finding a Practical Number
+
+Overview (2–3 paragraphs)
+Valuing a business requires method selection, normalizing revenues/expenses, and understanding personal vs. enterprise goodwill. We coordinate with qualified experts when needed and focus on solutions that preserve value.
+
+Settlement Options (2–3 paragraphs)
+Buyouts (lump‑sum or staged), offsets, or continued co‑ownership (rare) have pros and cons. We’ll help you evaluate what’s realistic and fair.
+
+CTA: Schedule a consultation to discuss valuation options aligned with your goals.
+
+### Retirement & QDROs — Draft Copy
+H1: Retirement Division & QDROs — Avoiding Expensive Mistakes
+
+Overview (2–3 paragraphs)
+Dividing retirement accounts and pensions typically requires a Qualified Domestic Relations Order (QDRO) or similar plan order. The drafting and timing matter; errors here can be costly and difficult to fix.
+
+Process & Pitfalls (2–3 paragraphs)
+We’ll explain key steps—plan information, draft review, court signature, plan approval—and coordinate timing so accounts aren’t overlooked or taxed unexpectedly.
+
+CTA: Get retirement division right the first time with a clear plan.
+
+### Prenuptial & Postnuptial — Draft Copy
+H1: Prenuptial & Postnuptial Agreements — Clarity Before or After You Say “I Do”
+
+Overview (2–3 paragraphs)
+Well‑drafted agreements can reduce conflict by clarifying expectations around property, debt, and support. Enforceability requires fairness, disclosures, and appropriate formalities. We focus on clear language and realistic, future‑proof terms.
+
+When to Consider One (2 paragraphs)
+Second marriages, business ownership, substantial assets, or a desire to separate finances can justify planning. We’ll discuss what can and cannot be included.
+
+CTA: Talk to an attorney about a fair, practical agreement that fits your goals.
+
+## 33) Practice Detail Drafts — Custody & Parenting (Phase 2 Long‑Form Seeds)
+
+### Parental Rights (Legal Decision‑Making) — Draft Copy
+H1: Legal Decision‑Making in Arizona — Joint or Sole, and How Decisions Get Made
+
+Overview (2–3 paragraphs)
+Major choices about education, healthcare, religious training, and significant activities fall under legal decision‑making. Arizona recognizes joint and sole arrangements. The plan should define how decisions are proposed, documented, and resolved.
+
+Joint vs. Sole (2–3 paragraphs)
+Joint decision‑making requires cooperation and clear tie‑break mechanisms. Sole may be appropriate in limited circumstances (e.g., non‑cooperation, safety). We’ll explain trade‑offs and evidence.
+
+CTA: Build a decision‑making plan matched to your family’s needs.
+
+### Modifications — Draft Copy
+H1: Modifying Legal Decision‑Making, Parenting Time, and Support
+
+Overview (2–3 paragraphs)
+Courts require a substantial and continuing change in circumstances to modify orders. We’ll help you evaluate eligibility and present a practical request.
+
+Evidence & Process (2–3 paragraphs)
+Show schedules, school changes, health needs, or consistent patterns that support change. Document respectfully; focus on the child’s best interests.
+
+CTA: Get a roadmap for seeking a realistic modification.
+
+### Relocation — Draft Copy
+H1: Relocation with a Child — Notice, Evidence, and Best Interests
+
+Overview (2–3 paragraphs)
+Relocation cases require notice and a renewed best‑interests analysis. Courts consider reasons for the move, impact on the child, and how to preserve meaningful relationships.
+
+Practical Strategies (2–3 paragraphs)
+Offer concrete schedules, travel logistics, and communication plans. Show thoughtful efforts to maintain stability and relationships.
+
+CTA: Discuss a relocation plan grounded in best interests and practicality.
+
+### Evaluations — Draft Copy
+H1: Custody Evaluations — What to Expect and How to Prepare
+
+Overview (2–3 paragraphs)
+When facts are complex, courts may order an evaluation. We’ll explain processes, timelines, and how to participate constructively.
+
+Preparation (2–3 paragraphs)
+Focus on the child’s needs; be consistent and respectful. Provide documentation and witnesses thoughtfully.
+
+CTA: Prepare for an evaluation with a clear plan.
+
+### Grandparents’ Rights — Draft Copy
+H1: Third‑Party & Grandparents’ Rights in Arizona
+
+Overview (2–3 paragraphs)
+In limited circumstances, Arizona law permits third‑party visitation or legal decision‑making. Standards are specific and evidence‑driven. We’ll help you evaluate eligibility and present a respectful, child‑focused case.
+
+CTA: Learn whether third‑party rights may apply in your situation.
+
+## 34) Practice Detail Drafts — Special Circumstances (Phase 2 Long‑Form Seeds)
+
+### Paternity — Draft Copy
+H1: Establishing Paternity in Arizona — Rights, Responsibilities, and Next Steps
+
+Overview (2–3 paragraphs)
+Establishing paternity clarifies parental rights and responsibilities, including legal decision‑making, parenting time, and child support. We’ll explain acknowledgments, testing, and how orders are created.
+
+CTA: Book a consultation to discuss next steps in your paternity matter.
+
+### Mediation — Draft Copy
+H1: Mediation & ADR — Resolving Disputes with Structure and Clarity
+
+Overview (2–3 paragraphs)
+Mediation can cut costs and reduce conflict. Preparation matters: clear proposals, evidence, and a willingness to explore creative solutions. We help you define your “must‑haves,” “nice‑to‑haves,” and walk‑away positions.
+
+CTA: Explore whether mediation can move your case forward.
+
+### Appeals — Draft Copy
+H1: Appeals & Post‑Decree Relief — When and How to Challenge Orders
+
+Overview (2–3 paragraphs)
+Appeals and post‑decree relief have strict timelines and standards. We’ll evaluate whether an appeal, motion for relief, or a modification is appropriate, and discuss realistic outcomes.
+
+CTA: Get a candid assessment of your options.
+
+### Enforcement — Draft Copy
+H1: Enforcing Family Court Orders — Practical Tools for Compliance
+
+Overview (2–3 paragraphs)
+When orders aren’t followed, options include contempt, wage assignments, or other remedies. The goal is compliance, not chaos. We’ll help you document issues and seek practical solutions.
+
+CTA: Discuss targeted enforcement steps for your situation.
+
 ### Services — Limited‑Scope (LSR) — Draft Copy
 H1: Limited‑Scope Family Law Services
 

@@ -1705,6 +1705,100 @@ We will benchmark competitor sites for layout and UX patterns only. All copy, im
 - All text original; assets licensed or original; icons consistent
 - Tokens documented; components responsive; keyboard nav OK
 - CTAs present and clear; reserved space for embeds; no layout shift
+
+## 38) Style Tiles & Design Tokens (Authoritative for Build)
+Use these as the single source of truth for brand visuals in Phase 1. All values meet or exceed WCAG AA where applicable (verify with context).
+
+### 38.1 Color Palette (semantic tokens)
+- Navy (Primary): `#1e3a8a`
+  - Hover/Deep: `#172e5c`
+- Light Blue (Accent): `#3b82f6`
+  - Hover/Deep: `#2563eb`
+- Gold (CTA): `#f59e0b`
+  - Hover/Deep: `#d97706`
+- Success: `#10b981`
+- Error: `#ef4444`
+- Grays: 50 `#f9fafb`, 100 `#f3f4f6`, 200 `#e5e7eb`, 300 `#d1d5db`, 400 `#9ca3af`, 500 `#6b7280`, 600 `#4b5563`, 700 `#374151`, 800 `#1f2937`, 900 `#111827`
+
+Usage
+- Primary buttons: Gold → hover Gold‑Dark; Secondary: Light Blue → hover Light Blue‑Dark
+- Headings: Navy; Body: Gray‑700; Muted: Gray‑500
+- Trust/Safety: Success; Errors: Error
+
+### 38.2 Typography
+- Headings: system‑UI or a readable licensed face (weight 600–700)
+- Body: system‑UI (16px base; line‑height 1.6)
+- Scales:
+  - H1: text‑4xl/5xl (hero)
+  - H2: text‑2xl/3xl
+  - H3: text‑xl/2xl
+  - Body: text‑base; Small: text‑sm
+
+### 38.3 Layout & Spacing
+- Breakpoints (Tailwind): `sm` 640, `md` 768, `lg` 1024, `xl` 1280, `2xl` 1536
+- Containers: `max-w-6xl` main; `max-w-7xl` hero; `mx-auto px-4`
+- Section rhythm: `py-12/16/20` (mobile smaller → desktop larger)
+- Cards: `rounded-xl shadow-sm hover:shadow-lg transition-all duration-200`
+
+### 38.4 Radii & Shadows
+- Radii: `rounded-md` (buttons/inputs); `rounded-xl` (cards/sections)
+- Shadows: `shadow-sm` (rest); `hover:shadow-lg` (interactive hover)
+
+### 38.5 Iconography
+- Size: 20–24px (`w-5 h-5` or `w-6 h-6`); accent color per context
+- Accessibility: decorative icons `aria-hidden="true"`; pair action icons with visible text
+
+## 39) Component Spec Sheet (Tailwind‑first)
+Implement these components once and reuse across pages. Ensure keyboard accessibility and focus styles.
+
+### 39.1 Header / Nav (sticky)
+- Container: `sticky top-0 z-50 bg-navy text-white shadow-md`
+- Inner: `.container mx-auto px-4 flex items-center justify-between py-4`
+- Desktop nav: `hidden lg:flex items-center gap-6`
+- Mobile trigger: `lg:hidden p-2 rounded-md hover:bg-navy/80 focus:ring-2 focus:ring-gold`
+- Primary CTA: `bg-gold hover:bg-gold-dark text-white px-6 py-2 rounded-md shadow-md hover:shadow-lg focus:ring-2 focus:ring-gold`
+
+### 39.2 Hero
+- Wrapper: `bg-gradient-to-b from-white to-gray-50`
+- Title: `text-navy font-bold text-4xl md:text-5xl lg:text-6xl`
+- Subhead: `text-gray-700 text-lg md:text-xl`
+- CTAs: primary/secondary buttons side‑by‑side on desktop, stacked on mobile
+
+### 39.3 TrustBar
+- Row: `flex flex-col sm:flex-row items-center justify-center gap-6 text-sm text-gray-700`
+- Item: `flex items-center gap-2`
+- Icon: `w-5 h-5 text-success` (aria‑hidden)
+
+### 39.4 FeatureCard
+- Card: `group bg-white rounded-xl p-8 border-l-4 border-light-blue shadow-sm hover:shadow-lg transition`
+- Title: `text-navy font-semibold text-xl mb-2`
+- Text: `text-gray-600`
+
+### 39.5 StepGrid (How it Works)
+- Grid: `grid md:grid-cols-3 gap-6`
+- Step: circle/number or icon + short copy; ensure responsive wrap and focusable order
+
+### 39.6 TestimonialTeaser
+- Card: `bg-gray-50 rounded-xl p-6 border-l-4 border-gold`
+- Stars: small gold icons; disclaimer “results vary” beneath
+
+### 39.7 FAQDisclosure
+- Container: `divide-y`
+- Item: `py-4` with `button` to toggle; `aria-expanded`; keyboard accessible
+
+### 39.8 CTABand
+- Section: `bg-navy text-white rounded-xl p-8 md:p-10`
+- Inner: `flex flex-col md:flex-row items-start md:items-center justify-between gap-6`
+- Primary CTA: gold button; Secondary link underlined with `text-white/90`
+
+### 39.9 Footer
+- Wrapper: `bg-gray-800 text-white`
+- Layout: 3–4 link clusters + legal links; contact snippet; `border-t` separators for trust/legal strips
+
+### 39.10 Forms (Contact)
+- Inputs: `px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-light-blue focus:border-transparent`
+- Buttons: `bg-light-blue hover:bg-light-blue-dark text-white rounded-lg px-6 py-3`
+- A11y: Labels associated; helper/error via `aria-describedby`; 44px targets
 36) Paternity — /practice-areas/special/paternity/  (Min 1500)
 37) Mediation — /practice-areas/special/mediation/  (Min 1500)
 38) Appeals — /practice-areas/special/appeals/  (Min 1500)

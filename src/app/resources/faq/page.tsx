@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo";
 import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Frequently Asked Questions | Paradise Law AZ",
   description:
     "Clear answers to common questions about Arizona family law and our virtual consultations.",
-  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/resources/faq/` },
+  alternates: { canonical: canonical('/resources/faq/') },
   openGraph: {
     title: "Frequently Asked Questions | Paradise Law AZ",
     description: "Common questions and helpful answers.",

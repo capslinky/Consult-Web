@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Privacy Policy | Paradise Law AZ',
   description: 'Privacy practices for paradiselawaz.com and virtual consultations.',
   robots: { index: true, follow: true },
-  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://azfamilylaw.wiki'}/legal/privacy/` },
+  alternates: { canonical: canonical('/legal/privacy/') },
   openGraph: {
     title: 'Privacy Policy | Paradise Law AZ',
     description: 'Privacy practices for Paradise Law AZ.',

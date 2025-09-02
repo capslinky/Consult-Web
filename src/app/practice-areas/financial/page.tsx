@@ -1,11 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Financial Matters | Paradise Law AZ",
   description:
     "Explore Arizona family law financial topics: support, property division, debt, business valuation, and retirement accounts.",
-  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/financial/` },
+  alternates: { canonical: canonical('/practice-areas/financial/') },
   openGraph: {
     title: "Financial Matters | Paradise Law AZ",
     description: "Support, property division, debt, valuation, retirement.",

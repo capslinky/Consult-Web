@@ -1,10 +1,11 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 
 export const metadata: Metadata = {
   title: 'Terms of Service | Paradise Law AZ',
   description: 'Website and service terms for Paradise Law AZ.',
-  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://azfamilylaw.wiki'}/legal/terms/` },
+  alternates: { canonical: canonical('/legal/terms/') },
   openGraph: {
     title: 'Terms of Service | Paradise Law AZ',
     description: 'Website and service terms for Paradise Law AZ.',

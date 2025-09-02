@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { Breadcrumb } from '@/components/ui/Breadcrumb';
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Domestic Violence & Protection Orders | Paradise Law AZ",
   description:
     "Orders of protection, emergency orders, and safety planning in Arizona family cases.",
-  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/special/domestic-violence/` },
+  alternates: { canonical: canonical('/practice-areas/special/domestic-violence/') },
   openGraph: {
     title: "Domestic Violence & Protection Orders | Paradise Law AZ",
     description: "Protection orders and safety planning in Arizona.",

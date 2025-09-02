@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { Breadcrumb } from '@/components/ui/Breadcrumb';
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Appeals & Post-Decree Relief | Paradise Law AZ",
   description:
     "Arizona family law appeals, post-decree modifications, and Rule 85 motions explained.",
-  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/special/appeals/` },
+  alternates: { canonical: canonical('/practice-areas/special/appeals/') },
   openGraph: {
     title: "Appeals & Post-Decree Relief | Paradise Law AZ",
     description: "Appeals, post-decree modifications, and Rule 85 motions.",

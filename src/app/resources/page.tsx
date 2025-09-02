@@ -1,11 +1,12 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
+import { canonical } from '@/lib/seo';
 import { CTABand } from '@/components/sections/CTABand';
 
 export const metadata: Metadata = {
   title: 'Resources | Paradise Law AZ',
   description: 'Resource hub: legal guides, blog articles, testimonials, and FAQs for Arizona family law.',
-  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || 'https://azfamilylaw.wiki'}/resources/` },
+  alternates: { canonical: canonical('/resources/') },
   openGraph: {
     title: 'Resources | Paradise Law AZ',
     description: 'Legal guides, articles, testimonials, and FAQs for Arizona family law.',

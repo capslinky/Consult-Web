@@ -1,12 +1,13 @@
 import Link from "next/link";
 import { Breadcrumb } from '@/components/ui/Breadcrumb';
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Mediation & ADR in Family Law | Paradise Law AZ",
   description:
     "Resolve disputes efficiently with mediation, collaborative law, and settlement conferences in Arizona.",
-  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/special/mediation/` },
+  alternates: { canonical: canonical('/practice-areas/special/mediation/') },
   openGraph: {
     title: "Mediation & ADR in Family Law | Paradise Law AZ",
     description: "Mediation, collaboration, and settlement conferences.",

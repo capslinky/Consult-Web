@@ -48,7 +48,7 @@ npm install
 cp .env.example .env.local
 ```
 
-4. Update `.env.local` with your configuration (note: payments/email are planned, not implemented yet):
+4. Update `.env.local` with your configuration (note: some items are planned):
 ```
 NEXT_PUBLIC_SITE_URL=https://azfamilylaw.wiki
 NEXT_PUBLIC_GA_ID=your_google_analytics_id
@@ -59,6 +59,9 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 CONVERTKIT_API_KEY=your_convertkit_api_key
 CONVERTKIT_FORM_ID=your_convertkit_form_id
 ```
+
+Notes:
+- `NEXT_PUBLIC_SITE_URL` is used to generate canonical URLs and the sitemap. Set this to your production URL (https). Trailing slashes are handled automatically.
 
 ### Development
 
@@ -153,11 +156,12 @@ npm run test:e2e    # Run end-to-end tests (coming soon)
 
 ## Documentation
 
-- [Product Requirements (PRD.MD)](./PRD.MD) - Business requirements and specifications
-- [Roadmap (ROADMAP.md)](./ROADMAP.md) - Development phases and timeline
-- [Site Map (SITEMAP.md)](./SITEMAP.md) - Complete page structure
-- [Tasks (TASKS.md)](./TASKS.md) - Detailed task breakdown (464 tasks)
-- [Claude Instructions (CLAUDE.md)](./CLAUDE.md) - AI assistant guidelines
+- [Unified Product Requirements (PRD_UNIFIED.md)](./PRD_UNIFIED.md) — Single source of truth for scope, flows, sitemap, tech stack, and phases
+- [Product Requirements (PRD.MD)](./PRD.MD) — Legacy
+- [Roadmap (ROADMAP.md)](./ROADMAP.md) — Development phases and timeline
+- [Site Map (SITEMAP.md)](./SITEMAP.md) — Legacy site structure
+- [Tasks (TASKS.md)](./TASKS.md) — Detailed task breakdown (464 tasks)
+- [Claude Instructions (CLAUDE.md)](./CLAUDE.md) — AI assistant guidelines
 
 ## Contributing
 

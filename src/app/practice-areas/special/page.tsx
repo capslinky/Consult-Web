@@ -1,11 +1,12 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Special Circumstances | Paradise Law AZ",
   description:
     "Explore special Arizona family law circumstances: domestic violence, paternity, mediation, appeals, and enforcement.",
-  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/practice-areas/special/` },
+  alternates: { canonical: canonical('/practice-areas/special/') },
   openGraph: {
     title: "Special Circumstances | Paradise Law AZ",
     description: "Domestic violence, paternity, mediation, appeals, enforcement.",

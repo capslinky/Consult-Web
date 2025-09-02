@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import { canonical } from "@/lib/seo";
 
 export const metadata: Metadata = {
   title: "Downloadable Guides | Paradise Law AZ",
   description:
     "Checklists and preparation guides for Arizona family law matters. Free downloads coming soon.",
-  alternates: { canonical: `${process.env.NEXT_PUBLIC_SITE_URL || "https://azfamilylaw.wiki"}/resources/guides/` },
+  alternates: { canonical: canonical('/resources/guides/') },
   openGraph: {
     title: "Downloadable Guides | Paradise Law AZ",
     description: "Checklists and preparation guides.",

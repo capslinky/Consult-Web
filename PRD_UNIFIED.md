@@ -1221,6 +1221,177 @@ Popular Pages
 Need Help?
 Call or email and we’ll point you in the right direction.
 
+## 30) Cornerstone Hub Long‑Form Drafts (Phase 2 Start)
+These long‑form drafts seed the ≥3,000‑word requirement for cornerstone hubs. Build on them with examples, AZ statute/rule references in plain language (no legal citations necessary for marketing copy), checklists, and internal links.
+
+### Divorce & Separation Hub — Long‑Form Draft
+H1: Divorce & Legal Separation in Arizona — Your Roadmap from Uncertainty to Clarity
+
+Introduction (2–3 paragraphs)
+Ending a marriage is a legal, financial, and emotional turning point. Arizona’s divorce (dissolution) process aims to divide property and debt fairly, address spousal maintenance where appropriate, and establish a workable plan if you have children. The path you choose—uncontested agreement, negotiated settlement, or litigation—depends on your goals, your spouse’s cooperation, and the complexity of your estate and parenting needs.
+
+Key Topics (overview list)
+- Uncontested vs. Contested Divorce
+- Legal Separation vs. Dissolution
+- Disclosures & Community vs. Separate Property
+- Spousal Maintenance (Eligibility & Amount)
+- Parenting Plans & Child Support (if applicable)
+- Special Situations: High‑Asset, Military, Covenant Marriage
+
+Uncontested vs. Contested (3–4 paragraphs)
+When couples agree on all core issues—property, debt, spousal maintenance, and (if applicable) parenting and support—the uncontested route typically reduces cost, stress, and time. You still need complete disclosure and a carefully drafted consent decree that satisfies Arizona’s requirements. Small oversights (e.g., retirement division via QDRO, mortgage responsibility, tax treatment) can become expensive corrections later.
+
+If agreement isn’t realistic yet, a contested path may be necessary. We outline a strategy based on your priorities: preserving key assets, protecting credit, or establishing a safe, reliable parenting plan. We’ll explain the trade‑offs and help you choose the next step with clarity.
+
+Disclosures & Property Division (4–6 paragraphs)
+Arizona’s community property framework presumes assets and debts acquired during marriage belong to the community, with exceptions for gifts and inheritances. Practical resolution depends on good‑faith disclosure, accurate valuations, and a plan that acknowledges liquidity, tax consequences, and feasibility (e.g., refinancing a home). Separate property tracing and reimbursement claims (for community funds used toward separate assets, or vice versa) often require careful documentation.
+
+Spousal Maintenance (3–4 paragraphs)
+Spousal maintenance (often called alimony) depends on statutory factors—need and ability to pay, length of marriage, standard of living, health, and more. We’ll discuss realistic ranges and duration, settlement structures, and how maintenance interacts with property division and taxes.
+
+Parenting & Support in Divorce (2–3 paragraphs)
+When children are involved, the divorce process intersects with legal decision‑making, parenting time, and child support. Parenting plans that reflect a child’s routines and needs are more durable—and easier to follow—than generic schedules. Support amounts follow Arizona guidelines, with adjustments possible in specific circumstances.
+
+Special Situations (high‑asset, military, covenant marriage) (3–5 paragraphs)
+High‑asset cases require careful valuations (businesses, real estate, investment accounts) and tax‑aware solutions. Military divorces introduce additional considerations (benefits, deployments). Covenant marriages include more specific requirements for dissolution. We’ll identify the issues that matter for your situation and map a plan you can act on.
+
+Process Roadmap & Checklists (practical) (bullets + 2 paragraphs)
+- Documents: statements, deeds, titles, retirement plan info, tax returns, budgets
+- Timeline: waiting periods, deadlines, early opportunities to settle
+- Communication: ground rules to reduce conflict and protect kids
+
+CTA: Schedule your 90‑minute consultation and receive a tailored action plan in 24–48 hours.
+
+### Child Custody & Parenting Hub — Long‑Form Draft
+H1: Legal Decision‑Making & Parenting Time in Arizona — Build a Plan that Works
+
+Introduction (2–3 paragraphs)
+Parenting decisions shape a child’s daily life—school, health care, routines, and relationships. Arizona law focuses on a child’s best interests when allocating legal decision‑making and parenting time. The right plan balances stability with flexibility, clarifies decision‑making, and reduces conflict.
+
+Key Topics (overview list)
+- Best Interests Factors & Evidence
+- Parenting Plans (day‑to‑day, holidays, travel, communication)
+- Joint vs. Sole Legal Decision‑Making
+- Parenting Time Schedules & Exchanges
+- Modifications & Relocation
+- Special Issues: Supervised Time, Third‑Party Rights, Evaluations
+
+Best Interests Factors (3–5 paragraphs)
+Courts consider a range of factors: the child’s adjustment to home and school, relationships with each parent, each parent’s ability to meet the child’s needs, willingness to encourage the child’s relationship with the other parent, and—when appropriate—the child’s wishes. Evidence can include school records, medical needs, consistent caregiving patterns, and respectful co‑parent communication.
+
+Parenting Plans (4–6 paragraphs)
+A strong plan details daily schedules, holidays, travel, exchanges, communication methods, and dispute resolution. If joint legal decision‑making is appropriate, the plan should clearly define how major decisions are made and how disagreements are resolved. Thoughtful structure reduces friction and protects children from conflict.
+
+Modifications & Relocation (3–4 paragraphs)
+Life changes—work schedules, distance, a child’s needs. Modification requires a substantial and continuing change and a renewed best‑interests analysis. Relocation cases add procedures and timelines; early planning and documentation are essential.
+
+Special Issues (3–4 paragraphs)
+Supervised parenting time may be needed for safety or transitional reasons; third‑party and grandparent rights exist in specific circumstances; evaluations can help the court understand complex family dynamics. We explain the processes and help you prepare.
+
+CTA: Book a consultation to build a realistic parenting plan that meets your child’s needs.
+
+### Financial Matters Hub — Long‑Form Draft
+H1: Financial Matters in Arizona Family Law — Protecting Your Present and Future
+
+Introduction (2–3 paragraphs)
+Money is more than numbers—it affects where you live, your retirement, and your child’s opportunities. Financial decisions in family law should be informed, timely, and realistic, accounting for Arizona’s community property rules and your long‑term goals.
+
+Key Topics (overview list)
+- Child Support & Spousal Maintenance
+- Property & Debt Division
+- Business Valuation
+- Retirement & QDROs
+- Separate Property Tracing
+- Real Estate & Mortgages
+- Tax Considerations
+
+Child Support & Spousal Maintenance (3–4 paragraphs)
+Support outcomes depend on accurate information and clear documentation. We explain what factors matter, how to present your position, and realistic ranges.
+
+Property & Debt (4–6 paragraphs)
+Inventory everything—bank accounts, vehicles, investments, debts—and address practical issues (liquidity, tax impact, refinancing). For separate property tracing and reimbursements, documentation is vital.
+
+Business Valuation (3–4 paragraphs)
+Valuing a business requires method selection (income, market, asset), normalizing cash flows, and understanding goodwill. Settlement creativity can reduce friction and protect value.
+
+Retirement & QDROs (3–4 paragraphs)
+Dividing retirement plans and pensions typically requires a QDRO or similar order. Drafting and timing matter; errors here can be costly.
+
+Taxes (2–3 paragraphs)
+Consider capital gains, maintenance tax treatment, and the timing of asset transfers. We flag issues early so you can decide with eyes open.
+
+CTA: Schedule a consultation to protect what matters most—today and long‑term.
+
+### Special Circumstances Hub — Long‑Form Draft
+H1: Special Circumstances in Arizona Family Law — Focused Strategy When It Matters Most
+
+Introduction (1–2 paragraphs)
+Some situations require immediate, strategic action: safety concerns, urgent orders, complex appeals, or enforcement of existing orders. We help you assess urgency, gather evidence, and choose a path with the best chance of success.
+
+Key Topics (overview list)
+- Domestic Violence & Safety Orders
+- Paternity
+- Mediation & Alternative Dispute Resolution
+- Appeals & Post‑Decree Modifications
+- Enforcement
+
+Domestic Violence & Safety Orders (3–4 paragraphs)
+When safety is at issue, an Order of Protection or emergency order may be appropriate. We’ll discuss requirements, evidence, hearing procedures, and safety planning.
+
+Paternity (2–3 paragraphs)
+Establishing paternity can clarify parental rights and responsibilities. We explain testing, acknowledgments, and how legal decision‑making and parenting time are determined.
+
+Mediation & ADR (2–3 paragraphs)
+Many cases benefit from structured negotiation. We prepare you with proposals grounded in law and practical solutions.
+
+Appeals & Enforcement (3–4 paragraphs)
+Some orders need to be challenged; others must be enforced. We help evaluate timelines, standards, and practical outcomes, from contempt to wage assignments.
+
+CTA: If your matter requires decisive action, book a consultation and get a plan you can execute.
+
+## 31) Phase 1 Page Expansions (Toward Word Targets)
+Add these paragraphs or bullet sections to Phase 1 pages to raise word counts while keeping copy useful and scannable.
+
+Home — Additions
+- “What Clients Appreciate” (3–4 short testimonials with context and disclaimer)
+- “How We Prepare” (behind‑the‑scenes prep: review questionnaire, documents, questions)
+
+How It Works — Additions
+- “What to Bring” checklist (orders, communications, financial docs, timeline)
+- “If You Need to Reschedule” guidance (lead times)
+
+Pricing — Additions
+- “Cost vs. Value” (why 90 minutes can save weeks)
+- “After the Consult” (limited/full‑scope pathways; transparent scoping)
+
+Book — Additions
+- “Common Technical Questions” (timezone, link delivery, fallback contact)
+
+Contact — Additions
+- “If You’re Not Sure Which Service Fits” (examples: contested motion vs. modification)
+
+Uncontested Divorce — Additions
+- “Common Mistakes” (QDRO timing, mortgage assumptions, vague parenting terms)
+- “Checklist” (what to gather before finalizing)
+
+Custody Overview — Additions
+- “Evidence That Helps” (school records, healthcare needs, parent communication)
+- “Parenting Coordinator & Tools” (co‑parenting apps, communication rules)
+
+Child Support — Additions
+- “Documentation That Matters” (income proofs, childcare, insurance)
+- “When a Deviation Makes Sense” (examples)
+
+Domestic Violence — Additions
+- “Preparing for a Hearing” (evidence tips, safety first)
+- “Community Resources” (shelters, hotlines, counseling)
+
+LSR — Additions
+- “Scoping Examples” (2–3 sample packages with what’s in/out)
+
+FSR — Additions
+- “Phased Strategy” (early disclosures → settlement → motions → trial readiness)
+
 ### Services — Limited‑Scope (LSR) — Draft Copy
 H1: Limited‑Scope Family Law Services
 

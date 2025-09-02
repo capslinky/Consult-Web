@@ -75,6 +75,8 @@ Note: All URLs use trailing slashes. Redirects handle common alternates (e.g., /
     - `/practice-areas/custody/relocation/`
     - `/practice-areas/custody/evaluations/`
     - `/practice-areas/custody/grandparents-rights/`
+    - `/practice-areas/custody/fathers-rights/` (optional, targeted messaging)
+    - `/practice-areas/custody/parenting-coordinator-gal/` (optional, coordinator & guardian ad litem)
   - Financial Matters — `/practice-areas/financial/`
     - `/practice-areas/financial/child-support/`
     - `/practice-areas/financial/spousal-maintenance/`
@@ -84,12 +86,14 @@ Note: All URLs use trailing slashes. Redirects handle common alternates (e.g., /
     - `/practice-areas/financial/retirement-investment-accounts/`
     - `/practice-areas/financial/prenuptial/`
     - `/practice-areas/financial/postnuptial/`
+    - `/practice-areas/financial/cohabitation-agreements/` (optional)
   - Special Circumstances — `/practice-areas/special/`
     - `/practice-areas/special/domestic-violence/`
     - `/practice-areas/special/paternity/`
     - `/practice-areas/special/mediation/`
     - `/practice-areas/special/appeals/`
     - `/practice-areas/special/enforcement/`
+    - `/practice-areas/special/domestic-partnership/` (optional)
 
 - Resources
   - `/resources/` — Hub
@@ -1643,6 +1647,64 @@ Due: T+14d
 33) Relocation — /practice-areas/custody/relocation/  (Min 1500)
 34) Evaluations — /practice-areas/custody/evaluations/  (Min 1500)
 35) Grandparents’ Rights — /practice-areas/custody/grandparents-rights/  (Min 1500)
+36) Fathers’ Rights — /practice-areas/custody/fathers-rights/  (Min 1500)
+37) Parenting Coordinator & GAL — /practice-areas/custody/parenting-coordinator-gal/  (Min 1500)
+38) Cohabitation Agreements — /practice-areas/financial/cohabitation-agreements/  (Min 1500)
+39) Domestic Partnership — /practice-areas/special/domestic-partnership/  (Min 1500)
+40) Paternity — /practice-areas/special/paternity/  (Min 1500)
+41) Mediation — /practice-areas/special/mediation/  (Min 1500)
+42) Appeals — /practice-areas/special/appeals/  (Min 1500)
+43) Enforcement — /practice-areas/special/enforcement/  (Min 1500)
+
+## 37) Design Benchmark & Layout‑Only Reuse (Policy & Deliverables)
+We will benchmark competitor sites for layout and UX patterns only. All copy, images, icons, and trademarks must be original. No proprietary assets are to be reused. The goal is to match the quality and clarity of leading family‑law sites while preserving a distinct, original brand.
+
+### 37.1 Allowed (Layout/UX)
+- Page architecture and section ordering: hero → trust strip → value cards → social proof → CTA band
+- Grid systems: container widths, column counts, responsive breakpoints
+- Component archetypes: sticky header with CTA, hero with split layout, trust bar (icons + text), step grid, feature cards, FAQ disclosures, CTA bands, blog tiles, practice‑area cards, footer link clusters
+- Interaction patterns: mobile nav drawer, sticky primary CTA, reserved embed space (Calendly), gentle transitions respecting reduced motion
+
+### 37.2 Not Allowed (IP/Brand)
+- Copying text verbatim (headlines, paragraphs, FAQs)
+- Copying logos, icons, illustrations, photos, or unique visual motifs
+- Copying color palettes, typography pairings, or distinctive branding elements wholesale
+- Mimicking a competitor’s trademarked phrases, taglines, or layout “trade dress” in a confusingly similar way
+
+### 37.3 Brand & Visual System (Original)
+- Color: Distinct palette anchored by Navy / Light Blue / Gold accents; ensure WCAG AA contrast
+- Type: System fonts for body; a readable, distinctive heading face only if licensed/embedded appropriately
+- Tokens: Tailwind CSS tokens for colors, spacing, radii, shadows; documented in code and style guide
+- Iconography: Consistent stroke/fill style; decorative icons marked aria‑hidden
+
+### 37.4 Component Library (Code Deliverables)
+- Header/Nav: sticky on scroll; desktop nav + mobile drawer; primary CTA right‑aligned
+- Hero: headline, subhead, primary/secondary CTAs; optional illustration slot
+- TrustBar: horizontal row of 3–5 trust items (icon + label)
+- FeatureCard: title, short text, optional icon; grid responsive 1→2→3
+- StepGrid: numbered steps (how it works)
+- TestimonialTeaser: short quotes w/ initials (no stock photos if avoidable)
+- FAQDisclosure: accessible disclosure list (keyboard‑friendly)
+- CTABand: full‑width, contrasting background, headline + button + secondary link
+- Footer: 3–4 link clusters + compliance links; contact snippet
+
+### 37.5 Layout Specs
+- Breakpoints: sm ≤640, md ≤768, lg ≤1024, xl ≤1280, 2xl ≤1536 (Tailwind defaults)
+- Containers: max‑width 6xl+ for hero; standard container for body; generous vertical rhythm (section padding 48–80px desktop)
+- Spacing Scale: Tailwind scale (4/6/8/12/16/24/32/48/64)
+- Imagery: use abstract shapes or licensed imagery; defer heavy media for static MVP
+
+### 37.6 Process & Deliverables
+- Style tiles: colors, type, buttons, links, cards (1–2 passes)
+- Wireframes: high‑level frames for core pages (Home, How, Pricing, Book, Contact, Practice hubs)
+- Component inventory: code library matching wireframes (see 37.4)
+- Accessibility review: color contrast, link focus, keyboard nav, motion preferences
+
+### 37.7 PR/Review Checklist (Design)
+- Meets layout archetypes while looking distinct (no confusing similarity)
+- All text original; assets licensed or original; icons consistent
+- Tokens documented; components responsive; keyboard nav OK
+- CTAs present and clear; reserved space for embeds; no layout shift
 36) Paternity — /practice-areas/special/paternity/  (Min 1500)
 37) Mediation — /practice-areas/special/mediation/  (Min 1500)
 38) Appeals — /practice-areas/special/appeals/  (Min 1500)

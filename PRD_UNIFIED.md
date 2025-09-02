@@ -956,3 +956,184 @@ Your satisfaction matters. Review our Refund Policy for timing and eligibility. 
 
 Call to Action
 Ready to get clarity on your next steps? Book your 90‑minute virtual consultation today.
+
+### Practice Areas Hub — Draft Copy
+H1: Family Law Practice Areas
+
+Intro (60–90 words)
+Every family is unique. We organize our services around the decisions that most often shape Arizona family law cases—ending a marriage, protecting children, dividing property and debt, and addressing special circumstances that require swift action. Explore the topics below to understand how Arizona law frames your options and what to consider before you decide your next move.
+
+Divorce & Separation (summary)
+Whether your matter is uncontested or highly contested, divorce in Arizona involves disclosures, property and debt division, and—if applicable—spousal maintenance (alimony). We’ll explain timelines, court expectations, and practical steps to protect your interests from day one.
+
+Child Custody & Parenting (summary)
+Arizona uses “legal decision‑making” and “parenting time” instead of “custody/visitation.” Parenting plans, modifications, relocation, and evaluations center on the child’s best interests. We’ll show you what courts look for and how to document the care you already provide.
+
+Financial Matters (summary)
+From child support to business valuation, community/separate property tracing, and retirement division (including QDROs), sound decisions now can prevent costly issues later. We help you make informed choices grounded in Arizona law and practical realities.
+
+Special Circumstances (summary)
+Orders of protection, paternity, mediation, appeals, and enforcement actions require focused strategy. We help you evaluate urgency, evidence, and the path most likely to achieve your goals.
+
+CTA
+Not sure where to start? Book a 90‑minute virtual consultation and get a written plan in 24–48 hours.
+
+### Uncontested Divorce — Draft Copy
+H1: Uncontested Divorce in Arizona
+
+Overview (2–3 paragraphs)
+An uncontested divorce is often the fastest, most cost‑effective way to end a marriage when you and your spouse agree on all major terms: property and debt division, spousal maintenance (if any), and—if you have children—legal decision‑making, parenting time, and child support. Arizona’s 60‑day waiting period typically applies after service/acceptance. If your agreement is complete, the court may enter a decree without a trial.
+
+Required Steps & Timeline (high level)
+- File or accept service; observe the 60‑day waiting period (in most cases).
+- Exchange complete, good‑faith financial information (disclosures).
+- Prepare a comprehensive consent decree that addresses every required topic under Arizona law.
+- Submit documents to the court; attend any required hearing.
+
+Disclosures & Agreements (plain language)
+Even in uncontested cases, Arizona expects full, good‑faith disclosure of property, debt, income, and expenses. Clear agreements today prevent disputes later—especially around retirement accounts, real estate, and taxes. If you have kids, your parenting plan should detail schedules, holidays, decision‑making, travel, and communication.
+
+Costs, Value, and Pitfalls (1–2 paragraphs)
+Uncontested divorce minimizes litigation, but “do‑it‑yourself” mistakes can become expensive to fix—particularly with retirement division (QDROs), mortgage assumptions, and incomplete parenting plans. A focused consultation helps you avoid common pitfalls and finalize a durable agreement.
+
+FAQs (sample prompts)
+- Do we need to attend a hearing?
+- How do we handle retirement accounts and QDROs?
+- Can we modify the agreement later?
+
+CTA
+If you’re ready to finalize an uncontested divorce, schedule your consultation and get a written action plan within 24–48 hours.
+
+### Custody Overview — Draft Copy
+H1: Legal Decision‑Making & Parenting Time in Arizona
+
+Overview (2 paragraphs)
+Arizona focuses on the “best interests of the child.” Courts allocate legal decision‑making (who makes major choices about education, healthcare, religion) and parenting time (the schedule). Plans can be joint or sole, and they can vary widely depending on work schedules, school calendars, travel, and the child’s specific needs.
+
+Best Interests & Parenting Plans (2–3 paragraphs)
+Courts consider factors like the child’s adjustment to home and school, relationships with each parent, each parent’s willingness to support the child’s relationship with the other, and—when appropriate—the child’s wishes. A strong parenting plan addresses day‑to‑day routines, holidays, travel, communication, dispute resolution, and exchanges.
+
+Modifications & Relocation (1–2 paragraphs)
+If circumstances change substantially and continuously (e.g., schedules, distance, a child’s needs), you can request a modification. Relocation cases introduce additional notice and best‑interest analysis; evidence and planning are critical.
+
+Special Issues (brief)
+Supervised parenting time, third‑party rights, interstate (UCCJEA), and evaluations. We’ll explain what to expect and how to prepare.
+
+CTA
+Talk to an attorney about building a realistic parenting plan grounded in your child’s needs.
+
+### Child Support — Draft Copy
+H1: Arizona Child Support Overview
+
+Guidelines & Factors (2 paragraphs)
+Arizona’s child support guidelines consider each parent’s income, parenting time, healthcare and childcare costs, and certain adjustments. The result is a guideline amount the court may adopt or deviate from when appropriate.
+
+Establish, Modify, Enforce (2–3 paragraphs)
+Support can be established by agreement or court order. A “substantial and continuing” change may justify modification (e.g., income changes, parenting‑time shifts). Enforcement tools include wage assignments and other remedies; documentation and communication matter.
+
+Deviations & Special Circumstances (brief)
+High medical needs, travel, or other expenses may support a deviation when justified by evidence and child’s best interests.
+
+CTA
+Get clarity on your likely range and how to document a fair outcome.
+
+### Domestic Violence — Draft Copy
+H1: Domestic Violence & Protection in Arizona
+
+Safety & Orders (2–3 paragraphs)
+If you need protection, you can request an Order of Protection (OOP). In urgent situations, an emergency order may be available. These orders can affect communication, contact, and residence. We’ll discuss your options, what to expect at hearings, and how to collect evidence safely.
+
+Impact on Parenting (1–2 paragraphs)
+Domestic violence can affect legal decision‑making and parenting time. Courts focus on child safety and best interests; plans may include safety provisions, supervised exchanges, or supervised parenting time.
+
+Resources (brief)
+We can provide a list of local shelters, counseling, and legal resources.
+
+CTA
+If safety is a concern, consult promptly and discuss a plan that prioritizes protection.
+
+### FAQ — Draft Copy
+H1: Frequently Asked Questions
+
+Consultation & Payment
+- When do I pay for the consultation? After our staff completes a manual conflict check, we email a secure LawPay link for the $500 fee.
+- What’s included in the 90‑minute consultation? A focused meeting with an Arizona attorney and a written action plan within 24–48 hours.
+
+Process & Timelines
+- How soon can I meet with an attorney? Availability varies; booking holds your time while we complete a quick conflict check.
+- What happens if I need to reschedule? Contact us as soon as possible; we’ll work with you to find a new time.
+
+Representation Scope
+- Does the consultation create an attorney‑client relationship? It creates a limited‑scope consultation. Ongoing representation requires a separate engagement agreement.
+- Do you handle trials? Yes, subject to availability, conflicts, and a signed engagement.
+
+Privacy & Confidentiality
+- Is my consultation confidential? Yes, to the extent permitted by law.
+- Do you share my information? We use reputable vendors (e.g., calendaring and payment) and limit disclosures as described in our policies.
+
+Policies
+- What is your refund policy? See our Refund Policy for timing and eligibility. If you’re not satisfied, contact us and we’ll make it right.
+
+CTA
+Still have questions? Call or email—we’re here to help.
+
+### Privacy Policy — Draft Copy
+H1: Privacy Policy
+
+Introduction
+We respect your privacy. This policy explains what we collect, how we use it, how we protect it, and the choices you can make. By using our website or services, you agree to this policy.
+
+Information We Collect
+- Contact information (name, email, phone)
+- Technical data (IP address, browser, device, pages viewed)
+- Limited service‑related details you choose to share (e.g., scheduling context)
+
+How We Use Information
+- To respond to inquiries, schedule consultations, and communicate with you
+- To operate and improve our website (analytics and performance)
+- To comply with legal obligations
+
+Sharing & Third Parties
+We use trusted providers for calendaring, payment, email, and hosting. We limit sharing to what’s necessary to provide services. We do not sell your personal information.
+
+Data Security & Retention
+We apply administrative, technical, and physical safeguards. We retain data only as long as necessary for the purposes described or as required by law.
+
+Your Choices
+You can opt out of non‑essential cookies/analytics and request updates to your contact details. Contact us for additional privacy questions.
+
+Contact
+If you have questions about this policy, please contact our office.
+
+### Terms of Service — Draft Copy
+H1: Terms of Service
+
+Acceptance of Terms
+By using this website, you agree to these Terms. If you do not agree, please do not use the site.
+
+No Attorney‑Client Relationship via Website
+Website content is general information, not legal advice. Scheduling a consultation creates a limited‑scope consultation only. Ongoing representation requires a separate written engagement.
+
+Intellectual Property
+All content on this website is owned by or licensed to us. You may not reproduce or distribute content without permission.
+
+Disclaimers & Limitation of Liability
+We do not guarantee outcomes. We are not responsible for third‑party sites or services referenced on this site.
+
+Governing Law
+These Terms are governed by Arizona law.
+
+### Refund Policy — Draft Copy
+H1: Refund Policy
+
+Our Commitment
+Your satisfaction matters. If you are not satisfied with your consultation, contact us promptly and we will make it right, including a refund when appropriate under this policy.
+
+Eligibility & Timing
+Refund requests should be made within the timeframe stated on your confirmation email or receipt. We may ask for feedback to understand what fell short and how we can improve.
+
+Exceptions
+Refunds are not available for no‑shows or for services already performed beyond the consultation. If you need to reschedule, please contact us as soon as possible.
+
+Process
+Email or call our office to request a refund. Approved refunds are processed to the original payment method.

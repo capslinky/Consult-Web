@@ -689,3 +689,165 @@ This addendum narrows Phase 1 to a static‑only website. All automation and bac
 - Book page shows Calendly embed with reserved space; includes timezone & guarantee copy; provides an error fallback message.
 - Content length: ≥1,500 words per content page; cornerstone hubs ≥3,000; H2/H3 hierarchy; internal links.
 - SEO/a11y: Unique titles/descriptions; canonical URLs; sitemap.xml; FAQ JSON‑LD; keyboard navigation; visible focus; decorative icons hidden; reduced motion respected.
+
+## 28) Page‑by‑Page Content Outlines (Phase 1)
+Use these H2/H3 skeletons to draft content (≥1,500 words per page; cornerstone hubs will grow ≥3,000 words in Phase 2). CTAs: Primary = Book; Secondary = How It Works / Pricing as appropriate.
+
+### Home (`/`)
+- H1: Get the Legal Guidance You Need
+- H2: Compassionate Arizona Family Law Support
+  - H3: What We Do (Divorce, Custody, Financial, Special)
+- H2: Why Choose Paradise Law AZ
+  - H3: 15+ Years Experience
+  - H3: Licensed Arizona Attorneys
+  - H3: 100% Confidential
+- H2: How Our 90‑Minute Consultation Works
+  - H3: What’s Included (action plan in 24–48h)
+  - H3: Manual Conflict Check → Payment → Questionnaire
+- H2: Client Stories (Social Proof)
+- H2: Ready to Take the Next Step? (CTABand)
+
+### How It Works (`/how-it-works/`)
+- H1: How Our Process Works
+- H2: Step 1 — Pick a Time (Calendly)
+- H2: Step 2 — Manual Conflict Check (No payment until cleared)
+- H2: Step 3 — Payment via LawPay (Email link from staff)
+- H2: Step 4 — Pre‑Consult Questionnaire & Documents (email/MyCase)
+- H2: Step 5 — 90‑Minute Virtual Consultation
+- H2: Step 6 — Written Action Plan (24–48 hours)
+- H2: Timelines & Deadlines (Questionnaire ≥24h; reschedules)
+- H2: Policies & Guarantees (Refund/confidentiality, plain language)
+- H2: Frequently Asked Questions (teaser + link to FAQ)
+- H2: Get Started Today (CTABand)
+
+### Pricing (`/pricing/`)
+- H1: Simple, Transparent Pricing
+- H2: $500 — 90‑Minute Virtual Consultation
+  - H3: What’s Included (case review, strategy, written plan)
+  - H3: What’s Not Included (ongoing representation)
+- H2: How Payment Works (After Conflict Clearance)
+  - H3: Why We Manually Clear Conflicts First
+- H2: Compare Your Options (DIY vs Consultation)
+- H2: Our Satisfaction Guarantee & Refund Policy
+- H2: Common Questions About Pricing
+- H2: Book Your Consultation (CTABand)
+
+### Book (`/book/`)
+- H1: Schedule Your Consultation
+- H2: Before You Book (Read First)
+  - H3: Manual Conflict Review
+  - H3: Payment Link Emailed After Clearance
+  - H3: Questionnaire Arrives by Email/MyCase
+- H2: Choose a Time (Calendly Embed)
+- H2: What Happens Next
+  - H3: Confirmation by Email
+  - H3: Timeline to Prepare
+- H2: Need Help? (Fallback contact options)
+
+### Contact (`/contact/`)
+- H1: Contact Paradise Law AZ
+- H2: Call Us (Click‑to‑Call) — hours and emergency note
+- H2: Email Us — typical response time
+- H2: Service Area — Phoenix Metro & Arizona
+- H2: When to Book vs When to Call
+- H2: Frequently Asked Questions (short set)
+- H2: Ready to Book? (CTABand)
+
+### Practice Areas Hub (`/practice-areas/`)
+- H1: Family Law Practice Areas
+- H2: Divorce & Separation
+  - H3: Uncontested, Contested, High‑Asset, Military, Legal Separation
+- H2: Child Custody & Parenting
+  - H3: Legal Decision‑Making, Parenting Time, Modifications, Relocation, Evaluations, Grandparents’ Rights
+- H2: Financial Matters
+  - H3: Child Support, Spousal Maintenance, Property & Debt Division, Business Valuation, Retirement, Prenuptial, Postnuptial
+- H2: Special Circumstances
+  - H3: Domestic Violence, Paternity, Mediation, Appeals, Enforcement
+- H2: Not Sure Where to Start? (CTABand)
+
+### Uncontested Divorce (`/practice-areas/divorce/uncontested/`)
+- H1: Uncontested Divorce in Arizona
+- H2: Overview & Eligibility
+- H2: Required Steps & Timeline
+- H2: Disclosures & Agreements
+- H2: Costs, Value, and Common Pitfalls
+- H2: How We Help in Your Situation
+- H2: FAQs About Uncontested Divorce
+- H2: Get Started (CTABand)
+
+### Custody Overview (`/practice-areas/custody/`)
+- H1: Legal Decision‑Making & Parenting Time in Arizona
+- H2: Best Interests of the Child (factors)
+- H2: Parenting Plans (day‑to‑day, holidays, decision‑making)
+- H2: Modifications & Enforcement
+- H2: Special Issues (Relocation, Supervised Visitation)
+- H2: FAQs About Custody/Parenting
+- H2: Talk to an Attorney (CTABand)
+
+### Child Support (`/practice-areas/financial/child-support/`)
+- H1: Arizona Child Support Overview
+- H2: Guidelines & Calculation Factors
+- H2: Deviations & Special Circumstances
+- H2: Establishment, Modification, Enforcement
+- H2: Documentation & Evidence
+- H2: FAQs About Child Support
+- H2: Get Clarity on Your Case (CTABand)
+
+### Domestic Violence (`/practice-areas/special/domestic-violence/`)
+- H1: Domestic Violence & Protection in Arizona
+- H2: Orders of Protection (OOP) & Emergency Orders
+- H2: Impact on Legal Decision‑Making & Parenting Time
+- H2: Safety Planning & Community Resources
+- H2: Filing, Hearings, and Evidence
+- H2: FAQs About Orders of Protection
+- H2: We Can Help (CTABand)
+
+### FAQ (`/resources/faq/`)
+- H1: Frequently Asked Questions
+- H2: Consultation & Payment
+- H2: Process & Timelines
+- H2: Representation Scope
+- H2: Privacy & Confidentiality
+- H2: Policies (Refunds, Reschedules)
+- H2: Still Have Questions? (Contact/CTABand)
+
+### Privacy Policy (`/legal/privacy/`)
+- H1: Privacy Policy
+- H2: Information We Collect
+- H2: How We Use Your Information
+- H2: Sharing & Third Parties
+- H2: Data Security & Retention
+- H2: Your Rights & Choices
+- H2: Contact Information
+
+### Terms of Service (`/legal/terms/`)
+- H1: Terms of Service
+- H2: Acceptance of Terms
+- H2: No Attorney‑Client Relationship via Website
+- H2: Intellectual Property
+- H2: Disclaimers & Limitation of Liability
+- H2: Governing Law & Contact
+
+### Refund Policy (`/legal/refund-policy/`)
+- H1: Refund Policy
+- H2: Consultation Guarantee & Eligibility
+- H2: Request & Processing Timelines
+- H2: Non‑Refundable Items/Scenarios
+- H2: Contact for Refund Requests
+
+### Thank You (`/thank-you/`)
+- H1: Thank You — We’ve Received Your Submission
+- H2: What Happens Next
+- H2: Prepare for Your Consultation
+- H2: Helpful Resources
+
+### Payment Confirmation (`/confirmation/`)
+- H1: Payment Confirmed
+- H2: Appointment Details
+- H2: What Happens Next
+- H2: Need Assistance?
+
+### 404 (`/404/`)
+- H1: Page Not Found
+- H2: Popular Pages
+- H2: Need Help? (Contact/CTABand)

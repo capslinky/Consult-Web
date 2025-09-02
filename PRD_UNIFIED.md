@@ -1220,3 +1220,52 @@ Popular Pages
 
 Need Help?
 Call or email and we’ll point you in the right direction.
+
+### Services — Limited‑Scope (LSR) — Draft Copy
+H1: Limited‑Scope Family Law Services
+
+Intro (60–90 words)
+Limited‑scope representation (also called “unbundled services”) lets you hire an attorney for specific tasks rather than a full case. It’s a cost‑effective way to get targeted help—document review, motion practice preparation, mediation coaching, or a limited hearing appearance—while you retain control of the overall matter. We’ll scope your needs, outline what’s included (and excluded) in plain language, and provide a plan that fits your goals and budget.
+
+What Limited‑Scope Can Include (examples)
+- Document Review & Drafting: petitions, responses, financial disclosures, parenting plans, consent decrees
+- Motion Practice Prep: disclosures, exhibits, declarations, outlines for oral argument
+- Mediation & Settlement Coaching: strategy, proposal language, negotiation preparation
+- Hearing Appearance (Limited): where appropriate and agreed, for a defined hearing or issue
+- Agreement Review: proposed consent decrees, parenting plans, or settlement terms
+
+What’s Not Included (clarity)
+- Full‑case management, multi‑hearing litigation, discovery disputes, or appeals (unless separately agreed)
+- Work outside the defined scope without a new agreement
+
+Transparent Pricing (illustrative ranges)
+We price LSR by scope and complexity. For example, document review may start at a flat amount; limited hearing appearance may require a defined retainer. We’ll confirm scope and fees in writing before any work begins.
+
+How to Get Started (static‑MVP process)
+Book a 90‑minute virtual consultation to define scope. After our manual conflict check, we’ll email a secure LawPay link for payment. If a limited appearance is appropriate, we’ll outline deadlines, documents needed, and how we’ll collaborate.
+
+CTA
+Get targeted help where it matters most. Book your consultation and receive a written plan in 24–48 hours.
+
+### Services — Full Representation (FSR) — Draft Copy
+H1: Full‑Scope Family Law Representation
+
+Intro (60–90 words)
+Some cases require comprehensive, end‑to‑end support—especially when disputes are complex, stakes are high, or the other side refuses to cooperate. With full‑scope representation, we handle filings, deadlines, strategy, negotiations, and courtroom advocacy. We combine clear communication with practical, goal‑driven case management so you always know what’s happening and why.
+
+When Full‑Scope Makes Sense
+- High‑conflict custody or legal decision‑making disputes
+- Complex property division (businesses, real estate, retirement accounts)
+- Contested spousal maintenance
+- Post‑decree enforcement or multiple simultaneous issues
+
+Retainer & Billing (plain language)
+After our manual conflict check and initial consultation, we’ll propose a retainer tailored to your matter’s complexity and expected next steps. Retainers are trust deposits; we bill earned work against the retainer and keep you informed about status and next steps. (We do not accept payment until conflicts are cleared.)
+
+Onboarding & Communication
+- Onboarding: document checklist, secure communication preferences, key dates
+- Strategy: phased plan (early disclosures, settlement opportunities, motion practice)
+- Communication: scheduled updates and timely responses; clarity about decisions and trade‑offs
+
+CTA
+If your matter needs comprehensive advocacy, schedule a 90‑minute consultation. We’ll discuss strategy, timelines, and next steps.
